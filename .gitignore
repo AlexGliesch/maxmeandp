@@ -1,0 +1,8 @@
+/target
+/inst
+Cargo.lock
+
+resources/hao/a.out
+resources/hao/MDPI1_500.txt.sol
+resources/hao/MDPII1_2000.txt.sol
+resources/hao/MAMMDP_TS.txt
