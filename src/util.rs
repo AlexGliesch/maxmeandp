@@ -48,11 +48,19 @@ impl ReservoirSampling {
     }
   }
   pub fn consider(&mut self) -> bool {
-    use rand::Rng;
-    let r = rand::thread_rng().gen_range(0.0..1.0);
+    let r = fastrand::f64();
     self.num += 1.0;
     1.0 / self.num >= r
   }
+}
+
+pub fn unique_random_seed() -> u64 {
+  use std::time::SystemTime;
+  (std::process::id() as u64)
+    ^ (SystemTime::now()
+      .duration_since(SystemTime::UNIX_EPOCH)
+      .expect("Time travelled")
+      .as_millis() as u64)
 }
 
 /// Timer struct, with a time limit in seconds (can be change to have milliseconds if wanted)

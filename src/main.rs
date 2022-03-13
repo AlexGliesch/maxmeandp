@@ -19,22 +19,21 @@ mod util;
 use edp_model::EDPModel;
 use instance::Instance;
 use options::{Options, Parser};
-use rand::prelude::SliceRandom;
 use solution::Solution;
 use util::TabuList;
 use util::Timer;
 
 /// Fixed options, for now
-const MAX_ITER_WITHOUT_IMPR: usize = 200;
-const TABU_TENURE: usize = 10;
+const MAX_ITER_WITHOUT_IMPR: usize = 250;
+const TABU_TENURE: usize = 5; 
 
-const SZ_IN: usize = 15;
-const SZ_OUT: usize = 15;
+const SZ_IN: usize = 15; 
+const SZ_OUT: usize = 15; 
 const MATITER_TRIES: usize = 1;
-const MATITER_ALPHA: f64 = 0.0;
+const MATITER_ALPHA: f64 = 0.2;
 
 const MAX_SHAKES: usize = 5;
-const SHAKE_RATE: f64 = 0.15;
+const SHAKE_RATE: f64 = 0.25;
 const SHAKE_ALPHA: f64 = 0.25;
 
 /// Shakes a solution
@@ -50,14 +49,14 @@ fn shake(inst: &Instance, s: &mut Solution, shake_size: usize, alpha: f64) {
   }
   s.v.retain(|x| !is_in[*x]);
   s.v.append(&mut out_rlx);
-  s.recompute_obj(inst);
+  s.recompute_from_v();
 }
 
-/// Assigns solution 'new_s' to 's', and updates the tabu list with the vertices that changed
-fn assign_and_update_tabu(
+/// Assigns solution 'new_s' to 's', and updates the tabu list with the vertices that changed. Consumes 'new_s'
+fn assign_and_update_tabu<'a>(
   inst: &Instance,
-  s: &mut Solution,
-  new_s: Solution,
+  s: &mut Solution<'a>,
+  new_s: Solution<'a>,
   tabu: &mut TabuList,
 ) {
   let mut vv = vec![0; inst.n]; // -1 if in s, 1 if in new_s, 0 if in both or neither
@@ -84,16 +83,16 @@ fn create_subinstance(
   szout: usize,
   tabu: &TabuList,
   core: &mut Vec<usize>, // set of fixed vertices
-  core_cost: &mut f64,   // cost of fixed vertices
+  core_cost: &mut f64,   // cost of fixed vertices, not divided by size
   map: &mut Vec<usize>,  // maps [new_inst.n] to [inst.n]
 ) -> Instance {
   let mut out_rlx: Vec<usize> =
     greedy::insertion_order(inst, &s, szout, alpha, Some(tabu));
-  assert!(out_rlx.len() <= inst.n - s.len());
+  assert!(out_rlx.len() <= inst.n - s.len);
 
   let mut rlx: Vec<usize> =
     greedy::removal_order(inst, &s, szin, alpha, Some(tabu));
-  assert!(rlx.len() <= s.len());
+  assert!(rlx.len() <= s.len);
 
   rlx.append(&mut out_rlx);
 
@@ -135,17 +134,18 @@ fn create_subinstance(
 
 /// Run one neighborhood search iteration of the matheuristic.
 /// Returns a pair (new_s, nb_imp), where 'nb_imp' is neighborhood size that found new_s
-fn mat_iter(
-  inst: &Instance,
+fn mat_iter<'a>(
+  inst: &'a Instance,
   s: &Solution,
   alpha: f64,
   tabu: &TabuList,
-) -> (Solution, usize) {
-  let mut best = Solution::new(inst); // solution to be returned
+  opt: &Options,
+) -> (Solution<'a>, usize) {
+  let mut inc = Solution::new(inst); // solution to be returned
   let mut nb_imp: usize = 0;
   for tr in 0..MATITER_TRIES {
-    let in_len = SZ_IN.min(s.len());
-    let out_len = std::cmp::min(inst.n, s.len() + SZ_OUT) - s.len();
+    let in_len = SZ_IN.min(s.len);
+    let out_len = std::cmp::min(inst.n, s.len + SZ_OUT) - s.len;
 
     let mut core: Vec<usize> = Vec::new();
     let mut core_cost: f64 = 0.0;
@@ -164,54 +164,71 @@ fn mat_iter(
 
     for i in (1 + in_len)..new_inst.n {
       // only for out-nodes
-      let mut t = Solution {
-        v: [0, i].to_vec(),
-        obj: new_inst.dist(0, i),
-        c: vec![0.0; new_inst.n], // TODO change
-      };
+      let mut t = Solution::new(&new_inst);
+      t.add(0);
+      t.add(i);
       greedy::ts(&new_inst, &mut t, 1, 1, Some(i), Some((&core, core_cost)));
       assert!(t.v.contains(&0));
 
-      let newlen = t.len() + core.len() - 1;
-      // println!("i {} tr {} obj {:.2} sz {}", i, tr, t.obj, newlen);
-      if gr!(t.obj, best.obj) {
-        best.v = t.v;
-        best.obj = t.obj;
-        best.v.retain(|x| *x > 0);
-        best.v.iter_mut().for_each(|x| *x = map[*x]);
-        best.v.extend(core.iter());
-        assert_eq!(best.len(), newlen);
+      let new_len = t.len + core.len() - 1;
+      let new_obj = (t.total_cost + core_cost) / new_len as f64;
+
+      if opt.verbose >= 3 {
+        println!("i {} tr {} obj {:.2} sz {}", i, tr, new_obj, new_len);
+      }
+      if inc.fworse(new_obj) {
+        inc.v = t.v;
+        assert!(inc.v[0] == 0);
+        inc.v.swap_remove(0);
+        inc.v.iter_mut().for_each(|x| *x = map[*x]);
+        inc.v.extend(core.iter());
+        inc.total_cost = t.total_cost + core_cost;
+        inc.len = new_len;
+        // best.has and best.c will be recomputed later! but, there may be a better way to get them than recomputing
+        assert_eq!(inc.v.len(), new_len);
         nb_imp = tr;
       }
     }
-    if gr!(best.obj, s.obj) {
+    if inc.better(s) {
       break; // improved s, don't do the next neighborhood
     }
   }
-  (best, nb_imp)
+
+  let o = inc.obj();
+  inc.recompute_from_v();
+  assert!(eq!(inc.obj(), o));
+  (inc, nb_imp)
+}
+
+/// Creates an initial solution given a seed vertex
+fn initial_solution(inst: &Instance, seed_vertex: usize) -> Solution {
+  let mut s = Solution::new(inst);
+  s.add(seed_vertex);
+  // let o = greedy::insertion_order(inst, &s, inst.n, 0.25, None);
+  // for i in o {
+  //   s.
+  // }
+  greedy::ts(inst, &mut s, 0, 0, None, None);
+  s.recompute_from_v(); // TODO probably not needed
+  s
 }
 
 /// Runs the proposed matheuristic
-fn matheuristic(inst: &Instance, opt: &Options) -> Solution {
+fn matheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
   // if inst.n <= SZ_MAX * 2 + 1 {
   if inst.n <= (SZ_IN + SZ_OUT) + 1 {
     println!("Instance is small; running exact algorithm");
     return exact(inst);
   }
 
-  let mut best = Solution::new(inst);
-  // // let init_sols = initial_sols(inst);
-  // // println!("Found {} unique initial solutions", init_sols.len());
-
+  let mut best = Solution::new(inst); // solution to be returned
   let mut it_outer: usize = 0;
   let timer = Timer::new(opt.time_limit);
 
   let mut starts: Vec<usize> = (0..inst.n).collect();
-  starts.shuffle(&mut rand::thread_rng());
+  fastrand::shuffle(&mut starts);
   for start in starts {
-    let mut s = Solution::new(inst);
-    s.v.push(start);
-    greedy::ts(inst, &mut s, 1, 1, None, None);
+    let mut s = initial_solution(inst, start);
 
     if it_outer >= opt.max_iter || timer.timed_out() {
       break;
@@ -220,14 +237,14 @@ fn matheuristic(inst: &Instance, opt: &Options) -> Solution {
     println!(
       "#{} heur {:.2} sz {} start {} best {:.2}",
       it_outer,
-      s.obj,
-      s.len(),
+      s.obj(),
+      s.len,
       start,
-      best.obj
+      best.obj()
     );
-    let mut it_inner: usize = 0;
 
-    let shake_size: usize = (s.len() as f64 * SHAKE_RATE) as usize;
+    let shake_size: usize = (s.len as f64 * SHAKE_RATE) as usize;
+    let mut it_inner: usize = 0;
     let mut shakes: usize = 0;
     let mut iters_wo_impr: usize = 0;
     let mut inc = s.clone(); // best solution in this multistart iteration
@@ -240,15 +257,13 @@ fn matheuristic(inst: &Instance, opt: &Options) -> Solution {
       it_inner += 1;
       let now = Timer::new(0);
 
-      let (new_s, nb_imp) = mat_iter(inst, &s, MATITER_ALPHA, &tabu);
+      let (new_s, nb_imp) = mat_iter(inst, &s, MATITER_ALPHA, &tabu, opt);
 
-      assert!(new_s.len() > 0);
-      let improved_last_s = gr!(new_s.obj, s.obj);
+      assert!(new_s.len > 0);
+      let improved_last_s = new_s.better(&s);
 
       // assign s
       assign_and_update_tabu(inst, &mut s, new_s, &mut tabu);
-      // assert!(eq!(s.obj, s.recompute_obj(inst)));
-
       tabu.advance_iter();
 
       if opt.verbose >= 2 {
@@ -256,21 +271,21 @@ fn matheuristic(inst: &Instance, opt: &Options) -> Solution {
         "#{}.{} sz {} obj {:.2} nb {:?} inc {:.2} iterw {} shakes {} time {}ms ",
         it_outer,
         it_inner,
-        s.len(),
-        s.obj,
+        s.len,
+        s.obj(),
         nb_imp,
-        inc.obj,
+        inc.obj(),
         iters_wo_impr,
         shakes,
         now.elapsed().as_millis());
       }
 
-      let improved_inc = gr!(s.obj, inc.obj);
+      let improved_inc = s.better(&inc);
 
       if !improved_inc {
         // this iteration did not improve
         if !improved_last_s {
-          iters_wo_impr += 1;
+          iters_wo_impr += 1; //? is this right? shouldn't we increment it when !improved_inc?
         }
         if iters_wo_impr > MAX_ITER_WITHOUT_IMPR {
           // shake
@@ -279,8 +294,8 @@ fn matheuristic(inst: &Instance, opt: &Options) -> Solution {
             println!(
               "#{} ts   {:.2} sz {} iter {}",
               it_outer,
-              inc.obj,
-              inc.len(),
+              inc.obj(),
+              inc.len,
               it_inner
             );
             break;
@@ -292,7 +307,10 @@ fn matheuristic(inst: &Instance, opt: &Options) -> Solution {
           if opt.verbose >= 1 {
             println!(
               "#{} shake {} obj {:.2} -> {:.2}",
-              it_outer, shakes, inc.obj, s.obj
+              it_outer,
+              shakes,
+              inc.obj(),
+              s.obj()
             );
           }
         }
@@ -306,7 +324,7 @@ fn matheuristic(inst: &Instance, opt: &Options) -> Solution {
         // improved global best?
         if best.consider(&inc) {
           shakes = 0;
-          println!("(!!!) found new best: {:.2} sz {}", best.obj, best.len());
+          println!("(!!!) found new best: {:.2} sz {}", best.obj(), best.len);
         }
       }
     }
@@ -323,9 +341,9 @@ fn exact(inst: &Instance) -> Solution {
     let res = model.solve(sz, None);
     println!("sz {}, res {:?}", sz, res);
     let obj = res.obj / sz as f64;
-    if res.status == cpx::Status::Optimal && obj > best.obj {
+    if res.status == cpx::Status::Optimal && obj > best.obj() {
       if let Some(s) = model.get_sol() {
-        best.obj = obj;
+        best.total_cost = obj * sz as f64;
         best.v = s;
       }
     }
@@ -337,7 +355,13 @@ fn main() {
   let opt = Options::parse();
   let inst = Instance::read_from_file(&opt.instance);
   let timer = Timer::new(opt.time_limit);
+  let seed = if opt.seed == 0 {
+    util::unique_random_seed()
+  } else {
+    opt.seed
+  };
+  fastrand::seed(seed);
 
   let s = matheuristic(&inst, &opt);
-  println!("End; obj {:.2} sz {} time {:?}", s.obj, s.len(), timer.elapsed());
+  println!("End; obj {:.2} sz {} time {:?}", s.obj(), s.len, timer.elapsed());
 }

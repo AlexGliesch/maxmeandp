@@ -17,11 +17,15 @@ pub struct Options {
   /// Time limit, in seconds
   #[clap(short, long, default_value = "1800")]
   pub time_limit: u64,
+  /// Random seed; if 0, a random seed based on system time will be used
+  #[clap(short, long, default_value = "0")]
+  pub seed: u64,
   /// Memory limit, in MB
   #[clap(long, default_value = "6000")]
   pub mem_limit: u64,
   #[clap(long, default_value = "1000000")]
   pub max_iter: usize,
+
   // /// Number of "loose" vertices of neighborhood subproblem belonging to the solution
   // // #[clap(long, default_value = "8")]
   // // pub szin: usize,

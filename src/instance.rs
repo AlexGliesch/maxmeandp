@@ -6,7 +6,7 @@ pub struct Instance {
 impl Instance {
   /// Get distance
   pub fn dist(&self, i: usize, j: usize) -> f64 {
-    unsafe { *self.d.get_unchecked(i * self.n + j) }
+    *unsafe { self.d.get_unchecked(i * self.n + j) }
   }
 
   pub fn new(n: usize, d: Vec<f64>) -> Instance {
