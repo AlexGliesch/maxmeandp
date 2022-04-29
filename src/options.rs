@@ -18,15 +18,45 @@ pub struct Options {
   #[clap(short, long, default_value = "1800")]
   pub time_limit: u64,
   /// Random seed; if 0, a random seed based on system time will be used
-  #[clap(short, long, default_value = "0")]
+  #[clap(short, long, default_value = "1")]
   pub seed: u64,
   /// Memory limit, in MB
   #[clap(long, default_value = "6000")]
   pub mem_limit: u64,
+  /// Number of multistart iterations
   #[clap(long, default_value = "1000000")]
   pub max_iter: usize,
+  /// Maximum non-improving iterations for tabu search
+  #[clap(long, default_value = "250")]
+  pub max_iter_wo_impr: usize,
+  /// Tabu tenure
+  #[clap(long, default_value = "5")]
+  pub tabu_tenure: usize,
+  /// Maximum number of shakes per multistart iteration
+  #[clap(long, default_value = "5")]
+  pub max_shakes: usize,
+  /// Shake size, relative to the solution size
+  #[clap(long, default_value = "0.25")]
+  pub shake_size: f64,
+  /// Shake alpha parameter, higher=more aggressive shake
+  #[clap(long, default_value = "0.25")]
+  pub shake_alpha: f64,
+  /// Size of neighborhood subproblem (inside/outside solution sizes will be the same)
+  #[clap(long, default_value = "30")]
+  pub subp_sz: usize,
+  /// Number of restarts when solving the neighborhood subproblem
+  #[clap(long, default_value = "1")]
+  pub subp_restarts: usize,
+  /// Alpha parameter for selecting neighborhood subproblem to solve
+  #[clap(long, default_value = "0.2")]
+  pub subp_alpha: f64,
+  /// Whether we're training with irace. So, just output a value.
+  #[clap(long)]
+  pub irace: bool,
 
-  // /// Number of "loose" vertices of neighborhood subproblem belonging to the solution
+
+  // TODO check option values for consistency
+
   // // #[clap(long, default_value = "8")]
   // // pub szin: usize,
   // /// Number of "loose" vertices of neighborhood subproblem outside the solution
@@ -41,23 +71,3 @@ pub struct Options {
   // // #[clap(arg_enum)]
   // // pub alex: Alex,
 }
-
-// // #[derive(Debug, ArgEnum, PartialEq, Eq, Clone)]
-// // pub enum Alex {
-// //   Alex1,
-// //   Alex2,
-// // }
-
-// // #[derive(Parser, Debug)]
-// // enum SubCommand {
-// //   #[clap(version = "1.3", author = "Someone E. <someone_else@other.com>")]
-// //   Test(Test),
-// // }
-
-// /// A subcommand for controlling testing
-// // #[derive(Parser, Debug)]
-// // struct Test {
-//   /// Print debug info
-// //   #[clap(short)]
-// //   debug: bool,
-// // }

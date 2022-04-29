@@ -23,19 +23,6 @@ use solution::Solution;
 use util::TabuList;
 use util::Timer;
 
-/// Fixed options, for now
-const MAX_ITER_WITHOUT_IMPR: usize = 250;
-const TABU_TENURE: usize = 5; 
-
-const SZ_IN: usize = 15; 
-const SZ_OUT: usize = 15; 
-const MATITER_TRIES: usize = 1;
-const MATITER_ALPHA: f64 = 0.2;
-
-const MAX_SHAKES: usize = 5;
-const SHAKE_RATE: f64 = 0.25;
-const SHAKE_ALPHA: f64 = 0.25;
-
 /// Shakes a solution
 fn shake(inst: &Instance, s: &mut Solution, shake_size: usize, alpha: f64) {
   let in_rlx: Vec<usize> =
@@ -132,9 +119,9 @@ fn create_subinstance(
   Instance::new(n, d)
 }
 
-/// Run one neighborhood search iteration of the matheuristic.
+/// Run one neighborhood search iteration.
 /// Returns a pair (new_s, nb_imp), where 'nb_imp' is neighborhood size that found new_s
-fn mat_iter<'a>(
+fn vlns_iter<'a>(
   inst: &'a Instance,
   s: &Solution,
   alpha: f64,
@@ -143,9 +130,16 @@ fn mat_iter<'a>(
 ) -> (Solution<'a>, usize) {
   let mut inc = Solution::new(inst); // solution to be returned
   let mut nb_imp: usize = 0;
-  for tr in 0..MATITER_TRIES {
-    let in_len = SZ_IN.min(s.len);
-    let out_len = std::cmp::min(inst.n, s.len + SZ_OUT) - s.len;
+  let sz_in = opt.subp_sz / 2;
+  let mut sz_out = sz_in;
+  if opt.subp_sz % 2 > 0 {
+    sz_out = sz_out + 1;
+  }
+  assert!(sz_in + sz_out == opt.subp_sz);
+
+  for tr in 0..opt.subp_restarts {
+    let in_len = sz_in.min(s.len);
+    let out_len = std::cmp::min(inst.n, s.len + sz_out) - s.len;
 
     let mut core: Vec<usize> = Vec::new();
     let mut core_cost: f64 = 0.0;
@@ -173,7 +167,7 @@ fn mat_iter<'a>(
       let new_len = t.len + core.len() - 1;
       let new_obj = (t.total_cost + core_cost) / new_len as f64;
 
-      if opt.verbose >= 3 {
+      if opt.verbose >= 4 {
         println!("i {} tr {} obj {:.2} sz {}", i, tr, new_obj, new_len);
       }
       if inc.fworse(new_obj) {
@@ -213,12 +207,14 @@ fn initial_solution(inst: &Instance, seed_vertex: usize) -> Solution {
   s
 }
 
-/// Runs the proposed matheuristic
-fn matheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
+/// Runs the proposed heuristic
+fn vlnsheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
   // if inst.n <= SZ_MAX * 2 + 1 {
-  if inst.n <= (SZ_IN + SZ_OUT) + 1 {
-    println!("Instance is small; running exact algorithm");
-    return exact(inst);
+  if inst.n <= opt.subp_sz + 1 {
+    if opt.verbose >= 1 {
+      println!("Instance is small; running exact algorithm");
+    }
+    return exact(inst, opt);
   }
 
   let mut best = Solution::new(inst); // solution to be returned
@@ -234,21 +230,23 @@ fn matheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
       break;
     }
     it_outer += 1;
-    println!(
-      "#{} heur {:.2} sz {} start {} best {:.2}",
-      it_outer,
-      s.obj(),
-      s.len,
-      start,
-      best.obj()
-    );
+    if opt.verbose >= 1 {
+      println!(
+        "#{} heur {:.2} sz {} start {} best {:.2}",
+        it_outer,
+        s.obj(),
+        s.len,
+        start,
+        best.obj()
+      );
+    }
 
-    let shake_size: usize = (s.len as f64 * SHAKE_RATE) as usize;
+    let shake_size: usize = (s.len as f64 * opt.shake_size) as usize;
     let mut it_inner: usize = 0;
     let mut shakes: usize = 0;
     let mut iters_wo_impr: usize = 0;
     let mut inc = s.clone(); // best solution in this multistart iteration
-    let mut tabu = TabuList::new(inst.n, TABU_TENURE);
+    let mut tabu = TabuList::new(inst.n, opt.tabu_tenure);
 
     loop {
       if timer.timed_out() {
@@ -257,7 +255,7 @@ fn matheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
       it_inner += 1;
       let now = Timer::new(0);
 
-      let (new_s, nb_imp) = mat_iter(inst, &s, MATITER_ALPHA, &tabu, opt);
+      let (new_s, nb_imp) = vlns_iter(inst, &s, opt.subp_alpha, &tabu, opt);
 
       assert!(new_s.len > 0);
       let improved_last_s = new_s.better(&s);
@@ -266,7 +264,7 @@ fn matheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
       assign_and_update_tabu(inst, &mut s, new_s, &mut tabu);
       tabu.advance_iter();
 
-      if opt.verbose >= 2 {
+      if opt.verbose >= 3 {
         println!(
         "#{}.{} sz {} obj {:.2} nb {:?} inc {:.2} iterw {} shakes {} time {}ms ",
         it_outer,
@@ -287,24 +285,26 @@ fn matheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
         if !improved_last_s {
           iters_wo_impr += 1; //? is this right? shouldn't we increment it when !improved_inc?
         }
-        if iters_wo_impr > MAX_ITER_WITHOUT_IMPR {
+        if iters_wo_impr > opt.max_iter_wo_impr {
           // shake
           shakes += 1;
-          if shakes > MAX_SHAKES {
-            println!(
-              "#{} ts   {:.2} sz {} iter {}",
-              it_outer,
-              inc.obj(),
-              inc.len,
-              it_inner
-            );
+          if shakes > opt.max_shakes {
+            if opt.verbose >= 1 {
+              println!(
+                "#{} ts   {:.2} sz {} iter {}",
+                it_outer,
+                inc.obj(),
+                inc.len,
+                it_inner
+              );
+            }
             break;
           }
           s = inc.clone(); // start from best `outer` solution
-          shake(inst, &mut s, shake_size, SHAKE_ALPHA);
+          shake(inst, &mut s, shake_size, opt.shake_alpha);
           tabu.reset();
           iters_wo_impr = 0;
-          if opt.verbose >= 1 {
+          if opt.verbose >= 2 {
             println!(
               "#{} shake {} obj {:.2} -> {:.2}",
               it_outer,
@@ -324,22 +324,28 @@ fn matheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
         // improved global best?
         if best.consider(&inc) {
           shakes = 0;
-          println!("(!!!) found new best: {:.2} sz {}", best.obj(), best.len);
+          if opt.verbose >= 1 {
+            println!("(!!!) found new best: {:.2} sz {}", best.obj(), best.len);
+          }
         }
       }
     }
-    println!("");
+    if opt.verbose >= 1 {
+      println!("");
+    }
   }
   best
 }
 
 /// Run an exact algorithm
-fn exact(inst: &Instance) -> Solution {
+fn exact<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
   let mut model = EDPModel::new(inst);
   let mut best = Solution::new(inst);
   for sz in 2..=inst.n {
     let res = model.solve(sz, None);
-    println!("sz {}, res {:?}", sz, res);
+    if opt.verbose >= 1 {
+      println!("sz {}, res {:?}", sz, res);
+    }
     let obj = res.obj / sz as f64;
     if res.status == cpx::Status::Optimal && obj > best.obj() {
       if let Some(s) = model.get_sol() {
@@ -351,17 +357,43 @@ fn exact(inst: &Instance) -> Solution {
   best
 }
 
+fn setup_options() -> Options {
+  let mut opt = Options::parse();
+
+  // Setup rand
+  if opt.seed == 0 {
+    opt.seed = util::unique_random_seed()
+  }
+  fastrand::seed(opt.seed);
+  // Fix verbosity if irace
+  if opt.irace {
+    opt.verbose = 0;
+  }
+  opt
+}
+
 fn main() {
-  let opt = Options::parse();
+  let opt = setup_options();
   let inst = Instance::read_from_file(&opt.instance);
   let timer = Timer::new(opt.time_limit);
-  let seed = if opt.seed == 0 {
-    util::unique_random_seed()
-  } else {
-    opt.seed
-  };
-  fastrand::seed(seed);
+  let s = vlnsheuristic(&inst, &opt);
+  if opt.verbose >= 1 {
+    println!("End; obj {:.2} sz {} time {:?}", s.obj(), s.len, timer.elapsed());
+  }
 
-  let s = matheuristic(&inst, &opt);
-  println!("End; obj {:.2} sz {} time {:?}", s.obj(), s.len, timer.elapsed());
+  let instance_name =
+    std::path::Path::new(&opt.instance).file_name().unwrap().to_str().unwrap();
+
+  if !opt.irace {
+    println!(
+      "\nsummary_line instance {} value={:.4} size={} time={:4} seed {}",
+      instance_name,
+      s.obj(),
+      s.len,
+      timer.elapsed().as_secs_f64(),
+      opt.seed
+    );
+  } else {
+    println!("{:.4}", s.obj());
+  }
 }
