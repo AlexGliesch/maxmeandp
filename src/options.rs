@@ -31,7 +31,7 @@ pub struct Options {
   pub max_iter_wo_impr: usize,
   /// Tabu tenure
   #[clap(long, default_value = "5")]
-  pub tabu_tenure: usize,
+  pub tenure: usize,
   /// Maximum number of shakes per multistart iteration
   #[clap(long, default_value = "5")]
   pub max_shakes: usize,
@@ -53,8 +53,6 @@ pub struct Options {
   /// Whether we're training with irace. So, just output a value.
   #[clap(long)]
   pub irace: bool,
-
-
   // TODO check option values for consistency
 
   // // #[clap(long, default_value = "8")]

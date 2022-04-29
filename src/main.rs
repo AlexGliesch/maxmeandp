@@ -246,7 +246,7 @@ fn vlnsheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
     let mut shakes: usize = 0;
     let mut iters_wo_impr: usize = 0;
     let mut inc = s.clone(); // best solution in this multistart iteration
-    let mut tabu = TabuList::new(inst.n, opt.tabu_tenure);
+    let mut tabu = TabuList::new(inst.n, opt.tenure);
 
     loop {
       if timer.timed_out() {
