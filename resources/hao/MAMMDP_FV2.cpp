@@ -4,6 +4,9 @@
  * This program demonstrates the use of memetic algorithm for solving        *
  * the Max-mean Diversity Problem (MMDP). For more information about         *
  * this algorithm (named as MA-MMDP), email to: laixiangjing@gmail.com       *
+ *
+ *
+ * Modified by AlexGliesch on 2022-04-29 for research purposes.
 \*****************************************************************************/
 
 /*****************************************************************************/
@@ -73,8 +76,16 @@ void Initializing() {
     cout << "### Erreur open, File_Name " << File_Name << endl;
     exit(0);
   }
+  N = 0;
 
-  FIC >> N;
+  while (!FIC.eof()) {
+    FIC >> x1 >> x2 >> d;
+    N = std::max(x1, x2);
+  }
+  FIC.clear();
+  FIC.seekg(0);
+
+  // FIC >> N;
 
   D = new double*[N];
   for (i = 0; i < N; i++)
@@ -671,15 +682,20 @@ void Memetic() {
 int main(int argc, char** argv) {
   int i, j, seed;
   int Nruns;
-  seed = time(NULL) % 1000000;
-  srand(seed);
-  
+  // seed = time(NULL) % 1000000;
+  // srand(seed);
+  if (argc != 4) {
+    printf("Usage: ./mammdp_fv2 {instance} {timelim} {seed}\n");
+    exit(0);
+  }
 
   File_Name = argv[1];
-  outfilename = argv[2];
+  time_limit = atoi(argv[2]);
+  seed = atoi(argv[3]);
+  // outfilename = argv[2];
 
   // File_Name   =  "MDPI2_500.txt";
-   outfilename =  "MAMMDP_TS.txt";
+  // outfilename = "MAMMDP_TS.txt";
 
   BestResult = -99999999;
   Nhit = 0;
@@ -689,8 +705,8 @@ int main(int argc, char** argv) {
   Initializing();
   AssignMemery();
 
-  Nruns = 10;
-  time_limit = 60;
+  Nruns = 1;
+  // time_limit = 20;
 
   //  if(N<=1000)time_limit = 100;  // 100s for n<=1000, 1000s for n=3000, 2000s
   //  for n= 5000 else if(N==3000) time_limit = 1000; else time_limit = 2000;
@@ -714,7 +730,27 @@ int main(int argc, char** argv) {
   total_time_suc /= Nhit;
   AvgResult /= Nruns;
 
-  Outresulting(File_Name, outfilename, total_time_suc); // output the statistical results
-  OutSol(G_BEST, File_Name);                            // output the best solution found
+  int bestSolSize = 0;
+  for (int i = 0; i < N; ++i)
+    bestSolSize += bool(G_BEST.S[i]);
+
+
+  string filenameStripped(File_Name);
+  // thanks https://stackoverflow.com/a/8520815
+  const size_t last_slash_idx = filenameStripped.find_last_of("\\/");
+  if (std::string::npos != last_slash_idx) {
+    filenameStripped.erase(0, last_slash_idx + 1);
+  }
+  const size_t period_idx = filenameStripped.rfind('.');
+  if (std::string::npos != period_idx) {
+    filenameStripped.erase(period_idx);
+  }
+
+  printf("summary_line instance=%s value=%lf size=%d ttb=%lf seed=%d\n",
+         filenameStripped.c_str(), BestResult, bestSolSize, total_time_suc, seed);
+
+  // Outresulting(File_Name, outfilename, total_time_suc); // output the statistical
+  // results OutSol(G_BEST, File_Name);                            // output the best
+  // solution found
   return 1;
 }

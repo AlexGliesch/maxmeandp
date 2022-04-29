@@ -1,7 +1,7 @@
 #!/bin/bash
 
 EXE=./../maxmeandp-vlns
-FIXED_PARAMS=" -t 20 --irace "
+FIXED_PARAMS=" -t 300 --irace "
 CONFIG_ID="$1"
 INSTANCE_ID="$2"
 SEED="$3"

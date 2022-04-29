@@ -208,18 +208,21 @@ fn initial_solution(inst: &Instance, seed_vertex: usize) -> Solution {
 }
 
 /// Runs the proposed heuristic
-fn vlnsheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
+/// Returns (solution,ttb)
+fn vlnsheuristic<'a>(inst: &'a Instance, opt: &Options) -> (Solution<'a>, f64) {
   // if inst.n <= SZ_MAX * 2 + 1 {
+  let timer = Timer::new(opt.time_limit);
   if inst.n <= opt.subp_sz + 1 {
     if opt.verbose >= 1 {
       println!("Instance is small; running exact algorithm");
     }
-    return exact(inst, opt);
+    let s = exact(inst, opt);
+    return (s, timer.elapsed().as_secs_f64());
   }
 
+  let mut ttb: f64 = 0.0;
   let mut best = Solution::new(inst); // solution to be returned
   let mut it_outer: usize = 0;
-  let timer = Timer::new(opt.time_limit);
 
   let mut starts: Vec<usize> = (0..inst.n).collect();
   fastrand::shuffle(&mut starts);
@@ -324,6 +327,7 @@ fn vlnsheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
         // improved global best?
         if best.consider(&inc) {
           shakes = 0;
+          ttb = timer.elapsed().as_secs_f64();
           if opt.verbose >= 1 {
             println!("(!!!) found new best: {:.2} sz {}", best.obj(), best.len);
           }
@@ -334,7 +338,7 @@ fn vlnsheuristic<'a>(inst: &'a Instance, opt: &Options) -> Solution<'a> {
       println!("");
     }
   }
-  best
+  (best, ttb)
 }
 
 /// Run an exact algorithm
@@ -376,21 +380,22 @@ fn main() {
   let opt = setup_options();
   let inst = Instance::read_from_file(&opt.instance);
   let timer = Timer::new(opt.time_limit);
-  let s = vlnsheuristic(&inst, &opt);
+  let (s, ttb) = vlnsheuristic(&inst, &opt);
   if opt.verbose >= 1 {
     println!("End; obj {:.2} sz {} time {:?}", s.obj(), s.len, timer.elapsed());
   }
 
   let instance_name =
-    std::path::Path::new(&opt.instance).file_name().unwrap().to_str().unwrap();
+    std::path::Path::new(&opt.instance).file_stem().unwrap().to_str().unwrap();
 
   if !opt.irace {
     println!(
-      "\nsummary_line instance {} value={:.4} size={} time={:4} seed {}",
+      "\nsummary_line instance={} value={:.4} size={} ttb={:4} seed={}",
       instance_name,
       s.obj(),
       s.len,
-      timer.elapsed().as_secs_f64(),
+      ttb,
+      // timer.elapsed().as_secs_f64(),
       opt.seed
     );
   } else {
