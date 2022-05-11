@@ -2,10 +2,10 @@
 
 # name		switch		     type	values			[conditions (using R syntax)]
 
-iterwoimp "--max-iter-wo-impr " o (50, 100, 250, 500, 1000)
-tenure "--tenure " o (0, 2, 3, 5, 8, 12)
-sz "--subp-sz " o (20, 30, 40, 50, 60, 70)
-maxshakes "--max-shakes " o (0, 2, 5, 10, 25)
+iterwoimp "--max-iter-wo-impr " o (50, 100, 250, 500, 1000, 2500, 5000)
+tenure "--tenure " o (3, 5, 8, 12, 17)
+sz "--subp-sz " o (60, 70, 80, 90, 100)
+maxshakes "--max-shakes " o (0, 2, 5, 10, 25, 50)
 shakesize "--shake-size " o (0.1, 0.2, 0.3, 0.4)
 shakealpha "--shake-alpha " o (0.1, 0.2, 0.3)
 subpalpha "--subp-alpha " o (0.1, 0.2, 0.3)

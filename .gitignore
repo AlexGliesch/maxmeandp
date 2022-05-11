@@ -1,9 +1,14 @@
 /target
 /inst
 Cargo.lock
-
+.vscode/
 resources/hao/a.out
 resources/hao/MDPI1_500.txt.sol
 resources/hao/MDPII1_2000.txt.sol
 resources/hao/MAMMDP_TS.txt
 .vscode/settings.json
+resources/lai/i
+resources/lai/ii
+resources/lai/iii
+resources/lai/iv
+test/t1.log
