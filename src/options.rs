@@ -27,28 +27,28 @@ pub struct Options {
   #[clap(long, default_value = "1000000")]
   pub max_iter: usize,
   /// Maximum non-improving iterations for tabu search
-  #[clap(long, default_value = "250")]
+  #[clap(long, default_value = "1000")] // 250
   pub max_iter_wo_impr: usize,
   /// Tabu tenure
-  #[clap(long, default_value = "5")]
+  #[clap(long, default_value = "0")] // 5 
   pub tenure: usize,
   /// Maximum number of shakes per multistart iteration
-  #[clap(long, default_value = "5")]
+  #[clap(long, default_value = "25")] // 5
   pub max_shakes: usize,
   /// Shake size, relative to the solution size
-  #[clap(long, default_value = "0.25")]
+  #[clap(long, default_value = "0.1")] // 0.25
   pub shake_size: f64,
   /// Shake alpha parameter, higher=more aggressive shake
-  #[clap(long, default_value = "0.25")]
+  #[clap(long, default_value = "0.2")] // 0.25
   pub shake_alpha: f64,
   /// Size of neighborhood subproblem (inside/outside solution sizes will be the same)
-  #[clap(long, default_value = "30")]
+  #[clap(long, default_value = "70")] // 30
   pub subp_sz: usize,
   /// Number of restarts when solving the neighborhood subproblem
   #[clap(long, default_value = "1")]
   pub subp_restarts: usize,
   /// Alpha parameter for selecting neighborhood subproblem to solve
-  #[clap(long, default_value = "0.2")]
+  #[clap(long, default_value = "0.1")] // 0.2
   pub subp_alpha: f64,
   /// Whether we're training with irace. So, just output a value.
   #[clap(long)]

@@ -1,14 +1,16 @@
 
 /*****************************************************************************\
  * This program aims to generate the benchmark instances used in our paper   *
- * for the weighted Max-Mean dispersion problem.                             *
+ * for Max-mean Dispersion problem.                                           *
  * Modified by AlexGliesch on 2022-05-11 for research purposes.
 \*****************************************************************************/
 
 /*****************************************************************************/
 /**********          0. Header files and variables      **********************/
 /*****************************************************************************/
+// #include <conio.h>
 #include <ctime>
+#include <ctype.h>
 #include <fstream>
 #include <iostream>
 #include <math.h>
@@ -18,16 +20,11 @@
 #include <string.h>
 #include <time.h>
 #include <vector>
-// #include <conio.h>
-#include <ctype.h>
 using namespace std;
 FILE* fp;
 int N;      // node number in graph
 double** D; // distance matrix
-double* w;  // node weight
-const double MW = 4.0;
-constexpr bool print_n = false;
-constexpr bool print_weight = false;
+
 /*****************************************************************************/
 /*****************          1. Outputing  results      ***********************/
 /*****************************************************************************/
@@ -36,15 +33,12 @@ void Outputing(int tt) {
   FILE* fp;
   char buff[80];
 
-  sprintf(buff, "%s_%d_%d.txt", "I", N, tt);
+  sprintf(buff, "%s%d_%d.txt", "MDPII", tt, N);
   fp = fopen(buff, "a+");
-  if (print_n) fprintf(fp, "%d\n", N);
-  if (print_weight)
-    for (i = 0; i < N; i++)
-      fprintf(fp, "%d   %5.2lf\n", i + 1, w[i]);
+  // fprintf(fp,"%d\n", N);
   for (i = 0; i < N; i++)
     for (j = i + 1; j < N; j++)
-      fprintf(fp, "%d   %d   %5.2lf\n", i + 1, j + 1, D[i][j]);
+      fprintf(fp, "%d   %d   %5.2lf \n", i + 1, j + 1, D[i][j]);
   fclose(fp);
 }
 
@@ -54,15 +48,13 @@ void Outputing(int tt) {
 int main(int argc, char** argv) {
   int i, j, i1, j1, seed;
   int tt;
+  N = atoi(argv[1]); // 5000;  //N = 3000,5000.
 
-  N = atoi(argv[1]);
-
-  seed = N; // seed= 1000 for N = 1000, seed= 3000 for N =3000, seed= 5000 for N = 5000
+  seed = (N == 3000 ? 1000 : 10000); // seed = 1000 for n=3000, seed = 10000 for n=5000
   srand(seed);
 
   int sign;
-  //  N = 5000;    //N = 1000, 3000, 5000.
-  w = new double[N];
+
   D = new double*[N];
   for (i = 0; i < N; i++)
     D[i] = new double[N];
@@ -73,13 +65,9 @@ int main(int argc, char** argv) {
           sign = 1;
         else
           sign = -1;
-        D[i][j] = sign * ((rand() % 30000) / 30000.0) * 10.0;
+        D[i][j] = sign * (((rand() % 30000) / 30000.0) * 5.0 + 5.0);
         D[j][i] = D[i][j];
       }
-
-    for (i = 0; i < N; i++)
-      w[i] = 1.0 + MW * ((rand() % 30000) / 30000.0);
-
     Outputing(tt);
   }
 

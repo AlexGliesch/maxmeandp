@@ -4,3 +4,5 @@ all:
 	g++ -O3 -o ii II.cpp
 	g++ -O3 -o iii III.cpp
 	g++ -O3 -o iv IV.cpp
+	g++ -O3 -o mmdpi MMDPI.cpp
+	g++ -O3 -o mmdpii MMDPII.cpp

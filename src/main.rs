@@ -387,6 +387,7 @@ fn main() {
 
   let instance_name =
     std::path::Path::new(&opt.instance).file_stem().unwrap().to_str().unwrap();
+    
 
   if !opt.irace {
     println!(
