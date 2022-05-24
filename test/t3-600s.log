@@ -1,0 +1,3000 @@
+
+summary_line instance=III_5000_1 value=35.5413 size=1430 ttb=394.072238214 seed=1
+
+summary_line instance=III_5000_1 value=35.4939 size=1482 ttb=575.959674509 seed=2
+
+summary_line instance=III_5000_1 value=35.6547 size=1445 ttb=508.260594987 seed=3
+
+summary_line instance=III_5000_1 value=35.3565 size=1394 ttb=597.469488138 seed=4
+
+summary_line instance=III_5000_1 value=35.5657 size=1416 ttb=599.32025102 seed=5
+
+summary_line instance=III_5000_10 value=35.1164 size=1418 ttb=516.104950093 seed=1
+
+summary_line instance=III_5000_10 value=35.3338 size=1402 ttb=576.226044466 seed=2
+
+summary_line instance=III_5000_10 value=35.5328 size=1447 ttb=589.260296383 seed=3
+
+summary_line instance=III_5000_10 value=35.3844 size=1470 ttb=541.31069718 seed=4
+
+summary_line instance=III_5000_10 value=35.0786 size=1310 ttb=465.952873997 seed=5
+
+summary_line instance=III_5000_2 value=35.0125 size=1365 ttb=513.018614823 seed=1
+
+summary_line instance=III_5000_2 value=35.0014 size=1414 ttb=552.001083096 seed=2
+
+summary_line instance=III_5000_2 value=34.9822 size=1461 ttb=504.655156822 seed=3
+
+summary_line instance=III_5000_2 value=35.1259 size=1398 ttb=574.001545516 seed=4
+
+summary_line instance=III_5000_2 value=34.8774 size=1378 ttb=526.334971985 seed=5
+
+summary_line instance=III_5000_3 value=35.1175 size=1387 ttb=458.08400032 seed=1
+
+summary_line instance=III_5000_3 value=35.4846 size=1395 ttb=526.135713041 seed=2
+
+summary_line instance=III_5000_3 value=35.2051 size=1409 ttb=590.518514906 seed=3
+
+summary_line instance=III_5000_3 value=35.2994 size=1406 ttb=553.275229392 seed=4
+
+summary_line instance=III_5000_3 value=35.6752 size=1453 ttb=599.691545175 seed=5
+
+summary_line instance=III_5000_4 value=35.4909 size=1373 ttb=519.360579494 seed=1
+
+summary_line instance=III_5000_4 value=35.1758 size=1422 ttb=522.517883876 seed=2
+
+summary_line instance=III_5000_4 value=35.5912 size=1414 ttb=360.309835266 seed=3
+
+summary_line instance=III_5000_4 value=35.4979 size=1402 ttb=587.866575499 seed=4
+
+summary_line instance=III_5000_4 value=35.4566 size=1430 ttb=561.197185864 seed=5
+
+summary_line instance=III_5000_5 value=34.9398 size=1479 ttb=589.739565719 seed=1
+
+summary_line instance=III_5000_5 value=35.0323 size=1425 ttb=580.159853646 seed=2
+
+summary_line instance=III_5000_5 value=34.5752 size=1389 ttb=396.241708665 seed=3
+
+summary_line instance=III_5000_5 value=34.7099 size=1448 ttb=599.730521295 seed=4
+
+summary_line instance=III_5000_5 value=35.0317 size=1389 ttb=597.507688386 seed=5
+
+summary_line instance=III_5000_6 value=35.4756 size=1396 ttb=519.976706538 seed=1
+
+summary_line instance=III_5000_6 value=35.6518 size=1390 ttb=534.81004059 seed=2
+
+summary_line instance=III_5000_6 value=35.4151 size=1395 ttb=468.504002298 seed=3
+
+summary_line instance=III_5000_6 value=35.6401 size=1403 ttb=550.140392752 seed=4
+
+summary_line instance=III_5000_6 value=35.6027 size=1460 ttb=556.284300847 seed=5
+
+summary_line instance=III_5000_7 value=35.0918 size=1351 ttb=525.290175487 seed=1
+
+summary_line instance=III_5000_7 value=35.4565 size=1380 ttb=552.28166845 seed=2
+
+summary_line instance=III_5000_7 value=35.0638 size=1364 ttb=537.709659802 seed=3
+
+summary_line instance=III_5000_7 value=35.0715 size=1412 ttb=213.57605258 seed=4
+
+summary_line instance=III_5000_7 value=34.8337 size=1383 ttb=546.257214696 seed=5
+
+summary_line instance=III_5000_8 value=35.2423 size=1391 ttb=543.147403361 seed=1
+
+summary_line instance=III_5000_8 value=35.2036 size=1454 ttb=566.044450813 seed=2
+
+summary_line instance=III_5000_8 value=35.1710 size=1415 ttb=548.18627841 seed=3
+
+summary_line instance=III_5000_8 value=34.8782 size=1470 ttb=566.722845572 seed=4
+
+summary_line instance=III_5000_8 value=35.2600 size=1404 ttb=548.190745629 seed=5
+
+summary_line instance=III_5000_9 value=34.8695 size=1425 ttb=541.560822682 seed=1
+
+summary_line instance=III_5000_9 value=35.1005 size=1383 ttb=483.623705968 seed=2
+
+summary_line instance=III_5000_9 value=35.3791 size=1435 ttb=594.761242637 seed=3
+
+summary_line instance=III_5000_9 value=35.3221 size=1419 ttb=576.889671395 seed=4
+
+summary_line instance=III_5000_9 value=35.3444 size=1324 ttb=402.770521597 seed=5
+
+summary_line instance=II_3000_1 value=260.8446 size=875 ttb=491.601532317 seed=1
+
+summary_line instance=II_3000_1 value=260.6332 size=877 ttb=352.952677085 seed=2
+
+summary_line instance=II_3000_1 value=260.5654 size=846 ttb=585.872511451 seed=3
+
+summary_line instance=II_3000_1 value=259.4849 size=840 ttb=569.524857514 seed=4
+
+summary_line instance=II_3000_1 value=259.5225 size=865 ttb=190.075459477 seed=5
+
+summary_line instance=II_3000_10 value=259.4694 size=868 ttb=85.114608095 seed=1
+
+summary_line instance=II_3000_10 value=257.7141 size=881 ttb=268.951552821 seed=2
+
+summary_line instance=II_3000_10 value=261.3489 size=891 ttb=574.238642627 seed=3
+
+summary_line instance=II_3000_10 value=259.3970 size=859 ttb=297.845195283 seed=4
+
+summary_line instance=II_3000_10 value=261.3682 size=838 ttb=568.134598674 seed=5
+
+summary_line instance=II_3000_2 value=255.3998 size=831 ttb=562.064725087 seed=1
+
+summary_line instance=II_3000_2 value=256.6292 size=906 ttb=546.755110189 seed=2
+
+summary_line instance=II_3000_2 value=255.2325 size=832 ttb=425.468000555 seed=3
+
+summary_line instance=II_3000_2 value=255.4451 size=832 ttb=575.562528137 seed=4
+
+summary_line instance=II_3000_2 value=254.8393 size=827 ttb=533.526091339 seed=5
+
+summary_line instance=II_3000_3 value=255.7303 size=823 ttb=187.887585812 seed=1
+
+summary_line instance=II_3000_3 value=259.9269 size=847 ttb=263.205424423 seed=2
+
+summary_line instance=II_3000_3 value=256.4325 size=842 ttb=255.707909602 seed=3
+
+summary_line instance=II_3000_3 value=256.5100 size=896 ttb=582.863519827 seed=4
+
+summary_line instance=II_3000_3 value=259.0215 size=833 ttb=530.841786454 seed=5
+
+summary_line instance=II_3000_4 value=251.7347 size=853 ttb=494.7915384 seed=1
+
+summary_line instance=II_3000_4 value=252.3551 size=857 ttb=255.359164203 seed=2
+
+summary_line instance=II_3000_4 value=251.0439 size=774 ttb=295.60385127 seed=3
+
+summary_line instance=II_3000_4 value=249.9813 size=813 ttb=572.022964605 seed=4
+
+summary_line instance=II_3000_4 value=250.9608 size=791 ttb=336.596023417 seed=5
+
+summary_line instance=II_3000_5 value=252.9445 size=823 ttb=497.172785596 seed=1
+
+summary_line instance=II_3000_5 value=253.7301 size=811 ttb=593.323518852 seed=2
+
+summary_line instance=II_3000_5 value=252.4878 size=846 ttb=596.963801753 seed=3
+
+summary_line instance=II_3000_5 value=249.5689 size=815 ttb=394.148820595 seed=4
+
+summary_line instance=II_3000_5 value=250.8420 size=812 ttb=54.749160666 seed=5
+
+summary_line instance=II_3000_6 value=260.0718 size=851 ttb=584.238577971 seed=1
+
+summary_line instance=II_3000_6 value=261.3237 size=840 ttb=414.710246383 seed=2
+
+summary_line instance=II_3000_6 value=261.1592 size=870 ttb=236.407799282 seed=3
+
+summary_line instance=II_3000_6 value=261.2484 size=849 ttb=336.603218079 seed=4
+
+summary_line instance=II_3000_6 value=260.3717 size=817 ttb=142.810027499 seed=5
+
+summary_line instance=II_3000_7 value=258.3091 size=818 ttb=386.184242317 seed=1
+
+summary_line instance=II_3000_7 value=257.6743 size=872 ttb=543.689805167 seed=2
+
+summary_line instance=II_3000_7 value=257.1652 size=866 ttb=488.671915768 seed=3
+
+summary_line instance=II_3000_7 value=256.0053 size=871 ttb=585.533957138 seed=4
+
+summary_line instance=II_3000_7 value=256.8879 size=854 ttb=499.540874705 seed=5
+
+summary_line instance=II_3000_8 value=253.8806 size=811 ttb=83.225985965 seed=1
+
+summary_line instance=II_3000_8 value=253.9903 size=855 ttb=575.326964661 seed=2
+
+summary_line instance=II_3000_8 value=253.7056 size=780 ttb=151.019800008 seed=3
+
+summary_line instance=II_3000_8 value=255.2767 size=807 ttb=109.91783098 seed=4
+
+summary_line instance=II_3000_8 value=252.1093 size=821 ttb=319.876579589 seed=5
+
+summary_line instance=II_3000_9 value=258.6383 size=847 ttb=586.871196029 seed=1
+
+summary_line instance=II_3000_9 value=254.3891 size=873 ttb=578.260256833 seed=2
+
+summary_line instance=II_3000_9 value=257.6482 size=871 ttb=473.355793373 seed=3
+
+summary_line instance=II_3000_9 value=257.3460 size=850 ttb=595.132832181 seed=4
+
+summary_line instance=II_3000_9 value=256.0761 size=861 ttb=294.492963207 seed=5
+
+summary_line instance=II_5000_1 value=325.5314 size=1412 ttb=495.499551555 seed=1
+
+summary_line instance=II_5000_1 value=324.8527 size=1396 ttb=599.893409215 seed=2
+
+summary_line instance=II_5000_1 value=322.4150 size=1405 ttb=569.202374923 seed=3
+
+summary_line instance=II_5000_1 value=322.7578 size=1351 ttb=345.36546729 seed=4
+
+summary_line instance=II_5000_1 value=327.2365 size=1441 ttb=596.548747333 seed=5
+
+summary_line instance=II_5000_10 value=331.4665 size=1400 ttb=551.45234928 seed=1
+
+summary_line instance=II_5000_10 value=331.4245 size=1453 ttb=593.781697384 seed=2
+
+summary_line instance=II_5000_10 value=330.8783 size=1457 ttb=473.776282824 seed=3
+
+summary_line instance=II_5000_10 value=331.1376 size=1413 ttb=481.593161316 seed=4
+
+summary_line instance=II_5000_10 value=329.6830 size=1383 ttb=497.824767781 seed=5
+
+summary_line instance=II_5000_2 value=329.5242 size=1444 ttb=596.080270938 seed=1
+
+summary_line instance=II_5000_2 value=328.6007 size=1403 ttb=533.765737517 seed=2
+
+summary_line instance=II_5000_2 value=326.5210 size=1378 ttb=568.854180518 seed=3
+
+summary_line instance=II_5000_2 value=328.7246 size=1357 ttb=346.534579975 seed=4
+
+summary_line instance=II_5000_2 value=326.3468 size=1353 ttb=539.366408022 seed=5
+
+summary_line instance=II_5000_3 value=333.7191 size=1414 ttb=554.190006334 seed=1
+
+summary_line instance=II_5000_3 value=333.5344 size=1436 ttb=574.615735779 seed=2
+
+summary_line instance=II_5000_3 value=332.7604 size=1433 ttb=534.061468803 seed=3
+
+summary_line instance=II_5000_3 value=333.3686 size=1456 ttb=531.961480535 seed=4
+
+summary_line instance=II_5000_3 value=333.9831 size=1426 ttb=584.312395763 seed=5
+
+summary_line instance=II_5000_4 value=334.4329 size=1475 ttb=594.069296283 seed=1
+
+summary_line instance=II_5000_4 value=333.3337 size=1438 ttb=329.299264578 seed=2
+
+summary_line instance=II_5000_4 value=331.2359 size=1439 ttb=509.065325004 seed=3
+
+summary_line instance=II_5000_4 value=331.1593 size=1443 ttb=496.347935218 seed=4
+
+summary_line instance=II_5000_4 value=333.7887 size=1417 ttb=541.177637085 seed=5
+
+summary_line instance=II_5000_5 value=329.0930 size=1451 ttb=591.886041103 seed=1
+
+summary_line instance=II_5000_5 value=327.6484 size=1440 ttb=536.244802565 seed=2
+
+summary_line instance=II_5000_5 value=327.9546 size=1411 ttb=544.773254225 seed=3
+
+summary_line instance=II_5000_5 value=327.0878 size=1350 ttb=564.336276657 seed=4
+
+summary_line instance=II_5000_5 value=328.6887 size=1384 ttb=598.047558373 seed=5
+
+summary_line instance=II_5000_6 value=334.4470 size=1446 ttb=538.318636871 seed=1
+
+summary_line instance=II_5000_6 value=333.7460 size=1471 ttb=600.053399278 seed=2
+
+summary_line instance=II_5000_6 value=332.7628 size=1440 ttb=578.709744326 seed=3
+
+summary_line instance=II_5000_6 value=331.5935 size=1450 ttb=537.177930112 seed=4
+
+summary_line instance=II_5000_6 value=333.2866 size=1415 ttb=557.180900652 seed=5
+
+summary_line instance=II_5000_7 value=332.3718 size=1446 ttb=595.982077831 seed=1
+
+summary_line instance=II_5000_7 value=331.2619 size=1408 ttb=443.26915254 seed=2
+
+summary_line instance=II_5000_7 value=330.0618 size=1410 ttb=547.553074855 seed=3
+
+summary_line instance=II_5000_7 value=331.8974 size=1415 ttb=487.844667276 seed=4
+
+summary_line instance=II_5000_7 value=329.7641 size=1443 ttb=499.140656232 seed=5
+
+summary_line instance=II_5000_8 value=330.0643 size=1429 ttb=505.629076464 seed=1
+
+summary_line instance=II_5000_8 value=327.5168 size=1387 ttb=486.536687677 seed=2
+
+summary_line instance=II_5000_8 value=329.7561 size=1416 ttb=530.343812625 seed=3
+
+summary_line instance=II_5000_8 value=329.4692 size=1447 ttb=508.269641484 seed=4
+
+summary_line instance=II_5000_8 value=327.4758 size=1403 ttb=508.143254064 seed=5
+
+summary_line instance=II_5000_9 value=330.8255 size=1415 ttb=502.291030797 seed=1
+
+summary_line instance=II_5000_9 value=330.0369 size=1397 ttb=552.89084031 seed=2
+
+summary_line instance=II_5000_9 value=329.7312 size=1334 ttb=561.888333341 seed=3
+
+summary_line instance=II_5000_9 value=330.4099 size=1422 ttb=599.030015961 seed=4
+
+summary_line instance=II_5000_9 value=331.1591 size=1433 ttb=345.237143378 seed=5
+
+summary_line instance=IV_5000_1 value=355.1078 size=1392 ttb=590.886167647 seed=1
+
+summary_line instance=IV_5000_1 value=354.2241 size=1392 ttb=518.968054019 seed=2
+
+summary_line instance=IV_5000_1 value=354.9124 size=1427 ttb=523.313593149 seed=3
+
+summary_line instance=IV_5000_1 value=353.3402 size=1449 ttb=517.234511526 seed=4
+
+summary_line instance=IV_5000_1 value=355.3841 size=1406 ttb=539.372320756 seed=5
+
+summary_line instance=IV_5000_10 value=351.2431 size=1440 ttb=552.955762004 seed=1
+
+summary_line instance=IV_5000_10 value=349.2821 size=1379 ttb=531.641357711 seed=2
+
+summary_line instance=IV_5000_10 value=350.3722 size=1424 ttb=577.956747132 seed=3
+
+summary_line instance=IV_5000_10 value=351.3128 size=1394 ttb=512.402331898 seed=4
+
+summary_line instance=IV_5000_10 value=353.0853 size=1384 ttb=537.876081405 seed=5
+
+summary_line instance=IV_5000_2 value=353.2000 size=1400 ttb=503.085070245 seed=1
+
+summary_line instance=IV_5000_2 value=354.1277 size=1456 ttb=558.551288162 seed=2
+
+summary_line instance=IV_5000_2 value=350.9744 size=1406 ttb=596.702863298 seed=3
+
+summary_line instance=IV_5000_2 value=353.0732 size=1435 ttb=556.810521879 seed=4
+
+summary_line instance=IV_5000_2 value=354.0555 size=1477 ttb=573.599192231 seed=5
+
+summary_line instance=IV_5000_3 value=354.3629 size=1444 ttb=540.503189135 seed=1
+
+summary_line instance=IV_5000_3 value=355.5923 size=1452 ttb=520.59650506 seed=2
+
+summary_line instance=IV_5000_3 value=354.6944 size=1440 ttb=597.610701046 seed=3
+
+summary_line instance=IV_5000_3 value=352.2989 size=1392 ttb=549.445561618 seed=4
+
+summary_line instance=IV_5000_3 value=352.5209 size=1432 ttb=590.092801081 seed=5
+
+summary_line instance=IV_5000_4 value=351.8894 size=1392 ttb=582.458277225 seed=1
+
+summary_line instance=IV_5000_4 value=353.7437 size=1381 ttb=577.456490841 seed=2
+
+summary_line instance=IV_5000_4 value=351.9167 size=1393 ttb=537.305257486 seed=3
+
+summary_line instance=IV_5000_4 value=352.4389 size=1431 ttb=517.577676871 seed=4
+
+summary_line instance=IV_5000_4 value=349.1221 size=1401 ttb=457.540603546 seed=5
+
+summary_line instance=IV_5000_5 value=357.9875 size=1441 ttb=589.762716062 seed=1
+
+summary_line instance=IV_5000_5 value=355.4152 size=1433 ttb=431.773759474 seed=2
+
+summary_line instance=IV_5000_5 value=354.7571 size=1400 ttb=422.625844223 seed=3
+
+summary_line instance=IV_5000_5 value=354.9719 size=1424 ttb=547.874562171 seed=4
+
+summary_line instance=IV_5000_5 value=355.5028 size=1412 ttb=432.280305266 seed=5
+
+summary_line instance=IV_5000_6 value=354.6819 size=1399 ttb=53.655140589 seed=1
+
+summary_line instance=IV_5000_6 value=355.7656 size=1502 ttb=595.722192409 seed=2
+
+summary_line instance=IV_5000_6 value=353.8026 size=1378 ttb=539.029004584 seed=3
+
+summary_line instance=IV_5000_6 value=356.1360 size=1382 ttb=593.120174409 seed=4
+
+summary_line instance=IV_5000_6 value=357.1074 size=1452 ttb=486.708061042 seed=5
+
+summary_line instance=IV_5000_7 value=346.6043 size=1390 ttb=569.500015578 seed=1
+
+summary_line instance=IV_5000_7 value=347.3525 size=1322 ttb=584.97172975 seed=2
+
+summary_line instance=IV_5000_7 value=348.6239 size=1388 ttb=585.967370409 seed=3
+
+summary_line instance=IV_5000_7 value=348.9609 size=1405 ttb=572.229757368 seed=4
+
+summary_line instance=IV_5000_7 value=347.8471 size=1426 ttb=596.250222103 seed=5
+
+summary_line instance=IV_5000_8 value=355.6179 size=1408 ttb=554.338776322 seed=1
+
+summary_line instance=IV_5000_8 value=354.2887 size=1434 ttb=555.959281508 seed=2
+
+summary_line instance=IV_5000_8 value=354.2275 size=1398 ttb=585.860619071 seed=3
+
+summary_line instance=IV_5000_8 value=355.7669 size=1467 ttb=413.081245467 seed=4
+
+summary_line instance=IV_5000_8 value=352.5336 size=1413 ttb=546.508354904 seed=5
+
+summary_line instance=IV_5000_9 value=351.5797 size=1418 ttb=485.189938251 seed=1
+
+summary_line instance=IV_5000_9 value=349.0514 size=1402 ttb=570.710761489 seed=2
+
+summary_line instance=IV_5000_9 value=350.5491 size=1384 ttb=519.701806665 seed=3
+
+summary_line instance=IV_5000_9 value=352.4635 size=1437 ttb=593.903449318 seed=4
+
+summary_line instance=IV_5000_9 value=351.3367 size=1384 ttb=590.224329541 seed=5
+
+summary_line instance=I_3000_1 value=195.5708 size=855 ttb=594.592360624 seed=1
+
+summary_line instance=I_3000_1 value=196.9876 size=875 ttb=146.653416519 seed=2
+
+summary_line instance=I_3000_1 value=196.7759 size=844 ttb=589.133075259 seed=3
+
+summary_line instance=I_3000_1 value=197.3567 size=863 ttb=574.334781757 seed=4
+
+summary_line instance=I_3000_1 value=197.0867 size=867 ttb=235.942582793 seed=5
+
+summary_line instance=I_3000_10 value=195.9886 size=901 ttb=543.162420537 seed=1
+
+summary_line instance=I_3000_10 value=194.5453 size=810 ttb=411.824631155 seed=2
+
+summary_line instance=I_3000_10 value=195.3234 size=848 ttb=579.575823318 seed=3
+
+summary_line instance=I_3000_10 value=193.0752 size=855 ttb=458.956317875 seed=4
+
+summary_line instance=I_3000_10 value=195.4736 size=853 ttb=306.838437299 seed=5
+
+summary_line instance=I_3000_2 value=196.4573 size=872 ttb=404.445968673 seed=1
+
+summary_line instance=I_3000_2 value=195.4050 size=863 ttb=595.235235568 seed=2
+
+summary_line instance=I_3000_2 value=194.6112 size=916 ttb=380.794335328 seed=3
+
+summary_line instance=I_3000_2 value=195.7186 size=885 ttb=589.993268152 seed=4
+
+summary_line instance=I_3000_2 value=197.1714 size=863 ttb=151.45102097 seed=5
+
+summary_line instance=I_3000_3 value=192.6159 size=866 ttb=441.016671449 seed=1
+
+summary_line instance=I_3000_3 value=191.9994 size=818 ttb=37.87513296 seed=2
+
+summary_line instance=I_3000_3 value=191.9747 size=847 ttb=470.729637832 seed=3
+
+summary_line instance=I_3000_3 value=192.7078 size=872 ttb=475.313271683 seed=4
+
+summary_line instance=I_3000_3 value=193.0163 size=850 ttb=408.934968353 seed=5
+
+summary_line instance=I_3000_4 value=187.4808 size=818 ttb=275.78300259 seed=1
+
+summary_line instance=I_3000_4 value=190.9511 size=833 ttb=270.333795609 seed=2
+
+summary_line instance=I_3000_4 value=190.2116 size=831 ttb=479.2251688 seed=3
+
+summary_line instance=I_3000_4 value=189.7217 size=808 ttb=504.979275829 seed=4
+
+summary_line instance=I_3000_4 value=190.1629 size=852 ttb=544.296444687 seed=5
+
+summary_line instance=I_3000_5 value=186.9986 size=818 ttb=485.913370024 seed=1
+
+summary_line instance=I_3000_5 value=186.8843 size=813 ttb=434.482627719 seed=2
+
+summary_line instance=I_3000_5 value=188.9265 size=807 ttb=403.621847451 seed=3
+
+summary_line instance=I_3000_5 value=191.0318 size=795 ttb=510.514099238 seed=4
+
+summary_line instance=I_3000_5 value=189.7466 size=830 ttb=443.213864288 seed=5
+
+summary_line instance=I_3000_6 value=195.9815 size=859 ttb=81.447685176 seed=1
+
+summary_line instance=I_3000_6 value=194.7296 size=857 ttb=79.050051923 seed=2
+
+summary_line instance=I_3000_6 value=195.6815 size=887 ttb=484.694351872 seed=3
+
+summary_line instance=I_3000_6 value=194.4216 size=887 ttb=362.146304258 seed=4
+
+summary_line instance=I_3000_6 value=196.9990 size=892 ttb=505.206387362 seed=5
+
+summary_line instance=I_3000_7 value=193.1311 size=835 ttb=548.620318082 seed=1
+
+summary_line instance=I_3000_7 value=194.2636 size=809 ttb=252.711347398 seed=2
+
+summary_line instance=I_3000_7 value=192.3814 size=839 ttb=188.508686028 seed=3
+
+summary_line instance=I_3000_7 value=193.8266 size=824 ttb=526.705265668 seed=4
+
+summary_line instance=I_3000_7 value=194.5986 size=854 ttb=526.497261802 seed=5
+
+summary_line instance=I_3000_8 value=191.7258 size=802 ttb=526.025988463 seed=1
+
+summary_line instance=I_3000_8 value=194.1493 size=845 ttb=443.181684746 seed=2
+
+summary_line instance=I_3000_8 value=192.7855 size=836 ttb=363.082493028 seed=3
+
+summary_line instance=I_3000_8 value=191.3152 size=802 ttb=493.645128203 seed=4
+
+summary_line instance=I_3000_8 value=192.3448 size=829 ttb=547.274187025 seed=5
+
+summary_line instance=I_3000_9 value=193.2604 size=854 ttb=599.993904485 seed=1
+
+summary_line instance=I_3000_9 value=191.5195 size=842 ttb=493.625471027 seed=2
+
+summary_line instance=I_3000_9 value=193.8687 size=844 ttb=451.271792592 seed=3
+
+summary_line instance=I_3000_9 value=192.6373 size=853 ttb=352.148467606 seed=4
+
+summary_line instance=I_3000_9 value=195.2389 size=874 ttb=157.033117296 seed=5
+
+summary_line instance=I_5000_1 value=246.3465 size=1403 ttb=415.007251143 seed=1
+
+summary_line instance=I_5000_1 value=245.6381 size=1401 ttb=519.715126474 seed=2
+
+summary_line instance=I_5000_1 value=248.5419 size=1412 ttb=359.169699015 seed=3
+
+summary_line instance=I_5000_1 value=246.8719 size=1360 ttb=528.013642959 seed=4
+
+summary_line instance=I_5000_1 value=247.9029 size=1405 ttb=574.436843218 seed=5
+
+summary_line instance=I_5000_10 value=252.7141 size=1418 ttb=575.121005374 seed=1
+
+summary_line instance=I_5000_10 value=251.7333 size=1408 ttb=554.205670088 seed=2
+
+summary_line instance=I_5000_10 value=251.7370 size=1446 ttb=412.069824204 seed=3
+
+summary_line instance=I_5000_10 value=251.6857 size=1390 ttb=544.800083196 seed=4
+
+summary_line instance=I_5000_10 value=250.4952 size=1400 ttb=566.484057424 seed=5
+
+summary_line instance=I_5000_2 value=250.6064 size=1367 ttb=539.977812935 seed=1
+
+summary_line instance=I_5000_2 value=248.0187 size=1422 ttb=539.968375209 seed=2
+
+summary_line instance=I_5000_2 value=249.9069 size=1406 ttb=566.39094159 seed=3
+
+summary_line instance=I_5000_2 value=249.7002 size=1399 ttb=583.631150611 seed=4
+
+summary_line instance=I_5000_2 value=251.3782 size=1390 ttb=503.911686006 seed=5
+
+summary_line instance=I_5000_3 value=251.0645 size=1469 ttb=507.888191257 seed=1
+
+summary_line instance=I_5000_3 value=250.5188 size=1442 ttb=493.992608 seed=2
+
+summary_line instance=I_5000_3 value=251.8648 size=1491 ttb=499.3932784 seed=3
+
+summary_line instance=I_5000_3 value=252.7061 size=1416 ttb=541.924882654 seed=4
+
+summary_line instance=I_5000_3 value=250.8987 size=1445 ttb=269.52811973 seed=5
+
+summary_line instance=I_5000_4 value=250.9520 size=1377 ttb=527.810037337 seed=1
+
+summary_line instance=I_5000_4 value=251.6897 size=1455 ttb=531.773736791 seed=2
+
+summary_line instance=I_5000_4 value=251.1429 size=1373 ttb=526.193143031 seed=3
+
+summary_line instance=I_5000_4 value=249.0562 size=1471 ttb=568.634012066 seed=4
+
+summary_line instance=I_5000_4 value=250.1802 size=1411 ttb=568.585583468 seed=5
+
+summary_line instance=I_5000_5 value=247.9009 size=1414 ttb=596.246698294 seed=1
+
+summary_line instance=I_5000_5 value=248.1736 size=1378 ttb=599.390809653 seed=2
+
+summary_line instance=I_5000_5 value=247.1641 size=1372 ttb=542.679010071 seed=3
+
+summary_line instance=I_5000_5 value=248.0344 size=1393 ttb=530.42448621 seed=4
+
+summary_line instance=I_5000_5 value=248.3407 size=1393 ttb=588.124206498 seed=5
+
+summary_line instance=I_5000_6 value=251.4861 size=1435 ttb=534.439601582 seed=1
+
+summary_line instance=I_5000_6 value=247.7464 size=1372 ttb=575.480036775 seed=2
+
+summary_line instance=I_5000_6 value=249.1176 size=1416 ttb=599.02030691 seed=3
+
+summary_line instance=I_5000_6 value=249.6648 size=1469 ttb=515.291341776 seed=4
+
+summary_line instance=I_5000_6 value=250.9464 size=1445 ttb=587.986833232 seed=5
+
+summary_line instance=I_5000_7 value=249.3652 size=1428 ttb=556.516792378 seed=1
+
+summary_line instance=I_5000_7 value=249.0902 size=1415 ttb=569.041819236 seed=2
+
+summary_line instance=I_5000_7 value=250.0094 size=1440 ttb=596.955496681 seed=3
+
+summary_line instance=I_5000_7 value=248.2654 size=1368 ttb=522.775745589 seed=4
+
+summary_line instance=I_5000_7 value=248.2412 size=1401 ttb=520.27427032 seed=5
+
+summary_line instance=I_5000_8 value=249.8611 size=1377 ttb=548.244546855 seed=1
+
+summary_line instance=I_5000_8 value=246.1081 size=1390 ttb=414.370758198 seed=2
+
+summary_line instance=I_5000_8 value=249.8646 size=1456 ttb=572.467618406 seed=3
+
+summary_line instance=I_5000_8 value=249.0382 size=1386 ttb=309.136468984 seed=4
+
+summary_line instance=I_5000_8 value=248.4787 size=1466 ttb=588.244322766 seed=5
+
+summary_line instance=I_5000_9 value=249.6987 size=1383 ttb=597.919215732 seed=1
+
+summary_line instance=I_5000_9 value=249.0543 size=1392 ttb=447.75775758 seed=2
+
+summary_line instance=I_5000_9 value=251.0146 size=1398 ttb=561.770144355 seed=3
+
+summary_line instance=I_5000_9 value=251.9520 size=1413 ttb=492.203673003 seed=4
+
+summary_line instance=I_5000_9 value=251.9283 size=1435 ttb=574.868884945 seed=5
+
+summary_line instance=MDPI10_1000 value=114.7316 size=292 ttb=13.175025058 seed=1
+
+summary_line instance=MDPI10_1000 value=114.7316 size=292 ttb=523.35588432 seed=2
+
+summary_line instance=MDPI10_1000 value=114.7316 size=292 ttb=107.789061269 seed=3
+
+summary_line instance=MDPI10_1000 value=114.5419 size=272 ttb=332.670473567 seed=4
+
+summary_line instance=MDPI10_1000 value=114.7316 size=292 ttb=378.046496798 seed=5
+
+summary_line instance=MDPI10_150 value=41.7978 size=41 ttb=0.06565347 seed=1
+
+summary_line instance=MDPI10_150 value=41.7978 size=41 ttb=0.001765912 seed=2
+
+summary_line instance=MDPI10_150 value=41.7978 size=41 ttb=0.007337943 seed=3
+
+summary_line instance=MDPI10_150 value=41.7978 size=41 ttb=0.012873893 seed=4
+
+summary_line instance=MDPI10_150 value=41.7978 size=41 ttb=0.024358067 seed=5
+
+summary_line instance=MDPI10_1500 value=140.0221 size=453 ttb=401.756952212 seed=1
+
+summary_line instance=MDPI10_1500 value=139.8867 size=440 ttb=2.224880307 seed=2
+
+summary_line instance=MDPI10_1500 value=140.0084 size=448 ttb=430.362157181 seed=3
+
+summary_line instance=MDPI10_1500 value=139.4664 size=419 ttb=547.721999647 seed=4
+
+summary_line instance=MDPI10_1500 value=140.0875 size=455 ttb=318.265396019 seed=5
+
+summary_line instance=MDPI10_20 value=0.0000 size=0 ttb=2.586210361 seed=1
+
+summary_line instance=MDPI10_20 value=0.0000 size=0 ttb=2.565423053 seed=2
+
+summary_line instance=MDPI10_20 value=0.0000 size=0 ttb=2.547853946 seed=3
+
+summary_line instance=MDPI10_20 value=0.0000 size=0 ttb=2.561198011 seed=4
+
+summary_line instance=MDPI10_20 value=0.0000 size=0 ttb=2.583272012 seed=5
+
+summary_line instance=MDPI10_2000 value=160.1727 size=587 ttb=178.73571125 seed=1
+
+summary_line instance=MDPI10_2000 value=160.6470 size=575 ttb=587.032118241 seed=2
+
+summary_line instance=MDPI10_2000 value=159.6182 size=570 ttb=523.83564908 seed=3
+
+summary_line instance=MDPI10_2000 value=160.1188 size=568 ttb=21.516763552 seed=4
+
+summary_line instance=MDPI10_2000 value=160.2531 size=576 ttb=421.546588706 seed=5
+
+summary_line instance=MDPI10_25 value=0.0000 size=0 ttb=9.257588152 seed=1
+
+summary_line instance=MDPI10_25 value=0.0000 size=0 ttb=9.351149135 seed=2
+
+summary_line instance=MDPI10_25 value=0.0000 size=0 ttb=9.240646689 seed=3
+
+summary_line instance=MDPI10_25 value=0.0000 size=0 ttb=9.2311581 seed=4
+
+summary_line instance=MDPI10_25 value=0.0000 size=0 ttb=9.192325279 seed=5
+
+summary_line instance=MDPI10_30 value=0.0000 size=0 ttb=15.713807136 seed=1
+
+summary_line instance=MDPI10_30 value=0.0000 size=0 ttb=15.909823187 seed=2
+
+summary_line instance=MDPI10_30 value=0.0000 size=0 ttb=15.796093657 seed=3
+
+summary_line instance=MDPI10_30 value=0.0000 size=0 ttb=15.872757213 seed=4
+
+summary_line instance=MDPI10_30 value=0.0000 size=0 ttb=15.806391134 seed=5
+
+summary_line instance=MDPI10_3000 value=194.4691 size=874 ttb=255.381987891 seed=1
+
+summary_line instance=MDPI10_3000 value=195.8343 size=884 ttb=77.73108008 seed=2
+
+summary_line instance=MDPI10_3000 value=194.7405 size=855 ttb=239.421013538 seed=3
+
+summary_line instance=MDPI10_3000 value=195.8069 size=883 ttb=216.280967408 seed=4
+
+summary_line instance=MDPI10_3000 value=195.0472 size=848 ttb=226.725720471 seed=5
+
+summary_line instance=MDPI10_35 value=0.0000 size=0 ttb=115.922855512 seed=1
+
+summary_line instance=MDPI10_35 value=0.0000 size=0 ttb=117.422523396 seed=2
+
+summary_line instance=MDPI10_35 value=0.0000 size=0 ttb=116.043317408 seed=3
+
+summary_line instance=MDPI10_35 value=0.0000 size=0 ttb=115.881845865 seed=4
+
+summary_line instance=MDPI10_35 value=0.0000 size=0 ttb=115.973054978 seed=5
+
+summary_line instance=MDPI10_500 value=81.3099 size=155 ttb=84.417936407 seed=1
+
+summary_line instance=MDPI10_500 value=81.3099 size=155 ttb=3.190613443 seed=2
+
+summary_line instance=MDPI10_500 value=81.3099 size=155 ttb=169.239583707 seed=3
+
+summary_line instance=MDPI10_500 value=81.3099 size=155 ttb=1.784501118 seed=4
+
+summary_line instance=MDPI10_500 value=81.3099 size=155 ttb=423.946342865 seed=5
+
+summary_line instance=MDPI10_5000 value=251.6849 size=1375 ttb=589.94812037 seed=1
+
+summary_line instance=MDPI10_5000 value=253.2505 size=1395 ttb=592.632264758 seed=2
+
+summary_line instance=MDPI10_5000 value=250.8480 size=1419 ttb=483.931665461 seed=3
+
+summary_line instance=MDPI10_5000 value=251.8906 size=1427 ttb=568.293382719 seed=4
+
+summary_line instance=MDPI10_5000 value=251.6428 size=1405 ttb=568.771323197 seed=5
+
+summary_line instance=MDPI10_750 value=100.0614 size=235 ttb=132.910283007 seed=1
+
+summary_line instance=MDPI10_750 value=99.9107 size=232 ttb=185.187595975 seed=2
+
+summary_line instance=MDPI10_750 value=100.0642 size=227 ttb=54.367891938 seed=3
+
+summary_line instance=MDPI10_750 value=100.0642 size=227 ttb=401.37583091 seed=4
+
+summary_line instance=MDPI10_750 value=100.0542 size=221 ttb=175.399570563 seed=5
+
+summary_line instance=MDPI1_1000 value=119.1741 size=304 ttb=266.886460572 seed=1
+
+summary_line instance=MDPI1_1000 value=118.8955 size=326 ttb=207.464937027 seed=2
+
+summary_line instance=MDPI1_1000 value=119.0635 size=315 ttb=419.028112412 seed=3
+
+summary_line instance=MDPI1_1000 value=119.1741 size=304 ttb=563.577160216 seed=4
+
+summary_line instance=MDPI1_1000 value=119.1741 size=304 ttb=204.692675096 seed=5
+
+summary_line instance=MDPI1_150 value=45.9202 size=52 ttb=0.006879726 seed=1
+
+summary_line instance=MDPI1_150 value=45.9202 size=52 ttb=0.00199539 seed=2
+
+summary_line instance=MDPI1_150 value=45.9202 size=52 ttb=0.020965178 seed=3
+
+summary_line instance=MDPI1_150 value=45.9202 size=52 ttb=0.006330753 seed=4
+
+summary_line instance=MDPI1_150 value=45.9202 size=52 ttb=0.001269411 seed=5
+
+summary_line instance=MDPI1_1500 value=136.2857 size=408 ttb=522.924249314 seed=1
+
+summary_line instance=MDPI1_1500 value=135.9164 size=401 ttb=319.549281691 seed=2
+
+summary_line instance=MDPI1_1500 value=136.1611 size=435 ttb=442.010276733 seed=3
+
+summary_line instance=MDPI1_1500 value=135.8810 size=413 ttb=338.148413944 seed=4
+
+summary_line instance=MDPI1_1500 value=134.8759 size=398 ttb=170.355598176 seed=5
+
+summary_line instance=MDPI1_20 value=0.0000 size=0 ttb=3.027506823 seed=1
+
+summary_line instance=MDPI1_20 value=0.0000 size=0 ttb=3.044923538 seed=2
+
+summary_line instance=MDPI1_20 value=0.0000 size=0 ttb=3.028340185 seed=3
+
+summary_line instance=MDPI1_20 value=0.0000 size=0 ttb=3.02686323 seed=4
+
+summary_line instance=MDPI1_20 value=0.0000 size=0 ttb=3.05497742 seed=5
+
+summary_line instance=MDPI1_2000 value=156.9984 size=577 ttb=575.847250538 seed=1
+
+summary_line instance=MDPI1_2000 value=158.1334 size=536 ttb=329.271957865 seed=2
+
+summary_line instance=MDPI1_2000 value=157.0394 size=580 ttb=58.266889631 seed=3
+
+summary_line instance=MDPI1_2000 value=157.2563 size=549 ttb=558.224138924 seed=4
+
+summary_line instance=MDPI1_2000 value=157.2945 size=554 ttb=592.156924175 seed=5
+
+summary_line instance=MDPI1_25 value=0.0000 size=0 ttb=7.367603008 seed=1
+
+summary_line instance=MDPI1_25 value=0.0000 size=0 ttb=7.4484945289999995 seed=2
+
+summary_line instance=MDPI1_25 value=0.0000 size=0 ttb=7.447493718 seed=3
+
+summary_line instance=MDPI1_25 value=0.0000 size=0 ttb=7.37643254 seed=4
+
+summary_line instance=MDPI1_25 value=0.0000 size=0 ttb=7.436967563 seed=5
+
+summary_line instance=MDPI1_30 value=0.0000 size=0 ttb=23.083472606 seed=1
+
+summary_line instance=MDPI1_30 value=0.0000 size=0 ttb=23.35027172 seed=2
+
+summary_line instance=MDPI1_30 value=0.0000 size=0 ttb=23.324456575 seed=3
+
+summary_line instance=MDPI1_30 value=0.0000 size=0 ttb=23.050954012 seed=4
+
+summary_line instance=MDPI1_30 value=0.0000 size=0 ttb=23.061504331 seed=5
+
+summary_line instance=MDPI1_3000 value=196.6038 size=902 ttb=148.863888234 seed=1
+
+summary_line instance=MDPI1_3000 value=195.1882 size=850 ttb=468.146382307 seed=2
+
+summary_line instance=MDPI1_3000 value=195.8277 size=837 ttb=235.801376517 seed=3
+
+summary_line instance=MDPI1_3000 value=197.7961 size=874 ttb=311.332438988 seed=4
+
+summary_line instance=MDPI1_3000 value=196.2188 size=849 ttb=419.290410649 seed=5
+
+summary_line instance=MDPI1_35 value=0.0000 size=0 ttb=118.937854803 seed=1
+
+summary_line instance=MDPI1_35 value=0.0000 size=0 ttb=117.877810709 seed=2
+
+summary_line instance=MDPI1_35 value=0.0000 size=0 ttb=117.678099939 seed=3
+
+summary_line instance=MDPI1_35 value=0.0000 size=0 ttb=117.822355039 seed=4
+
+summary_line instance=MDPI1_35 value=0.0000 size=0 ttb=115.604006961 seed=5
+
+summary_line instance=MDPI1_500 value=81.2770 size=159 ttb=7.367311813 seed=1
+
+summary_line instance=MDPI1_500 value=81.2770 size=159 ttb=18.021702199 seed=2
+
+summary_line instance=MDPI1_500 value=81.2770 size=159 ttb=0.624156354 seed=3
+
+summary_line instance=MDPI1_500 value=81.2770 size=159 ttb=0.078940678 seed=4
+
+summary_line instance=MDPI1_500 value=81.2770 size=159 ttb=0.027643651 seed=5
+
+summary_line instance=MDPI1_5000 value=252.4801 size=1450 ttb=598.625757469 seed=1
+
+summary_line instance=MDPI1_5000 value=252.6693 size=1461 ttb=593.73084582 seed=2
+
+summary_line instance=MDPI1_5000 value=253.9083 size=1400 ttb=559.182283958 seed=3
+
+summary_line instance=MDPI1_5000 value=253.6617 size=1449 ttb=584.099875749 seed=4
+
+summary_line instance=MDPI1_5000 value=252.4960 size=1487 ttb=585.418453513 seed=5
+
+summary_line instance=MDPI1_750 value=96.6507 size=229 ttb=226.308349799 seed=1
+
+summary_line instance=MDPI1_750 value=96.6265 size=229 ttb=530.816578957 seed=2
+
+summary_line instance=MDPI1_750 value=96.4553 size=223 ttb=389.858809556 seed=3
+
+summary_line instance=MDPI1_750 value=96.6507 size=229 ttb=305.626538801 seed=4
+
+summary_line instance=MDPI1_750 value=96.4553 size=223 ttb=116.388056737 seed=5
+
+summary_line instance=MDPI2_1000 value=113.4223 size=280 ttb=8.471438588 seed=1
+
+summary_line instance=MDPI2_1000 value=113.4703 size=290 ttb=363.190574554 seed=2
+
+summary_line instance=MDPI2_1000 value=113.4703 size=290 ttb=444.106177494 seed=3
+
+summary_line instance=MDPI2_1000 value=113.5248 size=292 ttb=519.00379612 seed=4
+
+summary_line instance=MDPI2_1000 value=113.3453 size=295 ttb=304.752969142 seed=5
+
+summary_line instance=MDPI2_150 value=43.3924 size=42 ttb=0.13520599 seed=1
+
+summary_line instance=MDPI2_150 value=43.3924 size=42 ttb=0.560326799 seed=2
+
+summary_line instance=MDPI2_150 value=43.3924 size=42 ttb=0.099931566 seed=3
+
+summary_line instance=MDPI2_150 value=43.3924 size=42 ttb=0.062001182 seed=4
+
+summary_line instance=MDPI2_150 value=43.3924 size=42 ttb=0.020033046 seed=5
+
+summary_line instance=MDPI2_1500 value=137.0827 size=416 ttb=1.527287063 seed=1
+
+summary_line instance=MDPI2_1500 value=137.4136 size=404 ttb=9.009015384 seed=2
+
+summary_line instance=MDPI2_1500 value=137.6210 size=440 ttb=88.837352645 seed=3
+
+summary_line instance=MDPI2_1500 value=135.8263 size=407 ttb=214.398723863 seed=4
+
+summary_line instance=MDPI2_1500 value=137.5391 size=449 ttb=430.077023421 seed=5
+
+summary_line instance=MDPI2_20 value=0.0000 size=0 ttb=2.286303834 seed=1
+
+summary_line instance=MDPI2_20 value=0.0000 size=0 ttb=2.282448242 seed=2
+
+summary_line instance=MDPI2_20 value=0.0000 size=0 ttb=2.283697863 seed=3
+
+summary_line instance=MDPI2_20 value=0.0000 size=0 ttb=2.282100247 seed=4
+
+summary_line instance=MDPI2_20 value=0.0000 size=0 ttb=2.281515547 seed=5
+
+summary_line instance=MDPI2_2000 value=162.3864 size=578 ttb=221.605946227 seed=1
+
+summary_line instance=MDPI2_2000 value=162.2195 size=577 ttb=562.169355837 seed=2
+
+summary_line instance=MDPI2_2000 value=163.3509 size=577 ttb=445.66135326 seed=3
+
+summary_line instance=MDPI2_2000 value=162.4809 size=568 ttb=582.359966913 seed=4
+
+summary_line instance=MDPI2_2000 value=162.3595 size=582 ttb=144.722789269 seed=5
+
+summary_line instance=MDPI2_25 value=0.0000 size=0 ttb=10.11575515 seed=1
+
+summary_line instance=MDPI2_25 value=0.0000 size=0 ttb=10.091198989 seed=2
+
+summary_line instance=MDPI2_25 value=0.0000 size=0 ttb=10.281417229 seed=3
+
+summary_line instance=MDPI2_25 value=0.0000 size=0 ttb=10.26280066 seed=4
+
+summary_line instance=MDPI2_25 value=0.0000 size=0 ttb=10.060241322 seed=5
+
+summary_line instance=MDPI2_30 value=0.0000 size=0 ttb=18.496410299 seed=1
+
+summary_line instance=MDPI2_30 value=0.0000 size=0 ttb=18.368837648 seed=2
+
+summary_line instance=MDPI2_30 value=0.0000 size=0 ttb=18.244754584 seed=3
+
+summary_line instance=MDPI2_30 value=0.0000 size=0 ttb=18.397806492 seed=4
+
+summary_line instance=MDPI2_30 value=0.0000 size=0 ttb=18.426316429 seed=5
+
+summary_line instance=MDPI2_3000 value=195.7839 size=865 ttb=572.119236045 seed=1
+
+summary_line instance=MDPI2_3000 value=196.7248 size=844 ttb=212.125152029 seed=2
+
+summary_line instance=MDPI2_3000 value=197.2461 size=887 ttb=561.300290243 seed=3
+
+summary_line instance=MDPI2_3000 value=196.3921 size=903 ttb=434.570488329 seed=4
+
+summary_line instance=MDPI2_3000 value=197.6921 size=868 ttb=198.820279748 seed=5
+
+summary_line instance=MDPI2_35 value=0.0000 size=0 ttb=102.699036371 seed=1
+
+summary_line instance=MDPI2_35 value=0.0000 size=0 ttb=100.741984486 seed=2
+
+summary_line instance=MDPI2_35 value=0.0000 size=0 ttb=102.503037351 seed=3
+
+summary_line instance=MDPI2_35 value=0.0000 size=0 ttb=102.336665338 seed=4
+
+summary_line instance=MDPI2_35 value=0.0000 size=0 ttb=102.333301141 seed=5
+
+summary_line instance=MDPI2_500 value=78.6102 size=139 ttb=0.017362431 seed=1
+
+summary_line instance=MDPI2_500 value=78.6102 size=139 ttb=83.45651259 seed=2
+
+summary_line instance=MDPI2_500 value=78.6102 size=139 ttb=99.569717776 seed=3
+
+summary_line instance=MDPI2_500 value=78.6102 size=139 ttb=166.381450675 seed=4
+
+summary_line instance=MDPI2_500 value=78.6102 size=139 ttb=342.304249899 seed=5
+
+summary_line instance=MDPI2_5000 value=252.1190 size=1449 ttb=373.776044447 seed=1
+
+summary_line instance=MDPI2_5000 value=251.0910 size=1452 ttb=599.954206906 seed=2
+
+summary_line instance=MDPI2_5000 value=251.7182 size=1448 ttb=203.58465553 seed=3
+
+summary_line instance=MDPI2_5000 value=251.0412 size=1457 ttb=424.307977544 seed=4
+
+summary_line instance=MDPI2_5000 value=252.3656 size=1455 ttb=344.719992538 seed=5
+
+summary_line instance=MDPI2_750 value=97.5469 size=217 ttb=8.027006659 seed=1
+
+summary_line instance=MDPI2_750 value=97.5649 size=209 ttb=516.185124803 seed=2
+
+summary_line instance=MDPI2_750 value=97.5649 size=209 ttb=435.174988953 seed=3
+
+summary_line instance=MDPI2_750 value=97.5621 size=225 ttb=385.094428603 seed=4
+
+summary_line instance=MDPI2_750 value=97.5621 size=225 ttb=104.731637649 seed=5
+
+summary_line instance=MDPI3_1000 value=115.1386 size=279 ttb=24.463891556 seed=1
+
+summary_line instance=MDPI3_1000 value=114.8049 size=299 ttb=225.039564545 seed=2
+
+summary_line instance=MDPI3_1000 value=115.1386 size=279 ttb=194.407156745 seed=3
+
+summary_line instance=MDPI3_1000 value=115.1386 size=279 ttb=2.328257025 seed=4
+
+summary_line instance=MDPI3_1000 value=115.1386 size=279 ttb=167.870317146 seed=5
+
+summary_line instance=MDPI3_150 value=40.0463 size=46 ttb=0.038537325 seed=1
+
+summary_line instance=MDPI3_150 value=40.0463 size=46 ttb=0.121434299 seed=2
+
+summary_line instance=MDPI3_150 value=40.0463 size=46 ttb=0.006357669 seed=3
+
+summary_line instance=MDPI3_150 value=40.0463 size=46 ttb=0.065528454 seed=4
+
+summary_line instance=MDPI3_150 value=40.0463 size=46 ttb=0.024739642 seed=5
+
+summary_line instance=MDPI3_1500 value=138.7485 size=437 ttb=145.052677503 seed=1
+
+summary_line instance=MDPI3_1500 value=138.2577 size=436 ttb=241.603106224 seed=2
+
+summary_line instance=MDPI3_1500 value=138.4105 size=436 ttb=250.116469371 seed=3
+
+summary_line instance=MDPI3_1500 value=138.1831 size=456 ttb=463.323868971 seed=4
+
+summary_line instance=MDPI3_1500 value=138.5363 size=440 ttb=78.518635247 seed=5
+
+summary_line instance=MDPI3_20 value=0.0000 size=0 ttb=2.633633103 seed=1
+
+summary_line instance=MDPI3_20 value=0.0000 size=0 ttb=2.672110182 seed=2
+
+summary_line instance=MDPI3_20 value=0.0000 size=0 ttb=2.6313164970000003 seed=3
+
+summary_line instance=MDPI3_20 value=0.0000 size=0 ttb=2.654143447 seed=4
+
+summary_line instance=MDPI3_20 value=0.0000 size=0 ttb=2.652586216 seed=5
+
+summary_line instance=MDPI3_2000 value=158.2036 size=606 ttb=367.72389009 seed=1
+
+summary_line instance=MDPI3_2000 value=157.8548 size=570 ttb=143.499835711 seed=2
+
+summary_line instance=MDPI3_2000 value=158.1310 size=578 ttb=151.605136125 seed=3
+
+summary_line instance=MDPI3_2000 value=158.3677 size=573 ttb=205.225041916 seed=4
+
+summary_line instance=MDPI3_2000 value=158.5301 size=596 ttb=33.247253784 seed=5
+
+summary_line instance=MDPI3_25 value=0.0000 size=0 ttb=9.626940141 seed=1
+
+summary_line instance=MDPI3_25 value=0.0000 size=0 ttb=9.606384965 seed=2
+
+summary_line instance=MDPI3_25 value=0.0000 size=0 ttb=9.596758321 seed=3
+
+summary_line instance=MDPI3_25 value=0.0000 size=0 ttb=9.604467623 seed=4
+
+summary_line instance=MDPI3_25 value=0.0000 size=0 ttb=9.585181537 seed=5
+
+summary_line instance=MDPI3_30 value=0.0000 size=0 ttb=29.584021031 seed=1
+
+summary_line instance=MDPI3_30 value=0.0000 size=0 ttb=29.540542221 seed=2
+
+summary_line instance=MDPI3_30 value=0.0000 size=0 ttb=29.554349509 seed=3
+
+summary_line instance=MDPI3_30 value=0.0000 size=0 ttb=29.477573808 seed=4
+
+summary_line instance=MDPI3_30 value=0.0000 size=0 ttb=29.600998927 seed=5
+
+summary_line instance=MDPI3_3000 value=195.5786 size=864 ttb=579.759519061 seed=1
+
+summary_line instance=MDPI3_3000 value=194.9574 size=893 ttb=166.563181277 seed=2
+
+summary_line instance=MDPI3_3000 value=194.2130 size=875 ttb=585.101484089 seed=3
+
+summary_line instance=MDPI3_3000 value=193.7034 size=868 ttb=212.416460024 seed=4
+
+summary_line instance=MDPI3_3000 value=194.1323 size=835 ttb=421.010750882 seed=5
+
+summary_line instance=MDPI3_35 value=0.0000 size=0 ttb=68.709095847 seed=1
+
+summary_line instance=MDPI3_35 value=0.0000 size=0 ttb=68.22832727 seed=2
+
+summary_line instance=MDPI3_35 value=0.0000 size=0 ttb=69.545451332 seed=3
+
+summary_line instance=MDPI3_35 value=0.0000 size=0 ttb=69.364290891 seed=4
+
+summary_line instance=MDPI3_35 value=0.0000 size=0 ttb=67.793259714 seed=5
+
+summary_line instance=MDPI3_500 value=76.3008 size=127 ttb=146.194443934 seed=1
+
+summary_line instance=MDPI3_500 value=76.3008 size=127 ttb=212.277047999 seed=2
+
+summary_line instance=MDPI3_500 value=76.3008 size=127 ttb=0.125528638 seed=3
+
+summary_line instance=MDPI3_500 value=76.3008 size=127 ttb=79.678625613 seed=4
+
+summary_line instance=MDPI3_500 value=76.3008 size=127 ttb=39.854159515 seed=5
+
+summary_line instance=MDPI3_5000 value=251.1367 size=1394 ttb=575.168754932 seed=1
+
+summary_line instance=MDPI3_5000 value=249.2158 size=1435 ttb=494.639579156 seed=2
+
+summary_line instance=MDPI3_5000 value=251.5804 size=1426 ttb=331.755827507 seed=3
+
+summary_line instance=MDPI3_5000 value=249.8762 size=1379 ttb=598.339820886 seed=4
+
+summary_line instance=MDPI3_5000 value=248.3670 size=1374 ttb=589.548116326 seed=5
+
+summary_line instance=MDPI3_750 value=97.7989 size=220 ttb=0.376832295 seed=1
+
+summary_line instance=MDPI3_750 value=97.6539 size=219 ttb=350.81020036 seed=2
+
+summary_line instance=MDPI3_750 value=97.3029 size=203 ttb=268.169538499 seed=3
+
+summary_line instance=MDPI3_750 value=97.6351 size=210 ttb=365.65610844 seed=4
+
+summary_line instance=MDPI3_750 value=97.6351 size=210 ttb=244.791932811 seed=5
+
+summary_line instance=MDPI4_1000 value=111.0140 size=263 ttb=570.284568441 seed=1
+
+summary_line instance=MDPI4_1000 value=111.0631 size=259 ttb=324.125205132 seed=2
+
+summary_line instance=MDPI4_1000 value=111.0140 size=263 ttb=120.589529755 seed=3
+
+summary_line instance=MDPI4_1000 value=111.0631 size=259 ttb=342.090639577 seed=4
+
+summary_line instance=MDPI4_1000 value=111.1504 size=277 ttb=352.346595331 seed=5
+
+summary_line instance=MDPI4_150 value=44.0441 size=58 ttb=0.002453782 seed=1
+
+summary_line instance=MDPI4_150 value=44.0441 size=58 ttb=0.031863708 seed=2
+
+summary_line instance=MDPI4_150 value=44.0441 size=58 ttb=0.017588987 seed=3
+
+summary_line instance=MDPI4_150 value=44.0441 size=58 ttb=0.0277489 seed=4
+
+summary_line instance=MDPI4_150 value=44.0441 size=58 ttb=0.025898884 seed=5
+
+summary_line instance=MDPI4_1500 value=139.7150 size=428 ttb=259.126781992 seed=1
+
+summary_line instance=MDPI4_1500 value=139.4623 size=420 ttb=252.876245127 seed=2
+
+summary_line instance=MDPI4_1500 value=139.5641 size=429 ttb=116.702309019 seed=3
+
+summary_line instance=MDPI4_1500 value=139.2740 size=420 ttb=8.415709989 seed=4
+
+summary_line instance=MDPI4_1500 value=140.0776 size=417 ttb=128.861648902 seed=5
+
+summary_line instance=MDPI4_20 value=0.0000 size=0 ttb=4.7999135729999995 seed=1
+
+summary_line instance=MDPI4_20 value=0.0000 size=0 ttb=4.8012453619999995 seed=2
+
+summary_line instance=MDPI4_20 value=0.0000 size=0 ttb=4.866121289 seed=3
+
+summary_line instance=MDPI4_20 value=0.0000 size=0 ttb=4.783898586 seed=4
+
+summary_line instance=MDPI4_20 value=0.0000 size=0 ttb=4.867431868 seed=5
+
+summary_line instance=MDPI4_2000 value=159.7143 size=589 ttb=378.136237494 seed=1
+
+summary_line instance=MDPI4_2000 value=158.5545 size=600 ttb=141.199959173 seed=2
+
+summary_line instance=MDPI4_2000 value=157.4829 size=569 ttb=29.938116572 seed=3
+
+summary_line instance=MDPI4_2000 value=159.7083 size=605 ttb=80.556518596 seed=4
+
+summary_line instance=MDPI4_2000 value=158.8771 size=563 ttb=524.383160897 seed=5
+
+summary_line instance=MDPI4_25 value=0.0000 size=0 ttb=7.850633323 seed=1
+
+summary_line instance=MDPI4_25 value=0.0000 size=0 ttb=7.841945558 seed=2
+
+summary_line instance=MDPI4_25 value=0.0000 size=0 ttb=7.927046848 seed=3
+
+summary_line instance=MDPI4_25 value=0.0000 size=0 ttb=7.851719746 seed=4
+
+summary_line instance=MDPI4_25 value=0.0000 size=0 ttb=7.8439532199999995 seed=5
+
+summary_line instance=MDPI4_30 value=0.0000 size=0 ttb=16.702846414 seed=1
+
+summary_line instance=MDPI4_30 value=0.0000 size=0 ttb=16.54274039 seed=2
+
+summary_line instance=MDPI4_30 value=0.0000 size=0 ttb=16.5393666 seed=3
+
+summary_line instance=MDPI4_30 value=0.0000 size=0 ttb=16.53219194 seed=4
+
+summary_line instance=MDPI4_30 value=0.0000 size=0 ttb=16.555263652 seed=5
+
+summary_line instance=MDPI4_3000 value=189.6033 size=795 ttb=536.397526294 seed=1
+
+summary_line instance=MDPI4_3000 value=189.8555 size=808 ttb=505.596894602 seed=2
+
+summary_line instance=MDPI4_3000 value=190.2181 size=831 ttb=296.242589013 seed=3
+
+summary_line instance=MDPI4_3000 value=189.8052 size=852 ttb=417.05789664 seed=4
+
+summary_line instance=MDPI4_3000 value=188.4308 size=813 ttb=280.340173882 seed=5
+
+summary_line instance=MDPI4_35 value=0.0000 size=0 ttb=61.085279555 seed=1
+
+summary_line instance=MDPI4_35 value=0.0000 size=0 ttb=60.599345857 seed=2
+
+summary_line instance=MDPI4_35 value=0.0000 size=0 ttb=60.998082206 seed=3
+
+summary_line instance=MDPI4_35 value=0.0000 size=0 ttb=61.489789549 seed=4
+
+summary_line instance=MDPI4_35 value=0.0000 size=0 ttb=60.720581147 seed=5
+
+summary_line instance=MDPI4_500 value=82.3321 size=149 ttb=167.669865937 seed=1
+
+summary_line instance=MDPI4_500 value=82.3321 size=149 ttb=76.601625795 seed=2
+
+summary_line instance=MDPI4_500 value=82.3321 size=149 ttb=59.853955682 seed=3
+
+summary_line instance=MDPI4_500 value=82.3321 size=149 ttb=46.418509478 seed=4
+
+summary_line instance=MDPI4_500 value=82.3321 size=149 ttb=327.218003691 seed=5
+
+summary_line instance=MDPI4_5000 value=251.2299 size=1444 ttb=499.251256121 seed=1
+
+summary_line instance=MDPI4_5000 value=252.9577 size=1478 ttb=588.383163834 seed=2
+
+summary_line instance=MDPI4_5000 value=252.9161 size=1415 ttb=581.983188183 seed=3
+
+summary_line instance=MDPI4_5000 value=252.7780 size=1457 ttb=582.252108604 seed=4
+
+summary_line instance=MDPI4_5000 value=253.0423 size=1406 ttb=587.961617807 seed=5
+
+summary_line instance=MDPI4_750 value=95.6345 size=212 ttb=31.934701649 seed=1
+
+summary_line instance=MDPI4_750 value=95.8757 size=235 ttb=0.415478607 seed=2
+
+summary_line instance=MDPI4_750 value=95.8757 size=235 ttb=85.667535332 seed=3
+
+summary_line instance=MDPI4_750 value=96.0414 size=198 ttb=33.783374046 seed=4
+
+summary_line instance=MDPI4_750 value=96.0414 size=198 ttb=594.439216181 seed=5
+
+summary_line instance=MDPI5_1000 value=112.1147 size=280 ttb=313.581355932 seed=1
+
+summary_line instance=MDPI5_1000 value=112.7232 size=298 ttb=479.498499443 seed=2
+
+summary_line instance=MDPI5_1000 value=112.6195 size=272 ttb=330.502106789 seed=3
+
+summary_line instance=MDPI5_1000 value=112.6195 size=272 ttb=343.395416544 seed=4
+
+summary_line instance=MDPI5_1000 value=112.1577 size=284 ttb=528.038829027 seed=5
+
+summary_line instance=MDPI5_150 value=42.4794 size=49 ttb=0.005537532 seed=1
+
+summary_line instance=MDPI5_150 value=42.4794 size=49 ttb=0.006436559 seed=2
+
+summary_line instance=MDPI5_150 value=42.4794 size=49 ttb=0.004287747 seed=3
+
+summary_line instance=MDPI5_150 value=42.4794 size=49 ttb=0.006267118 seed=4
+
+summary_line instance=MDPI5_150 value=42.4794 size=49 ttb=0.091805158 seed=5
+
+summary_line instance=MDPI5_1500 value=136.0637 size=402 ttb=416.117195697 seed=1
+
+summary_line instance=MDPI5_1500 value=137.1296 size=405 ttb=104.690943737 seed=2
+
+summary_line instance=MDPI5_1500 value=137.1066 size=389 ttb=102.62733062 seed=3
+
+summary_line instance=MDPI5_1500 value=136.8631 size=433 ttb=443.473657959 seed=4
+
+summary_line instance=MDPI5_1500 value=136.6849 size=414 ttb=219.982107313 seed=5
+
+summary_line instance=MDPI5_20 value=0.0000 size=0 ttb=2.131143357 seed=1
+
+summary_line instance=MDPI5_20 value=0.0000 size=0 ttb=2.129557715 seed=2
+
+summary_line instance=MDPI5_20 value=0.0000 size=0 ttb=2.131820383 seed=3
+
+summary_line instance=MDPI5_20 value=0.0000 size=0 ttb=2.128151434 seed=4
+
+summary_line instance=MDPI5_20 value=0.0000 size=0 ttb=2.1302493399999998 seed=5
+
+summary_line instance=MDPI5_2000 value=155.9210 size=547 ttb=573.938817733 seed=1
+
+summary_line instance=MDPI5_2000 value=154.5744 size=594 ttb=175.834640572 seed=2
+
+summary_line instance=MDPI5_2000 value=154.4384 size=577 ttb=365.348954117 seed=3
+
+summary_line instance=MDPI5_2000 value=154.4563 size=513 ttb=129.135055576 seed=4
+
+summary_line instance=MDPI5_2000 value=154.9858 size=550 ttb=419.787382242 seed=5
+
+summary_line instance=MDPI5_25 value=0.0000 size=0 ttb=11.795728577 seed=1
+
+summary_line instance=MDPI5_25 value=0.0000 size=0 ttb=11.801327235 seed=2
+
+summary_line instance=MDPI5_25 value=0.0000 size=0 ttb=11.899758843 seed=3
+
+summary_line instance=MDPI5_25 value=0.0000 size=0 ttb=11.716803439 seed=4
+
+summary_line instance=MDPI5_25 value=0.0000 size=0 ttb=11.875379645 seed=5
+
+summary_line instance=MDPI5_30 value=0.0000 size=0 ttb=32.946655158 seed=1
+
+summary_line instance=MDPI5_30 value=0.0000 size=0 ttb=32.421335876 seed=2
+
+summary_line instance=MDPI5_30 value=0.0000 size=0 ttb=32.764569256 seed=3
+
+summary_line instance=MDPI5_30 value=0.0000 size=0 ttb=32.815945805 seed=4
+
+summary_line instance=MDPI5_30 value=0.0000 size=0 ttb=33.089427819 seed=5
+
+summary_line instance=MDPI5_3000 value=193.2685 size=863 ttb=338.160101979 seed=1
+
+summary_line instance=MDPI5_3000 value=192.7344 size=883 ttb=564.204038425 seed=2
+
+summary_line instance=MDPI5_3000 value=193.5997 size=777 ttb=120.617782577 seed=3
+
+summary_line instance=MDPI5_3000 value=193.2936 size=861 ttb=392.524162925 seed=4
+
+summary_line instance=MDPI5_3000 value=192.2016 size=846 ttb=499.660206622 seed=5
+
+summary_line instance=MDPI5_35 value=0.0000 size=0 ttb=74.87814871 seed=1
+
+summary_line instance=MDPI5_35 value=0.0000 size=0 ttb=74.770846489 seed=2
+
+summary_line instance=MDPI5_35 value=0.0000 size=0 ttb=73.750007243 seed=3
+
+summary_line instance=MDPI5_35 value=0.0000 size=0 ttb=74.335256112 seed=4
+
+summary_line instance=MDPI5_35 value=0.0000 size=0 ttb=73.569508176 seed=5
+
+summary_line instance=MDPI5_500 value=80.3540 size=139 ttb=40.451048973 seed=1
+
+summary_line instance=MDPI5_500 value=80.3540 size=139 ttb=0.788440198 seed=2
+
+summary_line instance=MDPI5_500 value=80.3540 size=139 ttb=158.696899163 seed=3
+
+summary_line instance=MDPI5_500 value=80.3540 size=139 ttb=85.92516668 seed=4
+
+summary_line instance=MDPI5_500 value=80.3540 size=139 ttb=0.434412019 seed=5
+
+summary_line instance=MDPI5_5000 value=253.9800 size=1473 ttb=527.118361221 seed=1
+
+summary_line instance=MDPI5_5000 value=253.3829 size=1492 ttb=574.70774331 seed=2
+
+summary_line instance=MDPI5_5000 value=251.9849 size=1400 ttb=564.685838865 seed=3
+
+summary_line instance=MDPI5_5000 value=254.1768 size=1504 ttb=548.905775174 seed=4
+
+summary_line instance=MDPI5_5000 value=254.8028 size=1506 ttb=435.198644309 seed=5
+
+summary_line instance=MDPI5_750 value=96.7619 size=223 ttb=245.183077597 seed=1
+
+summary_line instance=MDPI5_750 value=96.7619 size=223 ttb=0.309426551 seed=2
+
+summary_line instance=MDPI5_750 value=96.7619 size=223 ttb=1.911309069 seed=3
+
+summary_line instance=MDPI5_750 value=96.7619 size=223 ttb=247.20393941 seed=4
+
+summary_line instance=MDPI5_750 value=96.7619 size=223 ttb=250.326971453 seed=5
+
+summary_line instance=MDPI6_1000 value=113.1987 size=273 ttb=456.072936777 seed=1
+
+summary_line instance=MDPI6_1000 value=113.1987 size=273 ttb=272.615063867 seed=2
+
+summary_line instance=MDPI6_1000 value=113.1987 size=273 ttb=85.376627797 seed=3
+
+summary_line instance=MDPI6_1000 value=113.1987 size=273 ttb=100.006109396 seed=4
+
+summary_line instance=MDPI6_1000 value=112.8798 size=304 ttb=387.930370496 seed=5
+
+summary_line instance=MDPI6_150 value=43.7230 size=44 ttb=0.881382836 seed=1
+
+summary_line instance=MDPI6_150 value=43.7230 size=44 ttb=0.002389683 seed=2
+
+summary_line instance=MDPI6_150 value=43.7230 size=44 ttb=0.003279443 seed=3
+
+summary_line instance=MDPI6_150 value=43.7230 size=44 ttb=0.003498337 seed=4
+
+summary_line instance=MDPI6_150 value=43.7230 size=44 ttb=0.01023435 seed=5
+
+summary_line instance=MDPI6_1500 value=135.4030 size=403 ttb=481.461555777 seed=1
+
+summary_line instance=MDPI6_1500 value=135.8003 size=407 ttb=425.416114724 seed=2
+
+summary_line instance=MDPI6_1500 value=134.8662 size=407 ttb=340.505059998 seed=3
+
+summary_line instance=MDPI6_1500 value=135.2580 size=410 ttb=495.882303498 seed=4
+
+summary_line instance=MDPI6_1500 value=135.1844 size=402 ttb=129.849514705 seed=5
+
+summary_line instance=MDPI6_20 value=0.0000 size=0 ttb=5.1317713 seed=1
+
+summary_line instance=MDPI6_20 value=0.0000 size=0 ttb=5.135277653 seed=2
+
+summary_line instance=MDPI6_20 value=0.0000 size=0 ttb=5.130003679 seed=3
+
+summary_line instance=MDPI6_20 value=0.0000 size=0 ttb=5.131306054 seed=4
+
+summary_line instance=MDPI6_20 value=0.0000 size=0 ttb=5.136502187 seed=5
+
+summary_line instance=MDPI6_2000 value=160.9109 size=592 ttb=101.583624009 seed=1
+
+summary_line instance=MDPI6_2000 value=160.1686 size=569 ttb=159.370491526 seed=2
+
+summary_line instance=MDPI6_2000 value=160.3114 size=582 ttb=494.700082768 seed=3
+
+summary_line instance=MDPI6_2000 value=160.3606 size=576 ttb=232.371698572 seed=4
+
+summary_line instance=MDPI6_2000 value=158.9533 size=578 ttb=537.166420612 seed=5
+
+summary_line instance=MDPI6_25 value=0.0000 size=0 ttb=8.064340284 seed=1
+
+summary_line instance=MDPI6_25 value=0.0000 size=0 ttb=8.017188182 seed=2
+
+summary_line instance=MDPI6_25 value=0.0000 size=0 ttb=8.014598237 seed=3
+
+summary_line instance=MDPI6_25 value=0.0000 size=0 ttb=8.011119702 seed=4
+
+summary_line instance=MDPI6_25 value=0.0000 size=0 ttb=8.009011412 seed=5
+
+summary_line instance=MDPI6_30 value=0.0000 size=0 ttb=26.049922843 seed=1
+
+summary_line instance=MDPI6_30 value=0.0000 size=0 ttb=26.048463325 seed=2
+
+summary_line instance=MDPI6_30 value=0.0000 size=0 ttb=26.068152192 seed=3
+
+summary_line instance=MDPI6_30 value=0.0000 size=0 ttb=26.074162704 seed=4
+
+summary_line instance=MDPI6_30 value=0.0000 size=0 ttb=26.082651311 seed=5
+
+summary_line instance=MDPI6_3000 value=193.5396 size=817 ttb=390.963062294 seed=1
+
+summary_line instance=MDPI6_3000 value=193.8495 size=847 ttb=564.72257487 seed=2
+
+summary_line instance=MDPI6_3000 value=193.1046 size=846 ttb=61.783981904 seed=3
+
+summary_line instance=MDPI6_3000 value=194.1473 size=822 ttb=478.420782198 seed=4
+
+summary_line instance=MDPI6_3000 value=193.0662 size=841 ttb=246.013138359 seed=5
+
+summary_line instance=MDPI6_35 value=0.0000 size=0 ttb=124.426942922 seed=1
+
+summary_line instance=MDPI6_35 value=0.0000 size=0 ttb=126.101579224 seed=2
+
+summary_line instance=MDPI6_35 value=0.0000 size=0 ttb=124.789277958 seed=3
+
+summary_line instance=MDPI6_35 value=0.0000 size=0 ttb=123.779706413 seed=4
+
+summary_line instance=MDPI6_35 value=0.0000 size=0 ttb=123.915566959 seed=5
+
+summary_line instance=MDPI6_500 value=81.2486 size=152 ttb=0.099077216 seed=1
+
+summary_line instance=MDPI6_500 value=81.2486 size=152 ttb=39.014791641 seed=2
+
+summary_line instance=MDPI6_500 value=81.2486 size=152 ttb=1.743882414 seed=3
+
+summary_line instance=MDPI6_500 value=81.2486 size=152 ttb=0.317163214 seed=4
+
+summary_line instance=MDPI6_500 value=81.2486 size=152 ttb=3.78948486 seed=5
+
+summary_line instance=MDPI6_5000 value=247.8678 size=1428 ttb=595.860454413 seed=1
+
+summary_line instance=MDPI6_5000 value=251.2740 size=1480 ttb=590.749385399 seed=2
+
+summary_line instance=MDPI6_5000 value=251.8648 size=1490 ttb=496.040431407 seed=3
+
+summary_line instance=MDPI6_5000 value=249.1966 size=1453 ttb=465.139637613 seed=4
+
+summary_line instance=MDPI6_5000 value=250.1722 size=1439 ttb=427.66596279 seed=5
+
+summary_line instance=MDPI6_750 value=99.8612 size=224 ttb=417.596649384 seed=1
+
+summary_line instance=MDPI6_750 value=99.7639 size=242 ttb=590.846589327 seed=2
+
+summary_line instance=MDPI6_750 value=99.7793 size=228 ttb=221.606884975 seed=3
+
+summary_line instance=MDPI6_750 value=99.8613 size=224 ttb=465.848165495 seed=4
+
+summary_line instance=MDPI6_750 value=99.7793 size=228 ttb=269.133989081 seed=5
+
+summary_line instance=MDPI7_1000 value=111.3060 size=294 ttb=57.808919772 seed=1
+
+summary_line instance=MDPI7_1000 value=111.1790 size=286 ttb=494.062529689 seed=2
+
+summary_line instance=MDPI7_1000 value=111.5555 size=289 ttb=422.989913057 seed=3
+
+summary_line instance=MDPI7_1000 value=111.2116 size=267 ttb=507.104067728 seed=4
+
+summary_line instance=MDPI7_1000 value=111.3187 size=275 ttb=114.312156425 seed=5
+
+summary_line instance=MDPI7_150 value=46.0773 size=52 ttb=0.002584351 seed=1
+
+summary_line instance=MDPI7_150 value=46.0773 size=52 ttb=0.001687897 seed=2
+
+summary_line instance=MDPI7_150 value=46.0773 size=52 ttb=0.002004699 seed=3
+
+summary_line instance=MDPI7_150 value=46.0773 size=52 ttb=0.002140557 seed=4
+
+summary_line instance=MDPI7_150 value=46.0773 size=52 ttb=0.001738143 seed=5
+
+summary_line instance=MDPI7_1500 value=137.9015 size=427 ttb=42.39977488 seed=1
+
+summary_line instance=MDPI7_1500 value=137.2516 size=412 ttb=219.970851877 seed=2
+
+summary_line instance=MDPI7_1500 value=136.5859 size=405 ttb=536.631918323 seed=3
+
+summary_line instance=MDPI7_1500 value=137.9710 size=407 ttb=277.67796718 seed=4
+
+summary_line instance=MDPI7_1500 value=137.4330 size=404 ttb=506.591484509 seed=5
+
+summary_line instance=MDPI7_20 value=0.0000 size=0 ttb=2.225853551 seed=1
+
+summary_line instance=MDPI7_20 value=0.0000 size=0 ttb=2.227190101 seed=2
+
+summary_line instance=MDPI7_20 value=0.0000 size=0 ttb=2.228521772 seed=3
+
+summary_line instance=MDPI7_20 value=0.0000 size=0 ttb=2.229370033 seed=4
+
+summary_line instance=MDPI7_20 value=0.0000 size=0 ttb=2.225945837 seed=5
+
+summary_line instance=MDPI7_2000 value=156.5603 size=562 ttb=243.928543442 seed=1
+
+summary_line instance=MDPI7_2000 value=157.4413 size=553 ttb=404.417985197 seed=2
+
+summary_line instance=MDPI7_2000 value=156.7965 size=568 ttb=133.86569105 seed=3
+
+summary_line instance=MDPI7_2000 value=156.7462 size=575 ttb=176.39364084 seed=4
+
+summary_line instance=MDPI7_2000 value=157.1961 size=590 ttb=30.411997288 seed=5
+
+summary_line instance=MDPI7_25 value=0.0000 size=0 ttb=8.292557008 seed=1
+
+summary_line instance=MDPI7_25 value=0.0000 size=0 ttb=8.421633089 seed=2
+
+summary_line instance=MDPI7_25 value=0.0000 size=0 ttb=8.282596451 seed=3
+
+summary_line instance=MDPI7_25 value=0.0000 size=0 ttb=8.282815798 seed=4
+
+summary_line instance=MDPI7_25 value=0.0000 size=0 ttb=8.271594506 seed=5
+
+summary_line instance=MDPI7_30 value=0.0000 size=0 ttb=35.003049472 seed=1
+
+summary_line instance=MDPI7_30 value=0.0000 size=0 ttb=35.339705748 seed=2
+
+summary_line instance=MDPI7_30 value=0.0000 size=0 ttb=34.71935566 seed=3
+
+summary_line instance=MDPI7_30 value=0.0000 size=0 ttb=34.775235564 seed=4
+
+summary_line instance=MDPI7_30 value=0.0000 size=0 ttb=35.618729968 seed=5
+
+summary_line instance=MDPI7_3000 value=194.6321 size=874 ttb=337.935758031 seed=1
+
+summary_line instance=MDPI7_3000 value=195.1768 size=860 ttb=193.775573019 seed=2
+
+summary_line instance=MDPI7_3000 value=195.3106 size=869 ttb=555.970539059 seed=3
+
+summary_line instance=MDPI7_3000 value=193.4501 size=847 ttb=416.020076695 seed=4
+
+summary_line instance=MDPI7_3000 value=193.6196 size=869 ttb=87.80992487 seed=5
+
+summary_line instance=MDPI7_35 value=0.0000 size=0 ttb=60.392880466 seed=1
+
+summary_line instance=MDPI7_35 value=0.0000 size=0 ttb=58.857346379 seed=2
+
+summary_line instance=MDPI7_35 value=0.0000 size=0 ttb=57.777685932 seed=3
+
+summary_line instance=MDPI7_35 value=0.0000 size=0 ttb=57.878708781 seed=4
+
+summary_line instance=MDPI7_35 value=0.0000 size=0 ttb=57.722615774 seed=5
+
+summary_line instance=MDPI7_500 value=77.7680 size=147 ttb=422.360085075 seed=1
+
+summary_line instance=MDPI7_500 value=78.1645 size=133 ttb=297.103840548 seed=2
+
+summary_line instance=MDPI7_500 value=78.1645 size=133 ttb=198.550066289 seed=3
+
+summary_line instance=MDPI7_500 value=78.1645 size=133 ttb=166.932601785 seed=4
+
+summary_line instance=MDPI7_500 value=78.1645 size=133 ttb=267.382478287 seed=5
+
+summary_line instance=MDPI7_5000 value=250.4285 size=1418 ttb=292.354212674 seed=1
+
+summary_line instance=MDPI7_5000 value=250.2795 size=1458 ttb=590.922514467 seed=2
+
+summary_line instance=MDPI7_5000 value=250.6441 size=1441 ttb=580.270467656 seed=3
+
+summary_line instance=MDPI7_5000 value=249.2413 size=1430 ttb=564.661308082 seed=4
+
+summary_line instance=MDPI7_5000 value=250.3929 size=1470 ttb=561.327975176 seed=5
+
+summary_line instance=MDPI7_750 value=96.5454 size=218 ttb=316.402803434 seed=1
+
+summary_line instance=MDPI7_750 value=96.5454 size=218 ttb=69.904509751 seed=2
+
+summary_line instance=MDPI7_750 value=96.5454 size=218 ttb=82.040140904 seed=3
+
+summary_line instance=MDPI7_750 value=96.5454 size=218 ttb=77.870957059 seed=4
+
+summary_line instance=MDPI7_750 value=96.5454 size=218 ttb=6.095528569 seed=5
+
+summary_line instance=MDPI8_1000 value=110.9743 size=293 ttb=455.589001174 seed=1
+
+summary_line instance=MDPI8_1000 value=110.9877 size=286 ttb=305.194808954 seed=2
+
+summary_line instance=MDPI8_1000 value=110.6490 size=282 ttb=401.497895729 seed=3
+
+summary_line instance=MDPI8_1000 value=110.8124 size=282 ttb=545.159640188 seed=4
+
+summary_line instance=MDPI8_1000 value=111.0869 size=290 ttb=147.884113582 seed=5
+
+summary_line instance=MDPI8_150 value=42.4513 size=52 ttb=0.041406171 seed=1
+
+summary_line instance=MDPI8_150 value=42.4513 size=52 ttb=0.98692388 seed=2
+
+summary_line instance=MDPI8_150 value=42.4513 size=52 ttb=0.042496243 seed=3
+
+summary_line instance=MDPI8_150 value=42.4513 size=52 ttb=0.007207043 seed=4
+
+summary_line instance=MDPI8_150 value=42.4513 size=52 ttb=1.250472144 seed=5
+
+summary_line instance=MDPI8_1500 value=137.5305 size=404 ttb=525.903539445 seed=1
+
+summary_line instance=MDPI8_1500 value=137.6697 size=414 ttb=555.379621011 seed=2
+
+summary_line instance=MDPI8_1500 value=137.2888 size=418 ttb=25.828757147 seed=3
+
+summary_line instance=MDPI8_1500 value=137.7919 size=401 ttb=405.137481042 seed=4
+
+summary_line instance=MDPI8_1500 value=137.9184 size=431 ttb=374.295716225 seed=5
+
+summary_line instance=MDPI8_20 value=0.0000 size=0 ttb=3.586037029 seed=1
+
+summary_line instance=MDPI8_20 value=0.0000 size=0 ttb=3.601897574 seed=2
+
+summary_line instance=MDPI8_20 value=0.0000 size=0 ttb=3.584514165 seed=3
+
+summary_line instance=MDPI8_20 value=0.0000 size=0 ttb=3.5828792099999998 seed=4
+
+summary_line instance=MDPI8_20 value=0.0000 size=0 ttb=3.58163717 seed=5
+
+summary_line instance=MDPI8_2000 value=159.6321 size=562 ttb=60.139446714 seed=1
+
+summary_line instance=MDPI8_2000 value=160.5360 size=588 ttb=234.596698697 seed=2
+
+summary_line instance=MDPI8_2000 value=160.9856 size=575 ttb=328.260869735 seed=3
+
+summary_line instance=MDPI8_2000 value=160.0111 size=547 ttb=125.978764959 seed=4
+
+summary_line instance=MDPI8_2000 value=160.6845 size=536 ttb=181.89951336 seed=5
+
+summary_line instance=MDPI8_25 value=0.0000 size=0 ttb=10.016625887 seed=1
+
+summary_line instance=MDPI8_25 value=0.0000 size=0 ttb=9.994344736 seed=2
+
+summary_line instance=MDPI8_25 value=0.0000 size=0 ttb=10.025149866 seed=3
+
+summary_line instance=MDPI8_25 value=0.0000 size=0 ttb=10.028880647 seed=4
+
+summary_line instance=MDPI8_25 value=0.0000 size=0 ttb=10.039022015 seed=5
+
+summary_line instance=MDPI8_30 value=0.0000 size=0 ttb=28.451466646 seed=1
+
+summary_line instance=MDPI8_30 value=0.0000 size=0 ttb=28.456702884 seed=2
+
+summary_line instance=MDPI8_30 value=0.0000 size=0 ttb=28.255834417 seed=3
+
+summary_line instance=MDPI8_30 value=0.0000 size=0 ttb=28.524114186 seed=4
+
+summary_line instance=MDPI8_30 value=0.0000 size=0 ttb=28.269739515 seed=5
+
+summary_line instance=MDPI8_3000 value=195.1385 size=878 ttb=425.282133963 seed=1
+
+summary_line instance=MDPI8_3000 value=196.5558 size=888 ttb=538.436895721 seed=2
+
+summary_line instance=MDPI8_3000 value=197.2149 size=870 ttb=273.1368176 seed=3
+
+summary_line instance=MDPI8_3000 value=196.7972 size=885 ttb=481.559584594 seed=4
+
+summary_line instance=MDPI8_3000 value=195.5708 size=870 ttb=456.545508013 seed=5
+
+summary_line instance=MDPI8_35 value=0.0000 size=0 ttb=70.955036427 seed=1
+
+summary_line instance=MDPI8_35 value=0.0000 size=0 ttb=70.973124444 seed=2
+
+summary_line instance=MDPI8_35 value=0.0000 size=0 ttb=70.862076946 seed=3
+
+summary_line instance=MDPI8_35 value=0.0000 size=0 ttb=70.850819812 seed=4
+
+summary_line instance=MDPI8_35 value=0.0000 size=0 ttb=70.887197571 seed=5
+
+summary_line instance=MDPI8_500 value=79.1399 size=168 ttb=185.844957246 seed=1
+
+summary_line instance=MDPI8_500 value=79.1399 size=168 ttb=1.450947294 seed=2
+
+summary_line instance=MDPI8_500 value=79.1399 size=168 ttb=336.04825378 seed=3
+
+summary_line instance=MDPI8_500 value=79.1399 size=168 ttb=363.873910283 seed=4
+
+summary_line instance=MDPI8_500 value=78.8766 size=158 ttb=196.984190861 seed=5
+
+summary_line instance=MDPI8_5000 value=256.8435 size=1499 ttb=591.05541236 seed=1
+
+summary_line instance=MDPI8_5000 value=255.0756 size=1484 ttb=528.602597352 seed=2
+
+summary_line instance=MDPI8_5000 value=256.4784 size=1498 ttb=598.501497295 seed=3
+
+summary_line instance=MDPI8_5000 value=256.7196 size=1459 ttb=463.518539799 seed=4
+
+summary_line instance=MDPI8_5000 value=256.7282 size=1484 ttb=594.389569269 seed=5
+
+summary_line instance=MDPI8_750 value=96.7270 size=205 ttb=230.403166218 seed=1
+
+summary_line instance=MDPI8_750 value=96.5415 size=231 ttb=4.310921956 seed=2
+
+summary_line instance=MDPI8_750 value=96.7270 size=205 ttb=559.337062139 seed=3
+
+summary_line instance=MDPI8_750 value=96.7270 size=205 ttb=100.832652215 seed=4
+
+summary_line instance=MDPI8_750 value=96.4068 size=222 ttb=598.494153958 seed=5
+
+summary_line instance=MDPI9_1000 value=115.8576 size=305 ttb=162.788458392 seed=1
+
+summary_line instance=MDPI9_1000 value=115.9588 size=317 ttb=433.792184324 seed=2
+
+summary_line instance=MDPI9_1000 value=115.9588 size=317 ttb=111.520977495 seed=3
+
+summary_line instance=MDPI9_1000 value=115.8055 size=313 ttb=282.588441289 seed=4
+
+summary_line instance=MDPI9_1000 value=115.8055 size=313 ttb=262.925923683 seed=5
+
+summary_line instance=MDPI9_150 value=42.4798 size=43 ttb=1.642524828 seed=1
+
+summary_line instance=MDPI9_150 value=42.4798 size=43 ttb=0.491099802 seed=2
+
+summary_line instance=MDPI9_150 value=42.4798 size=43 ttb=0.004835426 seed=3
+
+summary_line instance=MDPI9_150 value=42.4798 size=43 ttb=1.789315893 seed=4
+
+summary_line instance=MDPI9_150 value=42.4798 size=43 ttb=0.017339805 seed=5
+
+summary_line instance=MDPI9_1500 value=135.7239 size=411 ttb=598.724492401 seed=1
+
+summary_line instance=MDPI9_1500 value=136.2463 size=410 ttb=487.373238118 seed=2
+
+summary_line instance=MDPI9_1500 value=135.7582 size=455 ttb=549.320468254 seed=3
+
+summary_line instance=MDPI9_1500 value=135.9789 size=429 ttb=418.171943123 seed=4
+
+summary_line instance=MDPI9_1500 value=135.4653 size=419 ttb=99.988105333 seed=5
+
+summary_line instance=MDPI9_20 value=0.0000 size=0 ttb=3.936179728 seed=1
+
+summary_line instance=MDPI9_20 value=0.0000 size=0 ttb=3.93463839 seed=2
+
+summary_line instance=MDPI9_20 value=0.0000 size=0 ttb=3.915112952 seed=3
+
+summary_line instance=MDPI9_20 value=0.0000 size=0 ttb=3.989640814 seed=4
+
+summary_line instance=MDPI9_20 value=0.0000 size=0 ttb=3.9186659329999998 seed=5
+
+summary_line instance=MDPI9_2000 value=159.1497 size=581 ttb=285.368539834 seed=1
+
+summary_line instance=MDPI9_2000 value=158.9662 size=528 ttb=7.958818761 seed=2
+
+summary_line instance=MDPI9_2000 value=159.2447 size=579 ttb=563.288163085 seed=3
+
+summary_line instance=MDPI9_2000 value=157.6343 size=571 ttb=492.961577172 seed=4
+
+summary_line instance=MDPI9_2000 value=158.3046 size=586 ttb=539.060513592 seed=5
+
+summary_line instance=MDPI9_25 value=0.0000 size=0 ttb=10.283238251 seed=1
+
+summary_line instance=MDPI9_25 value=0.0000 size=0 ttb=10.157778953 seed=2
+
+summary_line instance=MDPI9_25 value=0.0000 size=0 ttb=10.248083041 seed=3
+
+summary_line instance=MDPI9_25 value=0.0000 size=0 ttb=10.200948326 seed=4
+
+summary_line instance=MDPI9_25 value=0.0000 size=0 ttb=10.241736734 seed=5
+
+summary_line instance=MDPI9_30 value=0.0000 size=0 ttb=17.165354436 seed=1
+
+summary_line instance=MDPI9_30 value=0.0000 size=0 ttb=17.249714451 seed=2
+
+summary_line instance=MDPI9_30 value=0.0000 size=0 ttb=17.106698247 seed=3
+
+summary_line instance=MDPI9_30 value=0.0000 size=0 ttb=17.11455653 seed=4
+
+summary_line instance=MDPI9_30 value=0.0000 size=0 ttb=17.24846667 seed=5
+
+summary_line instance=MDPI9_3000 value=190.2799 size=795 ttb=282.901602939 seed=1
+
+summary_line instance=MDPI9_3000 value=190.8571 size=860 ttb=339.666070902 seed=2
+
+summary_line instance=MDPI9_3000 value=193.3924 size=819 ttb=327.42442189 seed=3
+
+summary_line instance=MDPI9_3000 value=192.3473 size=805 ttb=404.802393613 seed=4
+
+summary_line instance=MDPI9_3000 value=191.7514 size=829 ttb=341.831202452 seed=5
+
+summary_line instance=MDPI9_35 value=0.0000 size=0 ttb=80.236177057 seed=1
+
+summary_line instance=MDPI9_35 value=0.0000 size=0 ttb=79.696571905 seed=2
+
+summary_line instance=MDPI9_35 value=0.0000 size=0 ttb=79.174273748 seed=3
+
+summary_line instance=MDPI9_35 value=0.0000 size=0 ttb=78.708286134 seed=4
+
+summary_line instance=MDPI9_35 value=0.0000 size=0 ttb=79.896429982 seed=5
+
+summary_line instance=MDPI9_500 value=77.4210 size=130 ttb=21.031880769 seed=1
+
+summary_line instance=MDPI9_500 value=77.4210 size=130 ttb=0.461221356 seed=2
+
+summary_line instance=MDPI9_500 value=77.4210 size=130 ttb=7.268386105 seed=3
+
+summary_line instance=MDPI9_500 value=77.4210 size=130 ttb=11.370513587 seed=4
+
+summary_line instance=MDPI9_500 value=77.4210 size=130 ttb=1.50473598 seed=5
+
+summary_line instance=MDPI9_5000 value=250.6582 size=1429 ttb=551.280567811 seed=1
+
+summary_line instance=MDPI9_5000 value=249.4205 size=1405 ttb=486.459568475 seed=2
+
+summary_line instance=MDPI9_5000 value=250.6049 size=1434 ttb=558.123923363 seed=3
+
+summary_line instance=MDPI9_5000 value=251.0355 size=1418 ttb=589.420711747 seed=4
+
+summary_line instance=MDPI9_5000 value=248.7115 size=1397 ttb=550.512014483 seed=5
+
+summary_line instance=MDPI9_750 value=97.8698 size=217 ttb=341.14344231 seed=1
+
+summary_line instance=MDPI9_750 value=97.7986 size=213 ttb=254.809833295 seed=2
+
+summary_line instance=MDPI9_750 value=97.8697 size=207 ttb=0.121641002 seed=3
+
+summary_line instance=MDPI9_750 value=97.8697 size=207 ttb=379.573870462 seed=4
+
+summary_line instance=MDPI9_750 value=97.8698 size=217 ttb=561.70174437 seed=5
+
+summary_line instance=MDPII10_1000 value=149.6554 size=268 ttb=128.351194989 seed=1
+
+summary_line instance=MDPII10_1000 value=149.3428 size=269 ttb=216.204819014 seed=2
+
+summary_line instance=MDPII10_1000 value=149.2569 size=295 ttb=58.885945759 seed=3
+
+summary_line instance=MDPII10_1000 value=149.6855 size=287 ttb=382.116910216 seed=4
+
+summary_line instance=MDPII10_1000 value=149.9145 size=302 ttb=277.096197612 seed=5
+
+summary_line instance=MDPII10_150 value=57.1751 size=41 ttb=0.010378606 seed=1
+
+summary_line instance=MDPII10_150 value=57.1751 size=41 ttb=0.00277933 seed=2
+
+summary_line instance=MDPII10_150 value=57.1751 size=41 ttb=0.006001763 seed=3
+
+summary_line instance=MDPII10_150 value=57.1751 size=41 ttb=0.00224771 seed=4
+
+summary_line instance=MDPII10_150 value=57.1751 size=41 ttb=0.001534435 seed=5
+
+summary_line instance=MDPII10_1500 value=182.5699 size=422 ttb=113.314340487 seed=1
+
+summary_line instance=MDPII10_1500 value=182.5228 size=431 ttb=473.178912966 seed=2
+
+summary_line instance=MDPII10_1500 value=182.6314 size=417 ttb=228.40012351 seed=3
+
+summary_line instance=MDPII10_1500 value=181.6619 size=432 ttb=109.001865862 seed=4
+
+summary_line instance=MDPII10_1500 value=181.5820 size=409 ttb=21.423275528 seed=5
+
+summary_line instance=MDPII10_20 value=0.0000 size=0 ttb=1.385400005 seed=1
+
+summary_line instance=MDPII10_20 value=0.0000 size=0 ttb=1.384361845 seed=2
+
+summary_line instance=MDPII10_20 value=0.0000 size=0 ttb=1.385044681 seed=3
+
+summary_line instance=MDPII10_20 value=0.0000 size=0 ttb=1.3845756 seed=4
+
+summary_line instance=MDPII10_20 value=0.0000 size=0 ttb=1.365885221 seed=5
+
+summary_line instance=MDPII10_2000 value=209.2626 size=561 ttb=19.852831393 seed=1
+
+summary_line instance=MDPII10_2000 value=209.5441 size=558 ttb=124.581614031 seed=2
+
+summary_line instance=MDPII10_2000 value=207.7630 size=559 ttb=278.820130784 seed=3
+
+summary_line instance=MDPII10_2000 value=208.2450 size=560 ttb=498.699067881 seed=4
+
+summary_line instance=MDPII10_2000 value=209.3357 size=564 ttb=367.055907995 seed=5
+
+summary_line instance=MDPII10_25 value=0.0000 size=0 ttb=8.546901781999999 seed=1
+
+summary_line instance=MDPII10_25 value=0.0000 size=0 ttb=8.575566892 seed=2
+
+summary_line instance=MDPII10_25 value=0.0000 size=0 ttb=8.554731082 seed=3
+
+summary_line instance=MDPII10_25 value=0.0000 size=0 ttb=8.574591805 seed=4
+
+summary_line instance=MDPII10_25 value=0.0000 size=0 ttb=8.543409296 seed=5
+
+summary_line instance=MDPII10_30 value=0.0000 size=0 ttb=27.959198675 seed=1
+
+summary_line instance=MDPII10_30 value=0.0000 size=0 ttb=27.992659655 seed=2
+
+summary_line instance=MDPII10_30 value=0.0000 size=0 ttb=28.365547288 seed=3
+
+summary_line instance=MDPII10_30 value=0.0000 size=0 ttb=28.353542612 seed=4
+
+summary_line instance=MDPII10_30 value=0.0000 size=0 ttb=28.558162345 seed=5
+
+summary_line instance=MDPII10_3000 value=257.2572 size=865 ttb=357.926636426 seed=1
+
+summary_line instance=MDPII10_3000 value=258.4389 size=856 ttb=201.830665171 seed=2
+
+summary_line instance=MDPII10_3000 value=251.4327 size=839 ttb=304.370880796 seed=3
+
+summary_line instance=MDPII10_3000 value=256.6680 size=872 ttb=595.314200958 seed=4
+
+summary_line instance=MDPII10_3000 value=257.4450 size=855 ttb=144.484785081 seed=5
+
+summary_line instance=MDPII10_35 value=0.0000 size=0 ttb=109.835592559 seed=1
+
+summary_line instance=MDPII10_35 value=0.0000 size=0 ttb=108.684522806 seed=2
+
+summary_line instance=MDPII10_35 value=0.0000 size=0 ttb=108.002583581 seed=3
+
+summary_line instance=MDPII10_35 value=0.0000 size=0 ttb=108.592239757 seed=4
+
+summary_line instance=MDPII10_35 value=0.0000 size=0 ttb=107.133538895 seed=5
+
+summary_line instance=MDPII10_500 value=104.6515 size=146 ttb=166.212237224 seed=1
+
+summary_line instance=MDPII10_500 value=104.6515 size=146 ttb=0.017362858 seed=2
+
+summary_line instance=MDPII10_500 value=104.6515 size=146 ttb=210.614322719 seed=3
+
+summary_line instance=MDPII10_500 value=104.6515 size=146 ttb=183.483416783 seed=4
+
+summary_line instance=MDPII10_500 value=104.6515 size=146 ttb=75.10313386 seed=5
+
+summary_line instance=MDPII10_5000 value=331.4165 size=1388 ttb=573.373574086 seed=1
+
+summary_line instance=MDPII10_5000 value=331.7895 size=1395 ttb=599.168760067 seed=2
+
+summary_line instance=MDPII10_5000 value=333.1995 size=1405 ttb=553.058653141 seed=3
+
+summary_line instance=MDPII10_5000 value=331.9161 size=1432 ttb=555.05809751 seed=4
+
+summary_line instance=MDPII10_5000 value=330.2226 size=1454 ttb=380.846580415 seed=5
+
+summary_line instance=MDPII10_750 value=133.2653 size=217 ttb=2.185711533 seed=1
+
+summary_line instance=MDPII10_750 value=133.1708 size=211 ttb=0.827600058 seed=2
+
+summary_line instance=MDPII10_750 value=133.2653 size=217 ttb=537.819353635 seed=3
+
+summary_line instance=MDPII10_750 value=133.1708 size=211 ttb=172.270591907 seed=4
+
+summary_line instance=MDPII10_750 value=133.2653 size=217 ttb=106.006399675 seed=5
+
+summary_line instance=MDPII1_1000 value=147.7821 size=272 ttb=95.541991059 seed=1
+
+summary_line instance=MDPII1_1000 value=147.7821 size=272 ttb=435.6138981 seed=2
+
+summary_line instance=MDPII1_1000 value=147.4328 size=273 ttb=333.521447835 seed=3
+
+summary_line instance=MDPII1_1000 value=147.7821 size=272 ttb=498.721161028 seed=4
+
+summary_line instance=MDPII1_1000 value=147.7821 size=272 ttb=143.635737723 seed=5
+
+summary_line instance=MDPII1_150 value=57.4840 size=50 ttb=0.00177931 seed=1
+
+summary_line instance=MDPII1_150 value=57.4840 size=50 ttb=0.003020358 seed=2
+
+summary_line instance=MDPII1_150 value=57.4840 size=50 ttb=0.005699639 seed=3
+
+summary_line instance=MDPII1_150 value=57.4840 size=50 ttb=0.006833561 seed=4
+
+summary_line instance=MDPII1_150 value=57.4840 size=50 ttb=0.006210157 seed=5
+
+summary_line instance=MDPII1_1500 value=181.2297 size=411 ttb=403.451659445 seed=1
+
+summary_line instance=MDPII1_1500 value=182.0672 size=437 ttb=6.283159475 seed=2
+
+summary_line instance=MDPII1_1500 value=181.4685 size=437 ttb=585.196540705 seed=3
+
+summary_line instance=MDPII1_1500 value=181.5198 size=449 ttb=403.087526623 seed=4
+
+summary_line instance=MDPII1_1500 value=180.8076 size=431 ttb=413.299663999 seed=5
+
+summary_line instance=MDPII1_20 value=0.0000 size=0 ttb=2.054132974 seed=1
+
+summary_line instance=MDPII1_20 value=0.0000 size=0 ttb=2.055547911 seed=2
+
+summary_line instance=MDPII1_20 value=0.0000 size=0 ttb=2.052960257 seed=3
+
+summary_line instance=MDPII1_20 value=0.0000 size=0 ttb=2.054940979 seed=4
+
+summary_line instance=MDPII1_20 value=0.0000 size=0 ttb=2.05252528 seed=5
+
+summary_line instance=MDPII1_2000 value=208.0137 size=577 ttb=512.067405646 seed=1
+
+summary_line instance=MDPII1_2000 value=208.6546 size=575 ttb=304.814000058 seed=2
+
+summary_line instance=MDPII1_2000 value=207.9618 size=561 ttb=39.879877966 seed=3
+
+summary_line instance=MDPII1_2000 value=207.0945 size=536 ttb=596.004678729 seed=4
+
+summary_line instance=MDPII1_2000 value=207.2941 size=545 ttb=85.403675972 seed=5
+
+summary_line instance=MDPII1_25 value=0.0000 size=0 ttb=11.935490121 seed=1
+
+summary_line instance=MDPII1_25 value=0.0000 size=0 ttb=12.051505627 seed=2
+
+summary_line instance=MDPII1_25 value=0.0000 size=0 ttb=12.051934225 seed=3
+
+summary_line instance=MDPII1_25 value=0.0000 size=0 ttb=11.905098478 seed=4
+
+summary_line instance=MDPII1_25 value=0.0000 size=0 ttb=12.01861685 seed=5
+
+summary_line instance=MDPII1_30 value=0.0000 size=0 ttb=28.358098156 seed=1
+
+summary_line instance=MDPII1_30 value=0.0000 size=0 ttb=28.223565152 seed=2
+
+summary_line instance=MDPII1_30 value=0.0000 size=0 ttb=28.106958441 seed=3
+
+summary_line instance=MDPII1_30 value=0.0000 size=0 ttb=28.109740671 seed=4
+
+summary_line instance=MDPII1_30 value=0.0000 size=0 ttb=28.205561506 seed=5
+
+summary_line instance=MDPII1_3000 value=261.7024 size=884 ttb=516.208946321 seed=1
+
+summary_line instance=MDPII1_3000 value=262.2907 size=847 ttb=596.489113875 seed=2
+
+summary_line instance=MDPII1_3000 value=262.7330 size=910 ttb=363.490009492 seed=3
+
+summary_line instance=MDPII1_3000 value=261.9386 size=900 ttb=139.470056402 seed=4
+
+summary_line instance=MDPII1_3000 value=261.9071 size=873 ttb=398.655895212 seed=5
+
+summary_line instance=MDPII1_35 value=0.0000 size=0 ttb=133.15774503 seed=1
+
+summary_line instance=MDPII1_35 value=0.0000 size=0 ttb=133.249319974 seed=2
+
+summary_line instance=MDPII1_35 value=0.0000 size=0 ttb=133.224518916 seed=3
+
+summary_line instance=MDPII1_35 value=0.0000 size=0 ttb=131.133925385 seed=4
+
+summary_line instance=MDPII1_35 value=0.0000 size=0 ttb=132.936853429 seed=5
+
+summary_line instance=MDPII1_500 value=109.6101 size=147 ttb=0.170290281 seed=1
+
+summary_line instance=MDPII1_500 value=109.6101 size=147 ttb=0.126871001 seed=2
+
+summary_line instance=MDPII1_500 value=109.6101 size=147 ttb=0.005680463 seed=3
+
+summary_line instance=MDPII1_500 value=109.6101 size=147 ttb=0.088730519 seed=4
+
+summary_line instance=MDPII1_500 value=109.6101 size=147 ttb=0.050896354 seed=5
+
+summary_line instance=MDPII1_5000 value=333.4471 size=1430 ttb=331.256019762 seed=1
+
+summary_line instance=MDPII1_5000 value=334.0519 size=1490 ttb=559.897802078 seed=2
+
+summary_line instance=MDPII1_5000 value=330.4342 size=1489 ttb=592.217672012 seed=3
+
+summary_line instance=MDPII1_5000 value=332.1618 size=1476 ttb=583.628786457 seed=4
+
+summary_line instance=MDPII1_5000 value=333.9903 size=1495 ttb=555.588431759 seed=5
+
+summary_line instance=MDPII1_750 value=128.4421 size=209 ttb=195.400290975 seed=1
+
+summary_line instance=MDPII1_750 value=128.7193 size=227 ttb=300.774298089 seed=2
+
+summary_line instance=MDPII1_750 value=128.6184 size=222 ttb=9.963621947 seed=3
+
+summary_line instance=MDPII1_750 value=128.6180 size=214 ttb=48.791957536 seed=4
+
+summary_line instance=MDPII1_750 value=128.6180 size=214 ttb=410.985693356 seed=5
+
+summary_line instance=MDPII2_1000 value=151.0484 size=285 ttb=229.487388135 seed=1
+
+summary_line instance=MDPII2_1000 value=151.3800 size=284 ttb=535.359378117 seed=2
+
+summary_line instance=MDPII2_1000 value=151.3800 size=284 ttb=546.134311525 seed=3
+
+summary_line instance=MDPII2_1000 value=151.0309 size=287 ttb=346.779117653 seed=4
+
+summary_line instance=MDPII2_1000 value=151.3800 size=284 ttb=529.315999154 seed=5
+
+summary_line instance=MDPII2_150 value=57.8207 size=46 ttb=0.007969441 seed=1
+
+summary_line instance=MDPII2_150 value=57.8207 size=46 ttb=0.014211842 seed=2
+
+summary_line instance=MDPII2_150 value=57.8207 size=46 ttb=0.009316773 seed=3
+
+summary_line instance=MDPII2_150 value=57.8207 size=46 ttb=0.023454132 seed=4
+
+summary_line instance=MDPII2_150 value=57.8207 size=46 ttb=0.031479812 seed=5
+
+summary_line instance=MDPII2_1500 value=184.5185 size=437 ttb=189.598022141 seed=1
+
+summary_line instance=MDPII2_1500 value=185.4765 size=451 ttb=571.211089482 seed=2
+
+summary_line instance=MDPII2_1500 value=185.7966 size=441 ttb=198.606549803 seed=3
+
+summary_line instance=MDPII2_1500 value=185.3020 size=433 ttb=42.826950179 seed=4
+
+summary_line instance=MDPII2_1500 value=184.5127 size=456 ttb=116.119317144 seed=5
+
+summary_line instance=MDPII2_20 value=0.0000 size=0 ttb=3.8416125230000002 seed=1
+
+summary_line instance=MDPII2_20 value=0.0000 size=0 ttb=3.824656834 seed=2
+
+summary_line instance=MDPII2_20 value=0.0000 size=0 ttb=3.831791609 seed=3
+
+summary_line instance=MDPII2_20 value=0.0000 size=0 ttb=3.819636348 seed=4
+
+summary_line instance=MDPII2_20 value=0.0000 size=0 ttb=3.861018518 seed=5
+
+summary_line instance=MDPII2_2000 value=216.9421 size=627 ttb=414.688408538 seed=1
+
+summary_line instance=MDPII2_2000 value=217.7086 size=603 ttb=496.061019475 seed=2
+
+summary_line instance=MDPII2_2000 value=217.8195 size=601 ttb=334.735903606 seed=3
+
+summary_line instance=MDPII2_2000 value=217.5986 size=587 ttb=33.140239503 seed=4
+
+summary_line instance=MDPII2_2000 value=217.7547 size=551 ttb=347.310264157 seed=5
+
+summary_line instance=MDPII2_25 value=0.0000 size=0 ttb=10.442322746 seed=1
+
+summary_line instance=MDPII2_25 value=0.0000 size=0 ttb=10.358319152 seed=2
+
+summary_line instance=MDPII2_25 value=0.0000 size=0 ttb=10.177580767 seed=3
+
+summary_line instance=MDPII2_25 value=0.0000 size=0 ttb=10.183248042 seed=4
+
+summary_line instance=MDPII2_25 value=0.0000 size=0 ttb=10.286317952 seed=5
+
+summary_line instance=MDPII2_30 value=0.0000 size=0 ttb=19.31833935 seed=1
+
+summary_line instance=MDPII2_30 value=0.0000 size=0 ttb=19.396917332 seed=2
+
+summary_line instance=MDPII2_30 value=0.0000 size=0 ttb=19.377875814 seed=3
+
+summary_line instance=MDPII2_30 value=0.0000 size=0 ttb=19.210901598 seed=4
+
+summary_line instance=MDPII2_30 value=0.0000 size=0 ttb=19.231365534 seed=5
+
+summary_line instance=MDPII2_3000 value=258.4125 size=866 ttb=156.394006191 seed=1
+
+summary_line instance=MDPII2_3000 value=260.1343 size=867 ttb=170.154993516 seed=2
+
+summary_line instance=MDPII2_3000 value=257.8881 size=849 ttb=209.446294007 seed=3
+
+summary_line instance=MDPII2_3000 value=259.1813 size=830 ttb=423.378352282 seed=4
+
+summary_line instance=MDPII2_3000 value=259.6293 size=869 ttb=536.075120784 seed=5
+
+summary_line instance=MDPII2_35 value=0.0000 size=0 ttb=93.339608744 seed=1
+
+summary_line instance=MDPII2_35 value=0.0000 size=0 ttb=92.99119286 seed=2
+
+summary_line instance=MDPII2_35 value=0.0000 size=0 ttb=92.857163589 seed=3
+
+summary_line instance=MDPII2_35 value=0.0000 size=0 ttb=92.664119671 seed=4
+
+summary_line instance=MDPII2_35 value=0.0000 size=0 ttb=93.073067338 seed=5
+
+summary_line instance=MDPII2_500 value=105.7175 size=138 ttb=41.429969889 seed=1
+
+summary_line instance=MDPII2_500 value=105.7175 size=138 ttb=141.3860317 seed=2
+
+summary_line instance=MDPII2_500 value=105.7175 size=138 ttb=41.887335005 seed=3
+
+summary_line instance=MDPII2_500 value=105.7175 size=138 ttb=507.095730138 seed=4
+
+summary_line instance=MDPII2_500 value=105.4053 size=137 ttb=44.489406884 seed=5
+
+summary_line instance=MDPII2_5000 value=330.3146 size=1442 ttb=537.688829563 seed=1
+
+summary_line instance=MDPII2_5000 value=331.6035 size=1410 ttb=310.324932355 seed=2
+
+summary_line instance=MDPII2_5000 value=331.4715 size=1482 ttb=583.235452719 seed=3
+
+summary_line instance=MDPII2_5000 value=331.0190 size=1427 ttb=561.821352922 seed=4
+
+summary_line instance=MDPII2_5000 value=332.1253 size=1410 ttb=531.202318302 seed=5
+
+summary_line instance=MDPII2_750 value=130.6519 size=219 ttb=34.474114516 seed=1
+
+summary_line instance=MDPII2_750 value=130.9544 size=244 ttb=171.781850604 seed=2
+
+summary_line instance=MDPII2_750 value=130.9513 size=228 ttb=279.709523583 seed=3
+
+summary_line instance=MDPII2_750 value=130.6881 size=234 ttb=47.476453331 seed=4
+
+summary_line instance=MDPII2_750 value=130.9326 size=236 ttb=40.989737369 seed=5
+
+summary_line instance=MDPII3_1000 value=150.7882 size=269 ttb=29.335834883 seed=1
+
+summary_line instance=MDPII3_1000 value=150.7882 size=269 ttb=443.468529963 seed=2
+
+summary_line instance=MDPII3_1000 value=149.5498 size=254 ttb=175.405000241 seed=3
+
+summary_line instance=MDPII3_1000 value=150.2941 size=286 ttb=120.767850621 seed=4
+
+summary_line instance=MDPII3_1000 value=150.1994 size=301 ttb=386.48261719 seed=5
+
+summary_line instance=MDPII3_150 value=58.4218 size=44 ttb=0.174121869 seed=1
+
+summary_line instance=MDPII3_150 value=58.4218 size=44 ttb=0.001703396 seed=2
+
+summary_line instance=MDPII3_150 value=58.4218 size=44 ttb=0.001601813 seed=3
+
+summary_line instance=MDPII3_150 value=58.4218 size=44 ttb=0.004029926 seed=4
+
+summary_line instance=MDPII3_150 value=58.4218 size=44 ttb=0.006926019 seed=5
+
+summary_line instance=MDPII3_1500 value=181.2346 size=444 ttb=308.483377734 seed=1
+
+summary_line instance=MDPII3_1500 value=181.0855 size=416 ttb=55.341222534 seed=2
+
+summary_line instance=MDPII3_1500 value=180.1796 size=434 ttb=565.18369765 seed=3
+
+summary_line instance=MDPII3_1500 value=181.4880 size=432 ttb=409.212613588 seed=4
+
+summary_line instance=MDPII3_1500 value=180.3027 size=414 ttb=251.79035064 seed=5
+
+summary_line instance=MDPII3_20 value=0.0000 size=0 ttb=3.773359945 seed=1
+
+summary_line instance=MDPII3_20 value=0.0000 size=0 ttb=3.777014924 seed=2
+
+summary_line instance=MDPII3_20 value=0.0000 size=0 ttb=3.758132235 seed=3
+
+summary_line instance=MDPII3_20 value=0.0000 size=0 ttb=3.776788732 seed=4
+
+summary_line instance=MDPII3_20 value=0.0000 size=0 ttb=3.758492504 seed=5
+
+summary_line instance=MDPII3_2000 value=209.9013 size=603 ttb=388.744097336 seed=1
+
+summary_line instance=MDPII3_2000 value=208.8230 size=572 ttb=216.767306736 seed=2
+
+summary_line instance=MDPII3_2000 value=208.9525 size=572 ttb=275.26957053 seed=3
+
+summary_line instance=MDPII3_2000 value=208.9967 size=593 ttb=50.089579685 seed=4
+
+summary_line instance=MDPII3_2000 value=209.3493 size=561 ttb=210.741011698 seed=5
+
+summary_line instance=MDPII3_25 value=0.0000 size=0 ttb=8.977695092 seed=1
+
+summary_line instance=MDPII3_25 value=0.0000 size=0 ttb=8.9434334 seed=2
+
+summary_line instance=MDPII3_25 value=0.0000 size=0 ttb=8.955384902 seed=3
+
+summary_line instance=MDPII3_25 value=0.0000 size=0 ttb=8.922922977 seed=4
+
+summary_line instance=MDPII3_25 value=0.0000 size=0 ttb=8.862233322 seed=5
+
+summary_line instance=MDPII3_30 value=0.0000 size=0 ttb=45.819105619 seed=1
+
+summary_line instance=MDPII3_30 value=0.0000 size=0 ttb=45.732673763 seed=2
+
+summary_line instance=MDPII3_30 value=0.0000 size=0 ttb=46.139808598 seed=3
+
+summary_line instance=MDPII3_30 value=0.0000 size=0 ttb=46.214908143 seed=4
+
+summary_line instance=MDPII3_30 value=0.0000 size=0 ttb=46.413356751 seed=5
+
+summary_line instance=MDPII3_3000 value=257.0887 size=852 ttb=395.947335601 seed=1
+
+summary_line instance=MDPII3_3000 value=256.5595 size=821 ttb=478.925474366 seed=2
+
+summary_line instance=MDPII3_3000 value=256.9446 size=894 ttb=444.523206568 seed=3
+
+summary_line instance=MDPII3_3000 value=255.3707 size=850 ttb=65.880795247 seed=4
+
+summary_line instance=MDPII3_3000 value=255.3421 size=875 ttb=191.976525416 seed=5
+
+summary_line instance=MDPII3_35 value=0.0000 size=0 ttb=155.872296571 seed=1
+
+summary_line instance=MDPII3_35 value=0.0000 size=0 ttb=152.405108385 seed=2
+
+summary_line instance=MDPII3_35 value=0.0000 size=0 ttb=152.446457256 seed=3
+
+summary_line instance=MDPII3_35 value=0.0000 size=0 ttb=153.544294081 seed=4
+
+summary_line instance=MDPII3_35 value=0.0000 size=0 ttb=156.905903006 seed=5
+
+summary_line instance=MDPII3_500 value=107.8142 size=144 ttb=257.499744781 seed=1
+
+summary_line instance=MDPII3_500 value=107.8217 size=161 ttb=574.639941268 seed=2
+
+summary_line instance=MDPII3_500 value=107.8142 size=144 ttb=0.115114481 seed=3
+
+summary_line instance=MDPII3_500 value=107.8142 size=144 ttb=179.665103053 seed=4
+
+summary_line instance=MDPII3_500 value=107.8142 size=144 ttb=440.334706195 seed=5
+
+summary_line instance=MDPII3_5000 value=330.2259 size=1393 ttb=545.379591964 seed=1
+
+summary_line instance=MDPII3_5000 value=330.9238 size=1479 ttb=596.896308893 seed=2
+
+summary_line instance=MDPII3_5000 value=332.3118 size=1405 ttb=595.654143444 seed=3
+
+summary_line instance=MDPII3_5000 value=333.4823 size=1430 ttb=576.731805612 seed=4
+
+summary_line instance=MDPII3_5000 value=331.3952 size=1456 ttb=469.972839607 seed=5
+
+summary_line instance=MDPII3_750 value=129.7209 size=235 ttb=492.042548631 seed=1
+
+summary_line instance=MDPII3_750 value=129.7825 size=212 ttb=240.120877841 seed=2
+
+summary_line instance=MDPII3_750 value=129.7209 size=235 ttb=99.752797117 seed=3
+
+summary_line instance=MDPII3_750 value=129.7209 size=235 ttb=34.020752679 seed=4
+
+summary_line instance=MDPII3_750 value=129.7825 size=212 ttb=430.428309472 seed=5
+
+summary_line instance=MDPII4_1000 value=148.1852 size=282 ttb=229.829837622 seed=1
+
+summary_line instance=MDPII4_1000 value=148.3316 size=296 ttb=470.128255007 seed=2
+
+summary_line instance=MDPII4_1000 value=148.5242 size=290 ttb=504.543721261 seed=3
+
+summary_line instance=MDPII4_1000 value=148.5967 size=277 ttb=28.359730079 seed=4
+
+summary_line instance=MDPII4_1000 value=148.9532 size=290 ttb=571.535927206 seed=5
+
+summary_line instance=MDPII4_150 value=57.3811 size=47 ttb=0.079719526 seed=1
+
+summary_line instance=MDPII4_150 value=57.3811 size=47 ttb=0.002356207 seed=2
+
+summary_line instance=MDPII4_150 value=57.3811 size=47 ttb=0.000968629 seed=3
+
+summary_line instance=MDPII4_150 value=57.3811 size=47 ttb=0.022458496 seed=4
+
+summary_line instance=MDPII4_150 value=57.3811 size=47 ttb=0.256634667 seed=5
+
+summary_line instance=MDPII4_1500 value=184.6884 size=434 ttb=561.809153151 seed=1
+
+summary_line instance=MDPII4_1500 value=184.5569 size=465 ttb=164.255171317 seed=2
+
+summary_line instance=MDPII4_1500 value=183.9623 size=430 ttb=544.020267548 seed=3
+
+summary_line instance=MDPII4_1500 value=185.2326 size=464 ttb=566.782389208 seed=4
+
+summary_line instance=MDPII4_1500 value=184.2696 size=432 ttb=462.262711974 seed=5
+
+summary_line instance=MDPII4_20 value=0.0000 size=0 ttb=3.003528371 seed=1
+
+summary_line instance=MDPII4_20 value=0.0000 size=0 ttb=3.004336256 seed=2
+
+summary_line instance=MDPII4_20 value=0.0000 size=0 ttb=3.007793429 seed=3
+
+summary_line instance=MDPII4_20 value=0.0000 size=0 ttb=3.00321364 seed=4
+
+summary_line instance=MDPII4_20 value=0.0000 size=0 ttb=3.00817478 seed=5
+
+summary_line instance=MDPII4_2000 value=209.7304 size=562 ttb=206.178486965 seed=1
+
+summary_line instance=MDPII4_2000 value=209.8388 size=580 ttb=96.322957038 seed=2
+
+summary_line instance=MDPII4_2000 value=210.5563 size=564 ttb=594.251183098 seed=3
+
+summary_line instance=MDPII4_2000 value=209.9712 size=548 ttb=133.600110082 seed=4
+
+summary_line instance=MDPII4_2000 value=211.7554 size=586 ttb=358.668727878 seed=5
+
+summary_line instance=MDPII4_25 value=0.0000 size=0 ttb=11.867472964 seed=1
+
+summary_line instance=MDPII4_25 value=0.0000 size=0 ttb=11.80083508 seed=2
+
+summary_line instance=MDPII4_25 value=0.0000 size=0 ttb=11.885881614 seed=3
+
+summary_line instance=MDPII4_25 value=0.0000 size=0 ttb=11.852280541 seed=4
+
+summary_line instance=MDPII4_25 value=0.0000 size=0 ttb=11.787313147 seed=5
+
+summary_line instance=MDPII4_30 value=0.0000 size=0 ttb=44.599109328 seed=1
+
+summary_line instance=MDPII4_30 value=0.0000 size=0 ttb=44.364983067 seed=2
+
+summary_line instance=MDPII4_30 value=0.0000 size=0 ttb=43.68438225 seed=3
+
+summary_line instance=MDPII4_30 value=0.0000 size=0 ttb=43.799462222 seed=4
+
+summary_line instance=MDPII4_30 value=0.0000 size=0 ttb=44.92691965 seed=5
+
+summary_line instance=MDPII4_3000 value=251.1745 size=774 ttb=574.721988606 seed=1
+
+summary_line instance=MDPII4_3000 value=251.7904 size=817 ttb=374.650830752 seed=2
+
+summary_line instance=MDPII4_3000 value=252.7821 size=781 ttb=599.07529447 seed=3
+
+summary_line instance=MDPII4_3000 value=253.7792 size=813 ttb=405.847641594 seed=4
+
+summary_line instance=MDPII4_3000 value=251.6284 size=795 ttb=547.458935825 seed=5
+
+summary_line instance=MDPII4_35 value=0.0000 size=0 ttb=151.908277454 seed=1
+
+summary_line instance=MDPII4_35 value=0.0000 size=0 ttb=153.289427423 seed=2
+
+summary_line instance=MDPII4_35 value=0.0000 size=0 ttb=152.342060595 seed=3
+
+summary_line instance=MDPII4_35 value=0.0000 size=0 ttb=151.397730612 seed=4
+
+summary_line instance=MDPII4_35 value=0.0000 size=0 ttb=151.086128542 seed=5
+
+summary_line instance=MDPII4_500 value=106.1001 size=141 ttb=0.015970338 seed=1
+
+summary_line instance=MDPII4_500 value=106.1001 size=141 ttb=0.010278554 seed=2
+
+summary_line instance=MDPII4_500 value=106.1001 size=141 ttb=42.595833595 seed=3
+
+summary_line instance=MDPII4_500 value=106.1001 size=141 ttb=0.008127199 seed=4
+
+summary_line instance=MDPII4_500 value=106.1001 size=141 ttb=196.935007238 seed=5
+
+summary_line instance=MDPII4_5000 value=331.6997 size=1446 ttb=595.864999686 seed=1
+
+summary_line instance=MDPII4_5000 value=331.3649 size=1461 ttb=579.3635822 seed=2
+
+summary_line instance=MDPII4_5000 value=331.0408 size=1444 ttb=529.285080406 seed=3
+
+summary_line instance=MDPII4_5000 value=332.2296 size=1456 ttb=542.028759127 seed=4
+
+summary_line instance=MDPII4_5000 value=330.3889 size=1439 ttb=374.532220307 seed=5
+
+summary_line instance=MDPII4_750 value=126.5823 size=207 ttb=9.50511781 seed=1
+
+summary_line instance=MDPII4_750 value=126.5823 size=207 ttb=343.935979416 seed=2
+
+summary_line instance=MDPII4_750 value=126.5823 size=207 ttb=0.183909135 seed=3
+
+summary_line instance=MDPII4_750 value=126.5823 size=207 ttb=85.022720004 seed=4
+
+summary_line instance=MDPII4_750 value=126.5823 size=207 ttb=113.549446333 seed=5
+
+summary_line instance=MDPII5_1000 value=151.2423 size=297 ttb=268.358502696 seed=1
+
+summary_line instance=MDPII5_1000 value=151.5208 size=295 ttb=585.73018714 seed=2
+
+summary_line instance=MDPII5_1000 value=151.1980 size=290 ttb=0.156445099 seed=3
+
+summary_line instance=MDPII5_1000 value=151.1658 size=278 ttb=368.291982068 seed=4
+
+summary_line instance=MDPII5_1000 value=151.4296 size=294 ttb=256.802600144 seed=5
+
+summary_line instance=MDPII5_150 value=54.2286 size=42 ttb=0.079683513 seed=1
+
+summary_line instance=MDPII5_150 value=54.2286 size=42 ttb=0.046851305 seed=2
+
+summary_line instance=MDPII5_150 value=54.2286 size=42 ttb=0.105046239 seed=3
+
+summary_line instance=MDPII5_150 value=54.2286 size=42 ttb=0.004208486 seed=4
+
+summary_line instance=MDPII5_150 value=54.2286 size=42 ttb=0.000805391 seed=5
+
+summary_line instance=MDPII5_1500 value=190.8605 size=435 ttb=546.404070895 seed=1
+
+summary_line instance=MDPII5_1500 value=190.0433 size=419 ttb=525.658035195 seed=2
+
+summary_line instance=MDPII5_1500 value=190.8225 size=433 ttb=19.130791904 seed=3
+
+summary_line instance=MDPII5_1500 value=190.7278 size=444 ttb=151.278345022 seed=4
+
+summary_line instance=MDPII5_1500 value=190.8605 size=435 ttb=4.455346785 seed=5
+
+summary_line instance=MDPII5_20 value=0.0000 size=0 ttb=5.046181891 seed=1
+
+summary_line instance=MDPII5_20 value=0.0000 size=0 ttb=5.048110886 seed=2
+
+summary_line instance=MDPII5_20 value=0.0000 size=0 ttb=5.137396552 seed=3
+
+summary_line instance=MDPII5_20 value=0.0000 size=0 ttb=5.041355931 seed=4
+
+summary_line instance=MDPII5_20 value=0.0000 size=0 ttb=5.041371543 seed=5
+
+summary_line instance=MDPII5_2000 value=214.0431 size=576 ttb=395.696462261 seed=1
+
+summary_line instance=MDPII5_2000 value=213.3446 size=585 ttb=255.748088868 seed=2
+
+summary_line instance=MDPII5_2000 value=215.0538 size=576 ttb=542.607102805 seed=3
+
+summary_line instance=MDPII5_2000 value=215.0465 size=568 ttb=346.736010036 seed=4
+
+summary_line instance=MDPII5_2000 value=213.6745 size=593 ttb=535.495300397 seed=5
+
+summary_line instance=MDPII5_25 value=0.0000 size=0 ttb=10.929344472 seed=1
+
+summary_line instance=MDPII5_25 value=0.0000 size=0 ttb=10.926478603 seed=2
+
+summary_line instance=MDPII5_25 value=0.0000 size=0 ttb=10.943900505 seed=3
+
+summary_line instance=MDPII5_25 value=0.0000 size=0 ttb=10.730460626 seed=4
+
+summary_line instance=MDPII5_25 value=0.0000 size=0 ttb=10.725151767 seed=5
+
+summary_line instance=MDPII5_30 value=0.0000 size=0 ttb=35.612330228 seed=1
+
+summary_line instance=MDPII5_30 value=0.0000 size=0 ttb=35.674018816 seed=2
+
+summary_line instance=MDPII5_30 value=0.0000 size=0 ttb=36.05741896 seed=3
+
+summary_line instance=MDPII5_30 value=0.0000 size=0 ttb=36.052220467 seed=4
+
+summary_line instance=MDPII5_30 value=0.0000 size=0 ttb=36.139834909 seed=5
+
+summary_line instance=MDPII5_3000 value=255.1702 size=874 ttb=597.315928093 seed=1
+
+summary_line instance=MDPII5_3000 value=257.1701 size=842 ttb=266.829334521 seed=2
+
+summary_line instance=MDPII5_3000 value=257.1662 size=889 ttb=169.374522696 seed=3
+
+summary_line instance=MDPII5_3000 value=258.4388 size=872 ttb=573.92455898 seed=4
+
+summary_line instance=MDPII5_3000 value=258.5105 size=857 ttb=306.367001905 seed=5
+
+summary_line instance=MDPII5_35 value=0.0000 size=0 ttb=119.459456189 seed=1
+
+summary_line instance=MDPII5_35 value=0.0000 size=0 ttb=119.326527747 seed=2
+
+summary_line instance=MDPII5_35 value=0.0000 size=0 ttb=121.867727036 seed=3
+
+summary_line instance=MDPII5_35 value=0.0000 size=0 ttb=121.797012875 seed=4
+
+summary_line instance=MDPII5_35 value=0.0000 size=0 ttb=119.738643868 seed=5
+
+summary_line instance=MDPII5_500 value=106.8572 size=148 ttb=0.021832217 seed=1
+
+summary_line instance=MDPII5_500 value=106.8572 size=148 ttb=1.972764662 seed=2
+
+summary_line instance=MDPII5_500 value=106.8572 size=148 ttb=156.289504553 seed=3
+
+summary_line instance=MDPII5_500 value=106.8572 size=148 ttb=2.753272866 seed=4
+
+summary_line instance=MDPII5_500 value=106.8572 size=148 ttb=0.849950023 seed=5
+
+summary_line instance=MDPII5_5000 value=333.8809 size=1486 ttb=487.157776113 seed=1
+
+summary_line instance=MDPII5_5000 value=331.0162 size=1449 ttb=538.822498529 seed=2
+
+summary_line instance=MDPII5_5000 value=334.3989 size=1468 ttb=592.067842727 seed=3
+
+summary_line instance=MDPII5_5000 value=332.0422 size=1533 ttb=582.758584566 seed=4
+
+summary_line instance=MDPII5_5000 value=334.0008 size=1437 ttb=535.173025028 seed=5
+
+summary_line instance=MDPII5_750 value=129.1229 size=205 ttb=532.504960097 seed=1
+
+summary_line instance=MDPII5_750 value=129.1229 size=205 ttb=304.49332192 seed=2
+
+summary_line instance=MDPII5_750 value=129.1229 size=205 ttb=102.712648534 seed=3
+
+summary_line instance=MDPII5_750 value=129.1229 size=205 ttb=56.973018384 seed=4
+
+summary_line instance=MDPII5_750 value=129.1229 size=205 ttb=187.796326266 seed=5
+
+summary_line instance=MDPII6_1000 value=147.8222 size=272 ttb=129.721751188 seed=1
+
+summary_line instance=MDPII6_1000 value=147.4673 size=298 ttb=360.101527179 seed=2
+
+summary_line instance=MDPII6_1000 value=147.4509 size=296 ttb=170.012845301 seed=3
+
+summary_line instance=MDPII6_1000 value=147.4930 size=294 ttb=193.886105535 seed=4
+
+summary_line instance=MDPII6_1000 value=147.4760 size=283 ttb=197.309731549 seed=5
+
+summary_line instance=MDPII6_150 value=56.4427 size=49 ttb=0.003069092 seed=1
+
+summary_line instance=MDPII6_150 value=56.4427 size=49 ttb=0.005908126 seed=2
+
+summary_line instance=MDPII6_150 value=56.4427 size=49 ttb=0.005092116 seed=3
+
+summary_line instance=MDPII6_150 value=56.4427 size=49 ttb=0.011650848 seed=4
+
+summary_line instance=MDPII6_150 value=56.4427 size=49 ttb=0.002973901 seed=5
+
+summary_line instance=MDPII6_1500 value=182.4796 size=453 ttb=399.994565156 seed=1
+
+summary_line instance=MDPII6_1500 value=182.1703 size=476 ttb=545.094411336 seed=2
+
+summary_line instance=MDPII6_1500 value=182.3762 size=452 ttb=419.209206429 seed=3
+
+summary_line instance=MDPII6_1500 value=182.3636 size=452 ttb=4.567077096 seed=4
+
+summary_line instance=MDPII6_1500 value=182.0821 size=422 ttb=455.956532364 seed=5
+
+summary_line instance=MDPII6_20 value=0.0000 size=0 ttb=5.670003776 seed=1
+
+summary_line instance=MDPII6_20 value=0.0000 size=0 ttb=5.672755327 seed=2
+
+summary_line instance=MDPII6_20 value=0.0000 size=0 ttb=5.674462552 seed=3
+
+summary_line instance=MDPII6_20 value=0.0000 size=0 ttb=5.672221106 seed=4
+
+summary_line instance=MDPII6_20 value=0.0000 size=0 ttb=5.671590842 seed=5
+
+summary_line instance=MDPII6_2000 value=210.3102 size=604 ttb=511.478608977 seed=1
+
+summary_line instance=MDPII6_2000 value=208.8907 size=559 ttb=343.475211646 seed=2
+
+summary_line instance=MDPII6_2000 value=210.0664 size=549 ttb=129.666956722 seed=3
+
+summary_line instance=MDPII6_2000 value=208.9007 size=571 ttb=433.51297659 seed=4
+
+summary_line instance=MDPII6_2000 value=208.8528 size=545 ttb=572.914748235 seed=5
+
+summary_line instance=MDPII6_25 value=0.0000 size=0 ttb=11.11339078 seed=1
+
+summary_line instance=MDPII6_25 value=0.0000 size=0 ttb=11.151096776 seed=2
+
+summary_line instance=MDPII6_25 value=0.0000 size=0 ttb=11.16553923 seed=3
+
+summary_line instance=MDPII6_25 value=0.0000 size=0 ttb=11.33089267 seed=4
+
+summary_line instance=MDPII6_25 value=0.0000 size=0 ttb=11.216256239 seed=5
+
+summary_line instance=MDPII6_30 value=0.0000 size=0 ttb=48.190168891 seed=1
+
+summary_line instance=MDPII6_30 value=0.0000 size=0 ttb=47.246661217 seed=2
+
+summary_line instance=MDPII6_30 value=0.0000 size=0 ttb=47.249547978 seed=3
+
+summary_line instance=MDPII6_30 value=0.0000 size=0 ttb=47.827846454 seed=4
+
+summary_line instance=MDPII6_30 value=0.0000 size=0 ttb=47.688332558 seed=5
+
+summary_line instance=MDPII6_3000 value=254.6906 size=828 ttb=273.004043848 seed=1
+
+summary_line instance=MDPII6_3000 value=256.6107 size=822 ttb=455.96316172 seed=2
+
+summary_line instance=MDPII6_3000 value=254.7213 size=810 ttb=239.09713668 seed=3
+
+summary_line instance=MDPII6_3000 value=257.3952 size=828 ttb=323.092890999 seed=4
+
+summary_line instance=MDPII6_3000 value=257.1508 size=826 ttb=502.096389867 seed=5
+
+summary_line instance=MDPII6_35 value=0.0000 size=0 ttb=138.712618229 seed=1
+
+summary_line instance=MDPII6_35 value=0.0000 size=0 ttb=140.387877082 seed=2
+
+summary_line instance=MDPII6_35 value=0.0000 size=0 ttb=138.972241557 seed=3
+
+summary_line instance=MDPII6_35 value=0.0000 size=0 ttb=136.12508373 seed=4
+
+summary_line instance=MDPII6_35 value=0.0000 size=0 ttb=137.806547588 seed=5
+
+summary_line instance=MDPII6_500 value=106.2980 size=142 ttb=80.428508008 seed=1
+
+summary_line instance=MDPII6_500 value=106.2980 size=142 ttb=220.031248932 seed=2
+
+summary_line instance=MDPII6_500 value=106.2980 size=142 ttb=485.518018668 seed=3
+
+summary_line instance=MDPII6_500 value=106.2980 size=142 ttb=0.064663758 seed=4
+
+summary_line instance=MDPII6_500 value=106.1718 size=154 ttb=402.841273599 seed=5
+
+summary_line instance=MDPII6_5000 value=330.5119 size=1404 ttb=538.16134112 seed=1
+
+summary_line instance=MDPII6_5000 value=329.3845 size=1425 ttb=331.243320665 seed=2
+
+summary_line instance=MDPII6_5000 value=331.9636 size=1457 ttb=581.324638184 seed=3
+
+summary_line instance=MDPII6_5000 value=330.0033 size=1443 ttb=581.661158223 seed=4
+
+summary_line instance=MDPII6_5000 value=329.6259 size=1421 ttb=474.121405991 seed=5
+
+summary_line instance=MDPII6_750 value=128.9935 size=220 ttb=482.260087201 seed=1
+
+summary_line instance=MDPII6_750 value=128.9271 size=195 ttb=178.758744398 seed=2
+
+summary_line instance=MDPII6_750 value=128.9884 size=201 ttb=193.034373832 seed=3
+
+summary_line instance=MDPII6_750 value=128.9884 size=201 ttb=561.629209217 seed=4
+
+summary_line instance=MDPII6_750 value=128.9271 size=195 ttb=310.192001522 seed=5
+
+summary_line instance=MDPII7_1000 value=148.6532 size=298 ttb=544.381876319 seed=1
+
+summary_line instance=MDPII7_1000 value=148.5960 size=298 ttb=5.162607815 seed=2
+
+summary_line instance=MDPII7_1000 value=148.6532 size=298 ttb=551.391099762 seed=3
+
+summary_line instance=MDPII7_1000 value=148.5702 size=303 ttb=592.406484088 seed=4
+
+summary_line instance=MDPII7_1000 value=148.6532 size=298 ttb=577.265095553 seed=5
+
+summary_line instance=MDPII7_150 value=58.8892 size=48 ttb=0.007018554 seed=1
+
+summary_line instance=MDPII7_150 value=58.8892 size=48 ttb=0.003065333 seed=2
+
+summary_line instance=MDPII7_150 value=58.8892 size=48 ttb=0.003476665 seed=3
+
+summary_line instance=MDPII7_150 value=58.8892 size=48 ttb=0.708158116 seed=4
+
+summary_line instance=MDPII7_150 value=58.8892 size=48 ttb=0.010992615 seed=5
+
+summary_line instance=MDPII7_1500 value=178.1945 size=393 ttb=579.65386947 seed=1
+
+summary_line instance=MDPII7_1500 value=178.8126 size=407 ttb=437.190058633 seed=2
+
+summary_line instance=MDPII7_1500 value=179.2512 size=407 ttb=122.351007995 seed=3
+
+summary_line instance=MDPII7_1500 value=177.9536 size=397 ttb=114.653465479 seed=4
+
+summary_line instance=MDPII7_1500 value=178.2173 size=422 ttb=148.781291795 seed=5
+
+summary_line instance=MDPII7_20 value=0.0000 size=0 ttb=3.94126152 seed=1
+
+summary_line instance=MDPII7_20 value=0.0000 size=0 ttb=3.942946202 seed=2
+
+summary_line instance=MDPII7_20 value=0.0000 size=0 ttb=3.950424439 seed=3
+
+summary_line instance=MDPII7_20 value=0.0000 size=0 ttb=3.931783534 seed=4
+
+summary_line instance=MDPII7_20 value=0.0000 size=0 ttb=3.941360339 seed=5
+
+summary_line instance=MDPII7_2000 value=207.2514 size=585 ttb=380.123132378 seed=1
+
+summary_line instance=MDPII7_2000 value=208.5206 size=581 ttb=479.218894882 seed=2
+
+summary_line instance=MDPII7_2000 value=205.9271 size=586 ttb=14.984000272 seed=3
+
+summary_line instance=MDPII7_2000 value=207.4154 size=570 ttb=549.787378753 seed=4
+
+summary_line instance=MDPII7_2000 value=207.6855 size=532 ttb=85.313243467 seed=5
+
+summary_line instance=MDPII7_25 value=0.0000 size=0 ttb=13.426888953 seed=1
+
+summary_line instance=MDPII7_25 value=0.0000 size=0 ttb=13.285899067999999 seed=2
+
+summary_line instance=MDPII7_25 value=0.0000 size=0 ttb=13.440518559 seed=3
+
+summary_line instance=MDPII7_25 value=0.0000 size=0 ttb=13.32343295 seed=4
+
+summary_line instance=MDPII7_25 value=0.0000 size=0 ttb=13.325178657 seed=5
+
+summary_line instance=MDPII7_30 value=0.0000 size=0 ttb=24.71765797 seed=1
+
+summary_line instance=MDPII7_30 value=0.0000 size=0 ttb=24.739286713 seed=2
+
+summary_line instance=MDPII7_30 value=0.0000 size=0 ttb=24.795432454 seed=3
+
+summary_line instance=MDPII7_30 value=0.0000 size=0 ttb=24.527972671 seed=4
+
+summary_line instance=MDPII7_30 value=0.0000 size=0 ttb=24.77316921 seed=5
+
+summary_line instance=MDPII7_3000 value=254.3254 size=863 ttb=226.380887491 seed=1
+
+summary_line instance=MDPII7_3000 value=256.4547 size=880 ttb=262.184881527 seed=2
+
+summary_line instance=MDPII7_3000 value=257.2452 size=868 ttb=556.878522945 seed=3
+
+summary_line instance=MDPII7_3000 value=255.6579 size=842 ttb=456.04283094 seed=4
+
+summary_line instance=MDPII7_3000 value=255.8234 size=891 ttb=326.54220882 seed=5
+
+summary_line instance=MDPII7_35 value=0.0000 size=0 ttb=64.171775921 seed=1
+
+summary_line instance=MDPII7_35 value=0.0000 size=0 ttb=63.59716034 seed=2
+
+summary_line instance=MDPII7_35 value=0.0000 size=0 ttb=64.162520719 seed=3
+
+summary_line instance=MDPII7_35 value=0.0000 size=0 ttb=64.099942208 seed=4
+
+summary_line instance=MDPII7_35 value=0.0000 size=0 ttb=63.884160375 seed=5
+
+summary_line instance=MDPII7_500 value=107.1494 size=145 ttb=0.004684751 seed=1
+
+summary_line instance=MDPII7_500 value=107.1494 size=145 ttb=39.538662116 seed=2
+
+summary_line instance=MDPII7_500 value=107.1494 size=145 ttb=2.03599448 seed=3
+
+summary_line instance=MDPII7_500 value=107.1494 size=145 ttb=43.399037619 seed=4
+
+summary_line instance=MDPII7_500 value=107.1494 size=145 ttb=29.281580429999998 seed=5
+
+summary_line instance=MDPII7_5000 value=332.5680 size=1415 ttb=582.519936745 seed=1
+
+summary_line instance=MDPII7_5000 value=331.6587 size=1451 ttb=571.4493387 seed=2
+
+summary_line instance=MDPII7_5000 value=333.6394 size=1472 ttb=590.305435202 seed=3
+
+summary_line instance=MDPII7_5000 value=330.2972 size=1382 ttb=446.865364406 seed=4
+
+summary_line instance=MDPII7_5000 value=331.4164 size=1394 ttb=573.150932778 seed=5
+
+summary_line instance=MDPII7_750 value=125.2019 size=196 ttb=255.274224923 seed=1
+
+summary_line instance=MDPII7_750 value=125.3089 size=216 ttb=100.477712718 seed=2
+
+summary_line instance=MDPII7_750 value=125.6083 size=209 ttb=141.267415061 seed=3
+
+summary_line instance=MDPII7_750 value=125.6467 size=217 ttb=270.510313122 seed=4
+
+summary_line instance=MDPII7_750 value=125.6467 size=217 ttb=455.301121919 seed=5
+
+summary_line instance=MDPII8_1000 value=147.5999 size=277 ttb=289.794778722 seed=1
+
+summary_line instance=MDPII8_1000 value=147.5862 size=281 ttb=126.314543767 seed=2
+
+summary_line instance=MDPII8_1000 value=147.3175 size=291 ttb=382.959846771 seed=3
+
+summary_line instance=MDPII8_1000 value=147.5717 size=283 ttb=320.511184596 seed=4
+
+summary_line instance=MDPII8_1000 value=147.1112 size=290 ttb=542.377933478 seed=5
+
+summary_line instance=MDPII8_150 value=57.9654 size=54 ttb=0.00102629 seed=1
+
+summary_line instance=MDPII8_150 value=57.9654 size=54 ttb=0.0696514 seed=2
+
+summary_line instance=MDPII8_150 value=57.9654 size=54 ttb=0.194074856 seed=3
+
+summary_line instance=MDPII8_150 value=57.9654 size=54 ttb=0.007453773 seed=4
+
+summary_line instance=MDPII8_150 value=57.9654 size=54 ttb=0.013919727 seed=5
+
+summary_line instance=MDPII8_1500 value=186.1374 size=447 ttb=127.922791043 seed=1
+
+summary_line instance=MDPII8_1500 value=184.6884 size=416 ttb=320.252767595 seed=2
+
+summary_line instance=MDPII8_1500 value=186.0621 size=437 ttb=88.331720784 seed=3
+
+summary_line instance=MDPII8_1500 value=186.1359 size=447 ttb=0.698813665 seed=4
+
+summary_line instance=MDPII8_1500 value=186.1359 size=447 ttb=65.745834435 seed=5
+
+summary_line instance=MDPII8_20 value=0.0000 size=0 ttb=1.402358397 seed=1
+
+summary_line instance=MDPII8_20 value=0.0000 size=0 ttb=1.402400728 seed=2
+
+summary_line instance=MDPII8_20 value=0.0000 size=0 ttb=1.395393034 seed=3
+
+summary_line instance=MDPII8_20 value=0.0000 size=0 ttb=1.400343269 seed=4
+
+summary_line instance=MDPII8_20 value=0.0000 size=0 ttb=1.398788534 seed=5
+
+summary_line instance=MDPII8_2000 value=210.9463 size=587 ttb=305.452566 seed=1
+
+summary_line instance=MDPII8_2000 value=211.3289 size=576 ttb=108.453653745 seed=2
+
+summary_line instance=MDPII8_2000 value=207.7196 size=562 ttb=411.943047493 seed=3
+
+summary_line instance=MDPII8_2000 value=210.8316 size=581 ttb=572.446467662 seed=4
+
+summary_line instance=MDPII8_2000 value=210.1578 size=588 ttb=100.150110998 seed=5
+
+summary_line instance=MDPII8_25 value=0.0000 size=0 ttb=9.51148591 seed=1
+
+summary_line instance=MDPII8_25 value=0.0000 size=0 ttb=9.486937356 seed=2
+
+summary_line instance=MDPII8_25 value=0.0000 size=0 ttb=9.49136192 seed=3
+
+summary_line instance=MDPII8_25 value=0.0000 size=0 ttb=9.638428638 seed=4
+
+summary_line instance=MDPII8_25 value=0.0000 size=0 ttb=9.59603893 seed=5
+
+summary_line instance=MDPII8_30 value=0.0000 size=0 ttb=21.801733734 seed=1
+
+summary_line instance=MDPII8_30 value=0.0000 size=0 ttb=21.937371949 seed=2
+
+summary_line instance=MDPII8_30 value=0.0000 size=0 ttb=22.115459215 seed=3
+
+summary_line instance=MDPII8_30 value=0.0000 size=0 ttb=22.07446158 seed=4
+
+summary_line instance=MDPII8_30 value=0.0000 size=0 ttb=21.997243272 seed=5
+
+summary_line instance=MDPII8_3000 value=258.4186 size=883 ttb=405.573143399 seed=1
+
+summary_line instance=MDPII8_3000 value=257.9777 size=893 ttb=533.141215891 seed=2
+
+summary_line instance=MDPII8_3000 value=257.7920 size=842 ttb=119.208367454 seed=3
+
+summary_line instance=MDPII8_3000 value=256.7892 size=828 ttb=547.703998222 seed=4
+
+summary_line instance=MDPII8_3000 value=258.2225 size=833 ttb=419.555483223 seed=5
+
+summary_line instance=MDPII8_35 value=0.0000 size=0 ttb=139.828558829 seed=1
+
+summary_line instance=MDPII8_35 value=0.0000 size=0 ttb=139.713855879 seed=2
+
+summary_line instance=MDPII8_35 value=0.0000 size=0 ttb=139.656080339 seed=3
+
+summary_line instance=MDPII8_35 value=0.0000 size=0 ttb=138.310066462 seed=4
+
+summary_line instance=MDPII8_35 value=0.0000 size=0 ttb=139.704956695 seed=5
+
+summary_line instance=MDPII8_500 value=103.7792 size=149 ttb=43.427497433 seed=1
+
+summary_line instance=MDPII8_500 value=103.7792 size=149 ttb=0.062048369 seed=2
+
+summary_line instance=MDPII8_500 value=103.7792 size=149 ttb=28.389284388 seed=3
+
+summary_line instance=MDPII8_500 value=103.7792 size=149 ttb=0.090895721 seed=4
+
+summary_line instance=MDPII8_500 value=103.7792 size=149 ttb=300.942264247 seed=5
+
+summary_line instance=MDPII8_5000 value=335.7917 size=1435 ttb=591.555696587 seed=1
+
+summary_line instance=MDPII8_5000 value=333.9608 size=1442 ttb=571.633241915 seed=2
+
+summary_line instance=MDPII8_5000 value=335.9643 size=1468 ttb=335.724377027 seed=3
+
+summary_line instance=MDPII8_5000 value=335.7599 size=1497 ttb=599.917774174 seed=4
+
+summary_line instance=MDPII8_5000 value=336.3863 size=1503 ttb=539.320767212 seed=5
+
+summary_line instance=MDPII8_750 value=130.8783 size=234 ttb=313.650881449 seed=1
+
+summary_line instance=MDPII8_750 value=130.9405 size=219 ttb=135.036387462 seed=2
+
+summary_line instance=MDPII8_750 value=130.9405 size=219 ttb=53.74498189 seed=3
+
+summary_line instance=MDPII8_750 value=130.9405 size=219 ttb=30.219653912 seed=4
+
+summary_line instance=MDPII8_750 value=130.9405 size=219 ttb=213.298303913 seed=5
+
+summary_line instance=MDPII9_1000 value=147.0839 size=250 ttb=366.796016479 seed=1
+
+summary_line instance=MDPII9_1000 value=147.0839 size=250 ttb=0.019484767 seed=2
+
+summary_line instance=MDPII9_1000 value=147.0839 size=250 ttb=64.12302013 seed=3
+
+summary_line instance=MDPII9_1000 value=147.0839 size=250 ttb=61.460166318 seed=4
+
+summary_line instance=MDPII9_1000 value=147.0839 size=250 ttb=101.67100171 seed=5
+
+summary_line instance=MDPII9_150 value=58.3026 size=42 ttb=164.607046075 seed=1
+
+summary_line instance=MDPII9_150 value=58.3026 size=42 ttb=124.920867217 seed=2
+
+summary_line instance=MDPII9_150 value=58.3026 size=42 ttb=81.293733875 seed=3
+
+summary_line instance=MDPII9_150 value=58.3026 size=42 ttb=2.648705657 seed=4
+
+summary_line instance=MDPII9_150 value=58.3026 size=42 ttb=0.000667097 seed=5
+
+summary_line instance=MDPII9_1500 value=181.3736 size=401 ttb=197.425659154 seed=1
+
+summary_line instance=MDPII9_1500 value=180.3011 size=417 ttb=279.712456648 seed=2
+
+summary_line instance=MDPII9_1500 value=180.7510 size=418 ttb=525.4170025 seed=3
+
+summary_line instance=MDPII9_1500 value=180.5451 size=445 ttb=537.8550116 seed=4
+
+summary_line instance=MDPII9_1500 value=180.7057 size=454 ttb=505.911055601 seed=5
+
+summary_line instance=MDPII9_20 value=0.0000 size=0 ttb=2.270694907 seed=1
+
+summary_line instance=MDPII9_20 value=0.0000 size=0 ttb=2.274139011 seed=2
+
+summary_line instance=MDPII9_20 value=0.0000 size=0 ttb=2.276232628 seed=3
+
+summary_line instance=MDPII9_20 value=0.0000 size=0 ttb=2.258393636 seed=4
+
+summary_line instance=MDPII9_20 value=0.0000 size=0 ttb=2.273154711 seed=5
+
+summary_line instance=MDPII9_2000 value=214.7112 size=585 ttb=114.14455126 seed=1
+
+summary_line instance=MDPII9_2000 value=213.5798 size=597 ttb=198.908218222 seed=2
+
+summary_line instance=MDPII9_2000 value=214.1274 size=607 ttb=530.101753488 seed=3
+
+summary_line instance=MDPII9_2000 value=213.9200 size=608 ttb=498.268029712 seed=4
+
+summary_line instance=MDPII9_2000 value=212.9592 size=556 ttb=35.508440071 seed=5
+
+summary_line instance=MDPII9_25 value=0.0000 size=0 ttb=6.124021978 seed=1
+
+summary_line instance=MDPII9_25 value=0.0000 size=0 ttb=6.185869271 seed=2
+
+summary_line instance=MDPII9_25 value=0.0000 size=0 ttb=6.183364754 seed=3
+
+summary_line instance=MDPII9_25 value=0.0000 size=0 ttb=6.125044781 seed=4
+
+summary_line instance=MDPII9_25 value=0.0000 size=0 ttb=6.143204945 seed=5
+
+summary_line instance=MDPII9_30 value=0.0000 size=0 ttb=25.733797784 seed=1
+
+summary_line instance=MDPII9_30 value=0.0000 size=0 ttb=25.671772715 seed=2
+
+summary_line instance=MDPII9_30 value=0.0000 size=0 ttb=25.31405207 seed=3
+
+summary_line instance=MDPII9_30 value=0.0000 size=0 ttb=25.520801008 seed=4
+
+summary_line instance=MDPII9_30 value=0.0000 size=0 ttb=25.404836349 seed=5
+
+summary_line instance=MDPII9_3000 value=250.5973 size=815 ttb=519.865568716 seed=1
+
+summary_line instance=MDPII9_3000 value=249.7602 size=886 ttb=592.552545251 seed=2
+
+summary_line instance=MDPII9_3000 value=252.5426 size=830 ttb=54.972228118 seed=3
+
+summary_line instance=MDPII9_3000 value=251.5048 size=818 ttb=382.544831916 seed=4
+
+summary_line instance=MDPII9_3000 value=254.0703 size=877 ttb=587.165127167 seed=5
+
+summary_line instance=MDPII9_35 value=0.0000 size=0 ttb=117.139867649 seed=1
+
+summary_line instance=MDPII9_35 value=0.0000 size=0 ttb=115.330832298 seed=2
+
+summary_line instance=MDPII9_35 value=0.0000 size=0 ttb=115.530550864 seed=3
+
+summary_line instance=MDPII9_35 value=0.0000 size=0 ttb=117.250720912 seed=4
+
+summary_line instance=MDPII9_35 value=0.0000 size=0 ttb=116.697995179 seed=5
+
+summary_line instance=MDPII9_500 value=106.6198 size=145 ttb=0.031577209 seed=1
+
+summary_line instance=MDPII9_500 value=106.6198 size=145 ttb=55.902240872 seed=2
+
+summary_line instance=MDPII9_500 value=106.6198 size=145 ttb=34.506968174 seed=3
+
+summary_line instance=MDPII9_500 value=106.6198 size=145 ttb=254.804966987 seed=4
+
+summary_line instance=MDPII9_500 value=106.6198 size=145 ttb=0.049635839 seed=5
+
+summary_line instance=MDPII9_5000 value=330.5532 size=1408 ttb=545.01306468 seed=1
+
+summary_line instance=MDPII9_5000 value=330.7580 size=1385 ttb=492.255128163 seed=2
+
+summary_line instance=MDPII9_5000 value=330.9237 size=1456 ttb=513.162756622 seed=3
+
+summary_line instance=MDPII9_5000 value=330.9562 size=1399 ttb=582.603025949 seed=4
+
+summary_line instance=MDPII9_5000 value=329.4895 size=1442 ttb=567.718067738 seed=5
+
+summary_line instance=MDPII9_750 value=128.8899 size=218 ttb=358.337528163 seed=1
+
+summary_line instance=MDPII9_750 value=128.8899 size=218 ttb=329.099744156 seed=2
+
+summary_line instance=MDPII9_750 value=128.8899 size=218 ttb=158.91323554 seed=3
+
+summary_line instance=MDPII9_750 value=128.8899 size=218 ttb=455.36370549 seed=4
+
+summary_line instance=MDPII9_750 value=128.8899 size=218 ttb=57.469256736 seed=5

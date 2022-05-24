@@ -1,10 +1,10 @@
-#   | Date       | Status   | Instance set   | Seeds | TL(s) | Description
---- | ---------- | -------- | -------------- | ----- | ----- | ----------------------------------------------------
-1   | 2022-04-29 | ok       | brimberg       | 1-10  | 600   | Testing Lai's code on small instances
-2   | 2022-04-29 | ok       | brimberg-large |       | 300   | First irace calibration, small instances
-3   | 2022-05-11 | @yojimbo | full           | 1-5   | 1800  | Testing our calibrated code, all instances
-4   | 2022-05-11 | @yojimbo | full           | 1-5   | 1800  | Lai's code on all instances
-5   | 2022-05-11 | pending  | lai            |       | 600   | Recalibrating our code with irace on large instances
+#   | Date       | Status  | Instance set   | Seeds | TL(s) | Description
+--- | ---------- | ------- | -------------- | ----- | ----- | ----------------------------------------------------
+1   | 2022-04-29 | ok      | brimberg       | 1-10  | 600   | Testing Lai's code on small instances
+2   | 2022-04-29 | ok      | brimberg-large |       | 300   | First irace calibration, small instances
+3   | 2022-05-11 | ok      | full           | 1-5   | 1800  | Testing our calibrated code, all instances
+4   | 2022-05-11 | ok      | full           | 1-5   | 1800  | Lai's code on all instances
+5   | 2022-05-11 | pending | lai            |       | 600   | Recalibrating our code with irace on large instances
 
 
 ## Changelog
