@@ -9,4 +9,4 @@ A full description of the heuristic and test results are coming.
 1. Unpack Brimberg et al. (2017)'s instances with `tar -zxvf instances-brimberg.tar.gz` (~1.2GB).
 1. Generate Lai et al. (2020)'s instances running `./generate-lai-instances.sh` under `resources/lai` (~26GB).
 1. Build using `cargo --build release`.
-1. Run using `cargo run -- -i {instance} -t {timeLimit} -s {seed}`. For more options, see `--help`.
+1. Run using `cargo run -- -i {instance} -t {timeLimit} -s {seed}`. Add `-v` for increased verbosity. For more options, see `--help`.
